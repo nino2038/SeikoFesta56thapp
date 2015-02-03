@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */; };
+		9D5434DA1A80C8AC00FE3C94 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */; };
 		9D558575198383220018B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558574198383220018B460 /* Foundation.framework */; };
 		9D558577198383220018B460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558576198383220018B460 /* CoreGraphics.framework */; };
 		9D558579198383220018B460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558578198383220018B460 /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		9D55859E198383220018B460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D55859C198383220018B460 /* InfoPlist.strings */; };
 		9D5585A0198383220018B460 /* SeikoFestaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55859F198383220018B460 /* SeikoFestaappTests.m */; };
 		9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */; };
-		9D879C981A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D879C971A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.m */; };
 		9D9498EC1A653CBE001B73E9 /* yakitori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498E91A653CBE001B73E9 /* yakitori.jpg */; };
 		9D9498ED1A653CBE001B73E9 /* kebabu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */; };
 		9D9498EE1A653CBE001B73E9 /* yakisoba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */; };
@@ -41,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聖光祭　ロゴ.png"; sourceTree = "<group>"; };
+		9D5434D81A80C8AC00FE3C94 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
 		9D558571198383220018B460 /* SeikoFestaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeikoFestaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D558574198383220018B460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D558576198383220018B460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +63,6 @@
 		9D55859D198383220018B460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D55859F198383220018B460 /* SeikoFestaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeikoFestaappTests.m; sourceTree = "<group>"; };
 		9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲリラダンス.png"; sourceTree = "<group>"; };
-		9D879C961A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		9D879C971A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		9D9498E91A653CBE001B73E9 /* yakitori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yakitori.jpg; sourceTree = "<group>"; };
 		9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebabu.jpeg; sourceTree = "<group>"; };
 		9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yakisoba.jpg; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 				9D558583198383220018B460 /* AppDelegate.h */,
 				9D558584198383220018B460 /* AppDelegate.m */,
 				9D558586198383220018B460 /* Main.storyboard */,
-				9D879C961A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.h */,
-				9D879C971A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.m */,
+				9D5434D81A80C8AC00FE3C94 /* FoodViewController.h */,
+				9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */,
 				9D558589198383220018B460 /* ViewController.h */,
 				9D55858A198383220018B460 /* ViewController.m */,
 				9D55858C198383220018B460 /* Images.xcassets */,
@@ -276,7 +276,7 @@
 			files = (
 				9D55858B198383220018B460 /* ViewController.m in Sources */,
 				9D558585198383220018B460 /* AppDelegate.m in Sources */,
-				9D879C981A77A8D4009F04F5 /* PosterCollectionViewFlowLayout.m in Sources */,
+				9D5434DA1A80C8AC00FE3C94 /* FoodViewController.m in Sources */,
 				9D558581198383220018B460 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
