@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface fooddetailViewController : UIViewController
+@interface fooddetailViewController : UIViewController{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UILabel *shopname;
+    IBOutlet UILabel *foodname;
+    IBOutlet UILabel *detail;
+    NSArray *shopimageArray;
+    NSArray *shoptextArray;
+    NSArray *foodtextArray;
+    NSArray *shopdetailtextArray;
+}
 
 @end

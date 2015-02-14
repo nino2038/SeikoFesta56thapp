@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface exhibitonViewController : UIViewController
+@interface exhibitonViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>{
+    NSArray *exhibitionimageArray;
+    NSArray *exhibitiontextArray;
+}
+
+@property (weak, nonatomic) IBOutlet UICollectionView *exhibitionCollectionView;
+
 
 @end

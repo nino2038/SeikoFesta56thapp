@@ -18,11 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    Poster.delegate=self;
-    Poster.dataSource = self;
-    imageArray = [[NSMutableArray alloc] initWithObjects:
-                  [UIImage imageNamed:@"ゲリラダンス.png"],
-                  nil];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];//navigationBar非表示
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,11 +27,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark
--(NSInteger)collectionView:(UICollectionView *)collectionView
-       numberOfRowInSection:(NSInteger)section
-{
-    return [imageArray count];
-}
 
 @end

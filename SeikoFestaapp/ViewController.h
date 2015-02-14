@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ViewController : UIViewController
 {
     IBOutlet UICollectionView *Poster;
     NSMutableArray *imageArray;//ポスター用の配列;

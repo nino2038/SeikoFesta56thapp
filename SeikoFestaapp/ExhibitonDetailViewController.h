@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExhibitonDetailViewController : UIViewController
+@interface ExhibitonDetailViewController : UIViewController{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UILabel *shopname;
+    IBOutlet UILabel *detail;
+    NSArray *shopimageArray;
+    NSArray *shoptextArray;
+    NSArray *shopdetailtextArray;
+}
 
 @end

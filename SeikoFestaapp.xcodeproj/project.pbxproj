@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D17FBA61A81D678004C0CA0 /* kure-pu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FB9F1A81D678004C0CA0 /* kure-pu.jpg */; };
+		9D17FBA71A81D678004C0CA0 /* kori.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA01A81D678004C0CA0 /* kori.jpeg */; };
+		9D17FBA81A81D678004C0CA0 /* drink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA11A81D678004C0CA0 /* drink.jpg */; };
+		9D17FBA91A81D678004C0CA0 /* banana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA21A81D678004C0CA0 /* banana.jpeg */; };
+		9D17FBAA1A81D678004C0CA0 /* okonomiyaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA31A81D678004C0CA0 /* okonomiyaki.jpg */; };
+		9D17FBAB1A81D678004C0CA0 /* frankfrut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA41A81D678004C0CA0 /* frankfrut.jpg */; };
+		9D17FBAC1A81D678004C0CA0 /* wataame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D17FBA51A81D678004C0CA0 /* wataame.jpg */; };
+		9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */; };
+		9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */; };
 		9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */; };
-		9D5434DA1A80C8AC00FE3C94 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */; };
+		9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B06091A89D51A00E30A9F /* foodViewController.m */; };
+		9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B060B1A89DD2900E30A9F /* Main.storyboard */; };
+		9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */; };
+		9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */; };
+		9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5434DC1A80DA2200FE3C94 /* foodCell.m */; };
 		9D558575198383220018B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558574198383220018B460 /* Foundation.framework */; };
 		9D558577198383220018B460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558576198383220018B460 /* CoreGraphics.framework */; };
 		9D558579198383220018B460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558578198383220018B460 /* UIKit.framework */; };
 		9D55857F198383220018B460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D55857D198383220018B460 /* InfoPlist.strings */; };
 		9D558581198383220018B460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D558580198383220018B460 /* main.m */; };
 		9D558585198383220018B460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D558584198383220018B460 /* AppDelegate.m */; };
-		9D558588198383220018B460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D558586198383220018B460 /* Main.storyboard */; };
 		9D55858B198383220018B460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55858A198383220018B460 /* ViewController.m */; };
 		9D55858D198383220018B460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D55858C198383220018B460 /* Images.xcassets */; };
 		9D558594198383220018B460 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558593198383220018B460 /* XCTest.framework */; };
@@ -40,9 +52,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D17FB9F1A81D678004C0CA0 /* kure-pu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kure-pu.jpg"; sourceTree = "<group>"; };
+		9D17FBA01A81D678004C0CA0 /* kori.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kori.jpeg; sourceTree = "<group>"; };
+		9D17FBA11A81D678004C0CA0 /* drink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drink.jpg; sourceTree = "<group>"; };
+		9D17FBA21A81D678004C0CA0 /* banana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpeg; sourceTree = "<group>"; };
+		9D17FBA31A81D678004C0CA0 /* okonomiyaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = okonomiyaki.jpg; sourceTree = "<group>"; };
+		9D17FBA41A81D678004C0CA0 /* frankfrut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frankfrut.jpg; sourceTree = "<group>"; };
+		9D17FBA51A81D678004C0CA0 /* wataame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wataame.jpg; sourceTree = "<group>"; };
+		9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhibitonViewController.h; sourceTree = "<group>"; };
+		9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhibitonViewController.m; sourceTree = "<group>"; };
+		9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhibitionCell.h; sourceTree = "<group>"; };
+		9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhibitionCell.m; sourceTree = "<group>"; };
 		9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聖光祭　ロゴ.png"; sourceTree = "<group>"; };
-		9D5434D81A80C8AC00FE3C94 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
-		9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		9D3B06081A89D51A00E30A9F /* foodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodViewController.h; sourceTree = "<group>"; };
+		9D3B06091A89D51A00E30A9F /* foodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodViewController.m; sourceTree = "<group>"; };
+		9D3B060B1A89DD2900E30A9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fooddetailViewController.h; sourceTree = "<group>"; };
+		9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fooddetailViewController.m; sourceTree = "<group>"; };
+		9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitonDetailViewController.h; sourceTree = "<group>"; };
+		9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitonDetailViewController.m; sourceTree = "<group>"; };
+		9D5434DB1A80DA2200FE3C94 /* foodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodCell.h; sourceTree = "<group>"; };
+		9D5434DC1A80DA2200FE3C94 /* foodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodCell.m; sourceTree = "<group>"; };
 		9D558571198383220018B460 /* SeikoFestaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeikoFestaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D558574198383220018B460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D558576198383220018B460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +83,6 @@
 		9D558582198383220018B460 /* SeikoFestaapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeikoFestaapp-Prefix.pch"; sourceTree = "<group>"; };
 		9D558583198383220018B460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D558584198383220018B460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D558587198383220018B460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D558589198383220018B460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D55858A198383220018B460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D55858C198383220018B460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -125,16 +154,33 @@
 		9D55857A198383220018B460 /* SeikoFestaapp */ = {
 			isa = PBXGroup;
 			children = (
+				9D17FBA01A81D678004C0CA0 /* kori.jpeg */,
+				9D17FBA11A81D678004C0CA0 /* drink.jpg */,
+				9D17FBA21A81D678004C0CA0 /* banana.jpeg */,
+				9D17FBA31A81D678004C0CA0 /* okonomiyaki.jpg */,
+				9D17FBA41A81D678004C0CA0 /* frankfrut.jpg */,
+				9D17FBA51A81D678004C0CA0 /* wataame.jpg */,
 				9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */,
+				9D17FB9F1A81D678004C0CA0 /* kure-pu.jpg */,
 				9D9498E91A653CBE001B73E9 /* yakitori.jpg */,
 				9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */,
 				9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */,
 				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
+				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
+				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
+				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
 				9D558583198383220018B460 /* AppDelegate.h */,
+				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
+				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
 				9D558584198383220018B460 /* AppDelegate.m */,
-				9D558586198383220018B460 /* Main.storyboard */,
-				9D5434D81A80C8AC00FE3C94 /* FoodViewController.h */,
-				9D5434D91A80C8AC00FE3C94 /* FoodViewController.m */,
+				9D5434DB1A80DA2200FE3C94 /* foodCell.h */,
+				9D5434DC1A80DA2200FE3C94 /* foodCell.m */,
+				9D3B06081A89D51A00E30A9F /* foodViewController.h */,
+				9D3B06091A89D51A00E30A9F /* foodViewController.m */,
+				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
+				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
+				9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */,
+				9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */,
 				9D558589198383220018B460 /* ViewController.h */,
 				9D55858A198383220018B460 /* ViewController.m */,
 				9D55858C198383220018B460 /* Images.xcassets */,
@@ -248,14 +294,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D17FBA61A81D678004C0CA0 /* kure-pu.jpg in Resources */,
 				9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */,
+				9D17FBAC1A81D678004C0CA0 /* wataame.jpg in Resources */,
 				9D55858D198383220018B460 /* Images.xcassets in Resources */,
 				9D9498EE1A653CBE001B73E9 /* yakisoba.jpg in Resources */,
+				9D17FBA71A81D678004C0CA0 /* kori.jpeg in Resources */,
+				9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */,
 				9D9498ED1A653CBE001B73E9 /* kebabu.jpeg in Resources */,
 				9D9498EC1A653CBE001B73E9 /* yakitori.jpg in Resources */,
+				9D17FBAB1A81D678004C0CA0 /* frankfrut.jpg in Resources */,
 				9D55857F198383220018B460 /* InfoPlist.strings in Resources */,
-				9D558588198383220018B460 /* Main.storyboard in Resources */,
+				9D17FBA91A81D678004C0CA0 /* banana.jpeg in Resources */,
+				9D17FBA81A81D678004C0CA0 /* drink.jpg in Resources */,
 				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
+				9D17FBAA1A81D678004C0CA0 /* okonomiyaki.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +329,13 @@
 			files = (
 				9D55858B198383220018B460 /* ViewController.m in Sources */,
 				9D558585198383220018B460 /* AppDelegate.m in Sources */,
-				9D5434DA1A80C8AC00FE3C94 /* FoodViewController.m in Sources */,
+				9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */,
+				9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */,
 				9D558581198383220018B460 /* main.m in Sources */,
+				9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */,
+				9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */,
+				9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */,
+				9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +364,6 @@
 				9D55857E198383220018B460 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9D558586198383220018B460 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D558587198383220018B460 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		9D55859C198383220018B460 /* InfoPlist.strings */ = {

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface exhibitionCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UILabel *label;
 
 @end
