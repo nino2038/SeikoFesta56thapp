@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B7A6099-FC7F-45E8-BB8E-59F097E567A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SeikoFestaapp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>86BD238EDC198FF9318C9C0A29D73EFE9E95ACCF</key>
+		<string>https://github.com/nino2038/SeikoFesta56thapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SeikoFestaapp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>86BD238EDC198FF9318C9C0A29D73EFE9E95ACCF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nino2038/SeikoFesta56thapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>86BD238EDC198FF9318C9C0A29D73EFE9E95ACCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>86BD238EDC198FF9318C9C0A29D73EFE9E95ACCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SeikoFestaapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

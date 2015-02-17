@@ -21,6 +21,7 @@
 		9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B060B1A89DD2900E30A9F /* Main.storyboard */; };
 		9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */; };
 		9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */; };
+		9D52EB331A9349BE0099A416 /* PosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52EB321A9349BE0099A416 /* PosterCell.m */; };
 		9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5434DC1A80DA2200FE3C94 /* foodCell.m */; };
 		9D558575198383220018B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558574198383220018B460 /* Foundation.framework */; };
 		9D558577198383220018B460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558576198383220018B460 /* CoreGraphics.framework */; };
@@ -71,6 +72,8 @@
 		9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fooddetailViewController.m; sourceTree = "<group>"; };
 		9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitonDetailViewController.h; sourceTree = "<group>"; };
 		9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitonDetailViewController.m; sourceTree = "<group>"; };
+		9D52EB311A9349BE0099A416 /* PosterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterCell.h; sourceTree = "<group>"; };
+		9D52EB321A9349BE0099A416 /* PosterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterCell.m; sourceTree = "<group>"; };
 		9D5434DB1A80DA2200FE3C94 /* foodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodCell.h; sourceTree = "<group>"; };
 		9D5434DC1A80DA2200FE3C94 /* foodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodCell.m; sourceTree = "<group>"; };
 		9D558571198383220018B460 /* SeikoFestaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeikoFestaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,22 +170,24 @@
 				9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */,
 				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
 				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
-				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
-				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
-				9D558583198383220018B460 /* AppDelegate.h */,
-				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
-				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
-				9D558584198383220018B460 /* AppDelegate.m */,
+				9D558589198383220018B460 /* ViewController.h */,
+				9D55858A198383220018B460 /* ViewController.m */,
+				9D52EB311A9349BE0099A416 /* PosterCell.h */,
+				9D52EB321A9349BE0099A416 /* PosterCell.m */,
 				9D5434DB1A80DA2200FE3C94 /* foodCell.h */,
 				9D5434DC1A80DA2200FE3C94 /* foodCell.m */,
 				9D3B06081A89D51A00E30A9F /* foodViewController.h */,
 				9D3B06091A89D51A00E30A9F /* foodViewController.m */,
-				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
-				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
+				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
+				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
+				9D558583198383220018B460 /* AppDelegate.h */,
+				9D558584198383220018B460 /* AppDelegate.m */,
 				9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */,
 				9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */,
-				9D558589198383220018B460 /* ViewController.h */,
-				9D55858A198383220018B460 /* ViewController.m */,
+				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
+				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
+				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
+				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
 				9D55858C198383220018B460 /* Images.xcassets */,
 				9D55857B198383220018B460 /* Supporting Files */,
 			);
@@ -327,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D52EB331A9349BE0099A416 /* PosterCell.m in Sources */,
 				9D55858B198383220018B460 /* ViewController.m in Sources */,
 				9D558585198383220018B460 /* AppDelegate.m in Sources */,
 				9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */,
