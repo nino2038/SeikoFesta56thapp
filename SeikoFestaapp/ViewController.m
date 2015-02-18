@@ -22,13 +22,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self.navigationController setNavigationBarHidden:YES animated:YES];//navigationBar非表示
-    [self.CollectionView　setNavigationBarHidden:YES animated:YES];//navigationBar非表示
+    //[self.CollectionView setScrollBarHidden:YES animated:YES];//navigationBar非表示
     [posterCollectionView setDataSource:self];
     [posterCollectionView setDelegate:self];
     PosterImageArray=[[NSArray alloc]initWithObjects:
-                      @"ゲリラダンス.png",
-                      @"ゲリラダンス.png",
-                      @"ゲリラダンス.png",
                       @"ゲリラダンス.png",
                       @"ゲリラダンス.png",
                       @"ゲリラダンス.png",
@@ -41,13 +38,16 @@
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 6;
+    return 3;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     PosterCell *cell=(PosterCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.image.image=[UIImage imageNamed:PosterImageArray[indexPath.row]];
+    //if (collectionView.numberOfSections == indexPath.section + 1){
+      //  self.posterCollectionView.cell.image.image=[[UICollectionView alloc] initWithFrame:CGRectMake(163, 212, 153, 348)];
+    //}
     return cell;
 }
 
