@@ -45,10 +45,20 @@
     
     PosterCell *cell=(PosterCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.image.image=[UIImage imageNamed:PosterImageArray[indexPath.row]];
-    //if (collectionView.numberOfSections == indexPath.section + 1){
-      //  self.posterCollectionView.cell.image.image=[[UICollectionView alloc] initWithFrame:CGRectMake(163, 212, 153, 348)];
-    //}
+    
     return cell;
+}
+
+-(void)scrollViewDidEndDecelerating:(UICollectionView *)scrollview {
+    // Calculate where the collection view should be at the right-hand end item
+    float contentOffsetWhenFullyScrolledRight = self.posterCollectionView.frame.size.width * ([self.indexPath.row count] -1);
+    if (posterCollectionView.contentOffset.y == contentOffsetWhenFullyScrolledRight) {
+        NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:1 inSection:0];
+            [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+    } else if (posterCollectionView.contentOffset.y == 0) {
+                    NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:([self.dataArray count] -2) inSection:0];
+                    [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+}
 }
 
 - (void)didReceiveMemoryWarning
