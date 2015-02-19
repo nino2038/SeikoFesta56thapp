@@ -47,18 +47,34 @@
     cell.image.image=[UIImage imageNamed:PosterImageArray[indexPath.row]];
     
     return cell;
+    
 }
 
--(void)scrollViewDidEndDecelerating:(UICollectionView *)scrollview {
+//- (void)selectItemAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated scrollPosition:(UICollectionViewScrollPosition)scrollPosition{
+-(void)scrollViewDidEndDecelerating:(UICollecitonview *)collecitonview {
+    
     // Calculate where the collection view should be at the right-hand end item
-    float contentOffsetWhenFullyScrolledRight = self.posterCollectionView.frame.size.width * ([self.indexPath.row count] -1);
-    if (posterCollectionView.contentOffset.y == contentOffsetWhenFullyScrolledRight) {
+    float contentOffsetWhenFullyScrolledBottom = self.posterCollectionView.frame.size.height * ([self->PosterImageArray count] -1);
+    
+    if (posterCollectionView.contentOffset.y == contentOffsetWhenFullyScrolledBottom) {
+        
+        // user is scrolling to the right from the last item to the 'fake' item 1.
+        // reposition offset to show the 'real' item 1 at the left-hand end of the collection view
+        
         NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:1 inSection:0];
-            [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
-    } else if (posterCollectionView.contentOffset.y == 0) {
-                    NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:([self.dataArray count] -2) inSection:0];
-                    [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
-}
+        
+        [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionTop animated:NO];
+        
+        } else if (posterCollectionView.contentOffset.y == 0) {
+            
+            // user is scrolling to the left from the first item to the fake 'item N'.
+            // reposition offset to show the 'real' item N at the right end end of the collection view
+            
+            NSIndexPath *newIndexPath = [NSIndexPath indexPathForItem:([self->PosterImageArray count] -2) inSection:0];
+            
+            [self.posterCollectionView scrollToItemAtIndexPath:newIndexPath atScrollPosition:UICollectionViewScrollPositionTop animated:NO];
+            
+            }
 }
 
 - (void)didReceiveMemoryWarning
