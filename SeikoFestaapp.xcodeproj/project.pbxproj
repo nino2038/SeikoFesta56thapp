@@ -36,6 +36,13 @@
 		9D558596198383220018B460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558578198383220018B460 /* UIKit.framework */; };
 		9D55859E198383220018B460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D55859C198383220018B460 /* InfoPlist.strings */; };
 		9D5585A0198383220018B460 /* SeikoFestaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55859F198383220018B460 /* SeikoFestaappTests.m */; };
+		9D569E851A9C720C0060C361 /* TimetableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D569E841A9C720C0060C361 /* TimetableViewController.m */; };
+		9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D569E871A9C73760060C361 /* TimetableDetailViewController.m */; };
+		9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E891A9C74530060C361 /* concerts.jpg */; };
+		9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E8A1A9C74530060C361 /* Timetable-Image.png */; };
+		9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */; };
+		9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */; };
+		9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */; };
 		9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */; };
 		9D9498EC1A653CBE001B73E9 /* yakitori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498E91A653CBE001B73E9 /* yakitori.jpg */; };
 		9D9498ED1A653CBE001B73E9 /* kebabu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */; };
@@ -94,6 +101,17 @@
 		9D55859B198383220018B460 /* SeikoFestaappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeikoFestaappTests-Info.plist"; sourceTree = "<group>"; };
 		9D55859D198383220018B460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D55859F198383220018B460 /* SeikoFestaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeikoFestaappTests.m; sourceTree = "<group>"; };
+		9D569E831A9C720C0060C361 /* TimetableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableViewController.h; sourceTree = "<group>"; };
+		9D569E841A9C720C0060C361 /* TimetableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableViewController.m; sourceTree = "<group>"; };
+		9D569E861A9C73760060C361 /* TimetableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableDetailViewController.h; sourceTree = "<group>"; };
+		9D569E871A9C73760060C361 /* TimetableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableDetailViewController.m; sourceTree = "<group>"; };
+		9D569E891A9C74530060C361 /* concerts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = concerts.jpg; sourceTree = "<group>"; };
+		9D569E8A1A9C74530060C361 /* Timetable-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-Image.png"; sourceTree = "<group>"; };
+		9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-4-inch.png"; sourceTree = "<group>"; };
+		9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionView.h; sourceTree = "<group>"; };
+		9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionView.m; sourceTree = "<group>"; };
+		9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionViewLayout.h; sourceTree = "<group>"; };
+		9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionViewLayout.m; sourceTree = "<group>"; };
 		9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲリラダンス.png"; sourceTree = "<group>"; };
 		9D9498E91A653CBE001B73E9 /* yakitori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yakitori.jpg; sourceTree = "<group>"; };
 		9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebabu.jpeg; sourceTree = "<group>"; };
@@ -157,6 +175,10 @@
 		9D55857A198383220018B460 /* SeikoFestaapp */ = {
 			isa = PBXGroup;
 			children = (
+				9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */,
+				9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */,
+				9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */,
+				9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */,
 				9D17FBA01A81D678004C0CA0 /* kori.jpeg */,
 				9D17FBA11A81D678004C0CA0 /* drink.jpg */,
 				9D17FBA21A81D678004C0CA0 /* banana.jpeg */,
@@ -169,7 +191,14 @@
 				9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */,
 				9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */,
 				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
+				9D569E891A9C74530060C361 /* concerts.jpg */,
+				9D569E8A1A9C74530060C361 /* Timetable-Image.png */,
+				9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */,
 				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
+				9D569E831A9C720C0060C361 /* TimetableViewController.h */,
+				9D569E841A9C720C0060C361 /* TimetableViewController.m */,
+				9D569E861A9C73760060C361 /* TimetableDetailViewController.h */,
+				9D569E871A9C73760060C361 /* TimetableDetailViewController.m */,
 				9D558589198383220018B460 /* ViewController.h */,
 				9D55858A198383220018B460 /* ViewController.m */,
 				9D52EB311A9349BE0099A416 /* PosterCell.h */,
@@ -311,8 +340,11 @@
 				9D17FBAB1A81D678004C0CA0 /* frankfrut.jpg in Resources */,
 				9D55857F198383220018B460 /* InfoPlist.strings in Resources */,
 				9D17FBA91A81D678004C0CA0 /* banana.jpeg in Resources */,
+				9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */,
+				9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */,
 				9D17FBA81A81D678004C0CA0 /* drink.jpg in Resources */,
 				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
+				9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */,
 				9D17FBAA1A81D678004C0CA0 /* okonomiyaki.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,13 +364,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */,
 				9D52EB331A9349BE0099A416 /* PosterCell.m in Sources */,
 				9D55858B198383220018B460 /* ViewController.m in Sources */,
+				9D569E851A9C720C0060C361 /* TimetableViewController.m in Sources */,
 				9D558585198383220018B460 /* AppDelegate.m in Sources */,
 				9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */,
 				9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */,
 				9D558581198383220018B460 /* main.m in Sources */,
+				9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */,
 				9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */,
+				9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */,
 				9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */,
 				9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */,
 				9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */,

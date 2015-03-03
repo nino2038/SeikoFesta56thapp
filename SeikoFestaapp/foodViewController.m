@@ -19,6 +19,10 @@
     
     [foodCollectionView setDataSource:self];
     [foodCollectionView setDelegate:self];
+    [UINavigationBar appearance].barTintColor = [UIColor redColor];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     foodimageArray=[[NSArray alloc] initWithObjects:
                     @"yakitori.jpg",
                     @"kebabu.jpeg",

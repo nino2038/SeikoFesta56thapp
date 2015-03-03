@@ -17,6 +17,7 @@
     NSArray *shoptextArray;
     NSArray *foodtextArray;
     NSArray *shopdetailtextArray;
+    int test;
 }
 
 @end
