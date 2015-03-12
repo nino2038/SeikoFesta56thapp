@@ -24,19 +24,88 @@
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
-    exhibitionimageArray=[[NSArray alloc] initWithObjects:@"yakitori.jpg",
-                    @"kebabu.jpeg",
-                    @"yakisoba.jpg",
-                    @"yakisoba.jpg",
-                    @"okonomiyaki.jpg",
-                    @"frankfrut.jpg",
-                    @"kure-pu.jpg",
-                    @"banana.jpeg",
-                    @"wataame.jpg",
-                    @"drink.jpg",
-                    @"kori.jpeg",
-                    nil];
-    exhibitiontextArray=[[NSArray alloc] initWithObjects:@"Mr.Chiken",@"俺のケバブ",@"麺'sRUNRUN",@"麺の達人",@"鉄板職人",@"フランクフルトちゃん",@"クレープハウス 1.2.3",@"横浜ばな奈",@"坂の上の雲",@"Drink・Bar",@"氷菓",nil];
+    exhibitionimageArray=[[NSArray alloc] initWithObjects:
+                          @"アプリ趣味研素材-01",
+                          @"アプリ趣味研素材-02",
+                          @"アプリ趣味研素材-03",
+                          @"アプリ趣味研素材-04",
+                          @"アプリ趣味研素材-05",
+                          @"アプリ趣味研素材-06",
+                          @"アプリ趣味研素材-07",
+                          @"アプリ趣味研素材-08",
+                          @"アプリ趣味研素材-09",
+                          @"アプリ趣味研素材-10",
+                          @"アプリ趣味研素材-11",
+                          @"アプリ趣味研素材-12",
+                          @"アプリ趣味研素材-13",
+                          @"アプリ趣味研素材-14",
+                          @"アプリ趣味研素材-15",
+                          @"アプリ趣味研素材-16",
+                          @"アプリ趣味研素材-17",
+                          @"アプリ趣味研素材-18",
+                          @"アプリ趣味研素材-19",
+                          @"アプリ趣味研素材-20",
+                          @"アプリ趣味研素材-21",
+                          @"アプリ趣味研素材-22",
+                          @"アプリ趣味研素材-24",
+                          @"アプリ趣味研素材-25",
+                          @"アプリ趣味研素材-26",
+                          @"アプリ趣味研素材-27",
+                          @"アプリ趣味研素材-28",
+                          @"アプリ趣味研素材-29",
+                          @"アプリ趣味研素材-30",
+                          @"アプリ趣味研素材-31",
+                          @"アプリ趣味研素材-32",
+                          @"アプリ趣味研素材-33",
+                          @"アプリ趣味研素材-34",
+                          @"アプリ趣味研素材-35",
+                          @"アプリ趣味研素材-36",
+                          @"アプリ趣味研素材-37",
+                          @"アプリ趣味研素材-38",
+                          @"アプリ趣味研素材-39",
+                          @"アプリ趣味研素材-40",
+                          @"アプリ趣味研素材-41",nil];
+    exhibitiontextArray=[[NSArray alloc] initWithObjects:
+                         @"将棋の間",
+                         @"物理化学部",
+                         @"Seikomp3",
+                         @"Origin",
+                         @"OCG研究会",
+                         @"お菓子処『さくら』",
+                         @"横浜萬才フィルム",
+                         @"Trick×Hark",
+                         @"生物部",
+                         @"聖書研究会",
+                         @"早打ちジョニー",
+                         @"美術部",
+                         @"古本市",
+                         @"交通研究部",
+                         @"ポケモンセンターSeiko",
+                         @"地学天文学部",
+                         @"ミャンマーからの便り",
+                         @"地理歴史巡検部",
+                         @"数学研究会",
+                         @"題名のない音楽喫茶",
+                         @"ぶいえいす",
+                         @"英語劇",
+                         @"魔女の卓球便",
+                         @"Wanted",
+                         @"クイズ研究会",
+                         @"高３英語劇",
+                         @"生徒会展示",
+                         @"盲目の目",
+                         @"山手の森　ジブリ研究室",
+                         @"あにけん！",
+                         @"ベイスボール友の会",
+                         @"コントさん×演劇物語",
+                         @"英語道楽",
+                         @"宇宙戦艦ヤマト研究会",
+                         @"俊造チャレンジ",
+                         @"コンピュータ部",
+                         @"文映会",
+                         @"７７枚目のジョーカー",
+                         @"Brains",
+                         @"スケットバスケット",nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,7 +122,8 @@
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 11;
+    return 40
+    ;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
