@@ -19,10 +19,12 @@
     
     [exhibitionCollectionView setDataSource:self];
     [exhibitionCollectionView setDelegate:self];
-    [UINavigationBar appearance].barTintColor = [UIColor cyanColor];
+    [UINavigationBar appearance].barTintColor = [UIColor blueColor ];
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    
 
     exhibitionimageArray=[[NSArray alloc] initWithObjects:
                           @"アプリ趣味研素材-01",

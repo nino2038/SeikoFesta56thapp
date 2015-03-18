@@ -83,10 +83,17 @@
 		9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */; };
 		9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */; };
 		9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */; };
+		9D62D6911AB9140C00E8259C /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D62D6901AB9140C00E8259C /* InfinitePagingView.m */; };
 		9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */; };
 		9D9498EC1A653CBE001B73E9 /* yakitori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498E91A653CBE001B73E9 /* yakitori.jpg */; };
 		9D9498ED1A653CBE001B73E9 /* kebabu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */; };
 		9D9498EE1A653CBE001B73E9 /* yakisoba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */; };
+		9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */; };
+		9DB1AA841AB8269B00D389F8 /* ボタン２.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */; };
+		9DB1AA851AB8269B00D389F8 /* ボタン１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA801AB8269B00D389F8 /* ボタン１.png */; };
+		9DB1AA861AB8269B00D389F8 /* ボタン３.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA811AB8269B00D389F8 /* ボタン３.png */; };
+		9DB1AA871AB8269B00D389F8 /* ボタン５.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA821AB8269B00D389F8 /* ボタン５.png */; };
+		9DB1AA881AB8269B00D389F8 /* ボタン４.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA831AB8269B00D389F8 /* ボタン４.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,10 +199,18 @@
 		9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionView.m; sourceTree = "<group>"; };
 		9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionViewLayout.h; sourceTree = "<group>"; };
 		9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionViewLayout.m; sourceTree = "<group>"; };
+		9D62D68F1AB9140C00E8259C /* InfinitePagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePagingView.h; sourceTree = "<group>"; };
+		9D62D6901AB9140C00E8259C /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
 		9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲリラダンス.png"; sourceTree = "<group>"; };
 		9D9498E91A653CBE001B73E9 /* yakitori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yakitori.jpg; sourceTree = "<group>"; };
 		9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebabu.jpeg; sourceTree = "<group>"; };
 		9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yakisoba.jpg; sourceTree = "<group>"; };
+		9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ素材仮１.png"; sourceTree = "<group>"; };
+		9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン２.png"; sourceTree = "<group>"; };
+		9DB1AA801AB8269B00D389F8 /* ボタン１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン１.png"; sourceTree = "<group>"; };
+		9DB1AA811AB8269B00D389F8 /* ボタン３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン３.png"; sourceTree = "<group>"; };
+		9DB1AA821AB8269B00D389F8 /* ボタン５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン５.png"; sourceTree = "<group>"; };
+		9DB1AA831AB8269B00D389F8 /* ボタン４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン４.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +317,9 @@
 		9D55857A198383220018B460 /* SeikoFestaapp */ = {
 			isa = PBXGroup;
 			children = (
+				9D62D68D1AB8FBB200E8259C /* 趣味研 */,
+				9D62D68C1AB8FB8600E8259C /* 食品 */,
+				9D62D68E1AB9140C00E8259C /* Classes */,
 				9D293F431AB19F8300E3EE29 /* アプリ趣味研素材 */,
 				9D17FBA01A81D678004C0CA0 /* kori.jpeg */,
 				9D17FBA11A81D678004C0CA0 /* drink.jpg */,
@@ -314,10 +332,16 @@
 				9D9498E91A653CBE001B73E9 /* yakitori.jpg */,
 				9D9498EA1A653CBE001B73E9 /* kebabu.jpeg */,
 				9D9498EB1A653CBE001B73E9 /* yakisoba.jpg */,
+				9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */,
 				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
 				9D569E891A9C74530060C361 /* concerts.jpg */,
 				9D569E8A1A9C74530060C361 /* Timetable-Image.png */,
 				9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */,
+				9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */,
+				9DB1AA801AB8269B00D389F8 /* ボタン１.png */,
+				9DB1AA811AB8269B00D389F8 /* ボタン３.png */,
+				9DB1AA821AB8269B00D389F8 /* ボタン５.png */,
+				9DB1AA831AB8269B00D389F8 /* ボタン４.png */,
 				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
 				9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */,
 				9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */,
@@ -331,20 +355,8 @@
 				9D569E841A9C720C0060C361 /* TimetableViewController.m */,
 				9D569E861A9C73760060C361 /* TimetableDetailViewController.h */,
 				9D569E871A9C73760060C361 /* TimetableDetailViewController.m */,
-				9D5434DB1A80DA2200FE3C94 /* foodCell.h */,
-				9D5434DC1A80DA2200FE3C94 /* foodCell.m */,
-				9D3B06081A89D51A00E30A9F /* foodViewController.h */,
-				9D3B06091A89D51A00E30A9F /* foodViewController.m */,
-				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
-				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
 				9D558583198383220018B460 /* AppDelegate.h */,
 				9D558584198383220018B460 /* AppDelegate.m */,
-				9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */,
-				9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */,
-				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
-				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
-				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
-				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
 				9D55858C198383220018B460 /* Images.xcassets */,
 				9D55857B198383220018B460 /* Supporting Files */,
 			);
@@ -378,6 +390,41 @@
 				9D55859C198383220018B460 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D62D68C1AB8FB8600E8259C /* 食品 */ = {
+			isa = PBXGroup;
+			children = (
+				9D5434DB1A80DA2200FE3C94 /* foodCell.h */,
+				9D5434DC1A80DA2200FE3C94 /* foodCell.m */,
+				9D3B06081A89D51A00E30A9F /* foodViewController.h */,
+				9D3B06091A89D51A00E30A9F /* foodViewController.m */,
+				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
+				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
+			);
+			name = "食品";
+			sourceTree = "<group>";
+		};
+		9D62D68D1AB8FBB200E8259C /* 趣味研 */ = {
+			isa = PBXGroup;
+			children = (
+				9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */,
+				9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */,
+				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
+				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
+				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
+				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
+			);
+			name = "趣味研";
+			sourceTree = "<group>";
+		};
+		9D62D68E1AB9140C00E8259C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D62D68F1AB9140C00E8259C /* InfinitePagingView.h */,
+				9D62D6901AB9140C00E8259C /* InfinitePagingView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +518,8 @@
 				9D293F941AB19FA900E3EE29 /* アプリ趣味研素材-39.png in Resources */,
 				9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */,
 				9D293F7C1AB19FA900E3EE29 /* アプリ趣味研素材-15.png in Resources */,
+				9DB1AA851AB8269B00D389F8 /* ボタン１.png in Resources */,
+				9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */,
 				9D293F851AB19FA900E3EE29 /* アプリ趣味研素材-24.png in Resources */,
 				9D293F731AB19FA900E3EE29 /* アプリ趣味研素材-06.png in Resources */,
 				9D17FBAC1A81D678004C0CA0 /* wataame.jpg in Resources */,
@@ -486,6 +535,7 @@
 				9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */,
 				9D9498ED1A653CBE001B73E9 /* kebabu.jpeg in Resources */,
 				9D293F8B1AB19FA900E3EE29 /* アプリ趣味研素材-30.png in Resources */,
+				9DB1AA871AB8269B00D389F8 /* ボタン５.png in Resources */,
 				9D293F8C1AB19FA900E3EE29 /* アプリ趣味研素材-31.png in Resources */,
 				9D293F7F1AB19FA900E3EE29 /* アプリ趣味研素材-18.png in Resources */,
 				9D9498EC1A653CBE001B73E9 /* yakitori.jpg in Resources */,
@@ -507,10 +557,13 @@
 				9D293F901AB19FA900E3EE29 /* アプリ趣味研素材-35.png in Resources */,
 				9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */,
 				9D293F811AB19FA900E3EE29 /* アプリ趣味研素材-20.png in Resources */,
+				9DB1AA881AB8269B00D389F8 /* ボタン４.png in Resources */,
 				9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */,
 				9D293F6F1AB19FA900E3EE29 /* アプリ趣味研素材-02.png in Resources */,
+				9DB1AA861AB8269B00D389F8 /* ボタン３.png in Resources */,
 				9D293F951AB19FA900E3EE29 /* アプリ趣味研素材-40.png in Resources */,
 				9D17FBA81A81D678004C0CA0 /* drink.jpg in Resources */,
+				9DB1AA841AB8269B00D389F8 /* ボタン２.png in Resources */,
 				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
 				9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */,
 				9D17FBAA1A81D678004C0CA0 /* okonomiyaki.jpg in Resources */,
@@ -543,6 +596,7 @@
 				9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */,
 				9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */,
 				9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */,
+				9D62D6911AB9140C00E8259C /* InfinitePagingView.m in Sources */,
 				9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */,
 				9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */,
 				9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */,

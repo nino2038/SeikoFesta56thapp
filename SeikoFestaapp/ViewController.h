@@ -16,6 +16,7 @@
     
 }
 @property (weak, nonatomic) IBOutlet UICollectionView *MBInfiniteScrollCollectionView;
+@property (weak, nonatomic) IBOutlet UIScrollView *InfinitePagingView;
 
 @end
 
