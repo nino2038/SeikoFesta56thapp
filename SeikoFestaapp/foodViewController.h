@@ -11,6 +11,7 @@
 @interface foodViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>{
     NSArray *foodimageArray;
     NSArray *foodtextArray;
+    NSArray *fooddetailtextArray;
     UIImage *img;
 }
 
