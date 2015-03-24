@@ -9,6 +9,7 @@
 #import "ExhibitonDetailViewController.h"
 
 @implementation ExhibitonDetailViewController
+
 -(void)viewDidLoad{
     [super viewDidLoad];
     shopimageArray=[[NSArray alloc] initWithObjects:

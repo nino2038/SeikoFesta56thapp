@@ -11,11 +11,25 @@
 
 @implementation exhibitonViewController
 @synthesize exhibitionCollectionView;
+// は垂直方向のセル間のマージンの最小値を返却する
+- (CGFloat)collectionView:(UICollectionView *)collectionView
+                   layout:(UICollectionViewLayout*)collectionViewLayout
+minimumLineSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 1;
+}
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIView *backgroundHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, -500, 320, 500)];
+    [backgroundHeaderView setBackgroundColor:[UIColor whiteColor]];
+    [exhibitionCollectionView addSubview:backgroundHeaderView];
+    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 3179, 320, 500)];
+    [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
+    [exhibitionCollectionView addSubview:backgroundFooterView];
     
     [exhibitionCollectionView setDataSource:self];
     [exhibitionCollectionView setDelegate:self];
@@ -116,6 +130,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 #pragma mark -collection view delegate
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
@@ -145,6 +160,9 @@
     
     [self performSegueWithIdentifier:@"toExhibitonDetail" sender:self];
     
+}
+-(IBAction)Exhibitionback{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

@@ -10,6 +10,14 @@
 		9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */; };
 		9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */; };
 		9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */; };
+		9D21CE701AC140140058E818 /* ExplainationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21CE6F1AC140140058E818 /* ExplainationViewController.m */; };
+		9D21CE731AC140550058E818 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21CE721AC140550058E818 /* MovieViewController.m */; };
+		9D21CE841AC198EA0058E818 /* アプリ素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE831AC198EA0058E818 /* アプリ素材.png */; };
+		9D21CE941AC19E060058E818 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE8F1AC19E060058E818 /* button2.png */; };
+		9D21CE951AC19E060058E818 /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE901AC19E060058E818 /* button3.png */; };
+		9D21CE961AC19E060058E818 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE911AC19E060058E818 /* button1.png */; };
+		9D21CE971AC19E060058E818 /* button4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE921AC19E060058E818 /* button4.png */; };
+		9D21CE981AC19E060058E818 /* button5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE931AC19E060058E818 /* button5.png */; };
 		9D293F6E1AB19FA900E3EE29 /* アプリ趣味研素材-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F441AB19FA900E3EE29 /* アプリ趣味研素材-01.png */; };
 		9D293F6F1AB19FA900E3EE29 /* アプリ趣味研素材-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F451AB19FA900E3EE29 /* アプリ趣味研素材-02.png */; };
 		9D293F701AB19FA900E3EE29 /* アプリ趣味研素材-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F461AB19FA900E3EE29 /* アプリ趣味研素材-03.png */; };
@@ -91,16 +99,14 @@
 		9D58E1891ABFB91600C094DF /* アプリ食品素材-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1781ABFB91600C094DF /* アプリ食品素材-15.png */; };
 		9D58E18A1ABFB91600C094DF /* アプリ食品素材-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1791ABFB91600C094DF /* アプリ食品素材-16.png */; };
 		9D58E18B1ABFB91600C094DF /* アプリ食品素材-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E17A1ABFB91600C094DF /* アプリ食品素材-17.png */; };
+		9D58E18E1AC0E33C00C094DF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58E18D1AC0E33C00C094DF /* TableViewController.m */; };
+		9D58E1921AC1313000C094DF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58E1911AC1313000C094DF /* TableViewCell.m */; };
 		9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */; };
 		9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */; };
 		9D62D6911AB9140C00E8259C /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D62D6901AB9140C00E8259C /* InfinitePagingView.m */; };
 		9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */; };
 		9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */; };
-		9DB1AA841AB8269B00D389F8 /* ボタン２.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */; };
-		9DB1AA851AB8269B00D389F8 /* ボタン１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA801AB8269B00D389F8 /* ボタン１.png */; };
-		9DB1AA861AB8269B00D389F8 /* ボタン３.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA811AB8269B00D389F8 /* ボタン３.png */; };
-		9DB1AA871AB8269B00D389F8 /* ボタン５.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA821AB8269B00D389F8 /* ボタン５.png */; };
-		9DB1AA881AB8269B00D389F8 /* ボタン４.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA831AB8269B00D389F8 /* ボタン４.png */; };
+		9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF262F31AC1AA6000549830 /* ポスター素材.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +125,16 @@
 		9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhibitionCell.h; sourceTree = "<group>"; };
 		9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhibitionCell.m; sourceTree = "<group>"; };
 		9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聖光祭　ロゴ.png"; sourceTree = "<group>"; };
+		9D21CE6E1AC140140058E818 /* ExplainationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplainationViewController.h; sourceTree = "<group>"; };
+		9D21CE6F1AC140140058E818 /* ExplainationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplainationViewController.m; sourceTree = "<group>"; };
+		9D21CE711AC140550058E818 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		9D21CE721AC140550058E818 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		9D21CE831AC198EA0058E818 /* アプリ素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ素材.png"; sourceTree = "<group>"; };
+		9D21CE8F1AC19E060058E818 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		9D21CE901AC19E060058E818 /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		9D21CE911AC19E060058E818 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		9D21CE921AC19E060058E818 /* button4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4.png; sourceTree = "<group>"; };
+		9D21CE931AC19E060058E818 /* button5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button5.png; sourceTree = "<group>"; };
 		9D293F441AB19FA900E3EE29 /* アプリ趣味研素材-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-01.png"; sourceTree = "<group>"; };
 		9D293F451AB19FA900E3EE29 /* アプリ趣味研素材-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-02.png"; sourceTree = "<group>"; };
 		9D293F461AB19FA900E3EE29 /* アプリ趣味研素材-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-03.png"; sourceTree = "<group>"; };
@@ -212,6 +228,10 @@
 		9D58E1781ABFB91600C094DF /* アプリ食品素材-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-15.png"; sourceTree = "<group>"; };
 		9D58E1791ABFB91600C094DF /* アプリ食品素材-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-16.png"; sourceTree = "<group>"; };
 		9D58E17A1ABFB91600C094DF /* アプリ食品素材-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-17.png"; sourceTree = "<group>"; };
+		9D58E18C1AC0E33C00C094DF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9D58E18D1AC0E33C00C094DF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9D58E1901AC1313000C094DF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9D58E1911AC1313000C094DF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionView.h; sourceTree = "<group>"; };
 		9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionView.m; sourceTree = "<group>"; };
 		9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionViewLayout.h; sourceTree = "<group>"; };
@@ -220,11 +240,7 @@
 		9D62D6901AB9140C00E8259C /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
 		9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲリラダンス.png"; sourceTree = "<group>"; };
 		9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ素材仮１.png"; sourceTree = "<group>"; };
-		9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン２.png"; sourceTree = "<group>"; };
-		9DB1AA801AB8269B00D389F8 /* ボタン１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン１.png"; sourceTree = "<group>"; };
-		9DB1AA811AB8269B00D389F8 /* ボタン３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン３.png"; sourceTree = "<group>"; };
-		9DB1AA821AB8269B00D389F8 /* ボタン５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン５.png"; sourceTree = "<group>"; };
-		9DB1AA831AB8269B00D389F8 /* ボタン４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン４.png"; sourceTree = "<group>"; };
+		9DF262F31AC1AA6000549830 /* ポスター素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ポスター素材.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +267,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D21CE741AC1470E0058E818 /* タイムテーブル */ = {
+			isa = PBXGroup;
+			children = (
+				9D569E831A9C720C0060C361 /* TimetableViewController.h */,
+				9D569E841A9C720C0060C361 /* TimetableViewController.m */,
+				9D569E861A9C73760060C361 /* TimetableDetailViewController.h */,
+				9D569E871A9C73760060C361 /* TimetableDetailViewController.m */,
+			);
+			name = "タイムテーブル";
+			sourceTree = "<group>";
+		};
+		9D21CE751AC1476A0058E818 /* その他 */ = {
+			isa = PBXGroup;
+			children = (
+				9D58E1901AC1313000C094DF /* TableViewCell.h */,
+				9D58E1911AC1313000C094DF /* TableViewCell.m */,
+				9D58E18C1AC0E33C00C094DF /* TableViewController.h */,
+				9D58E18D1AC0E33C00C094DF /* TableViewController.m */,
+				9D21CE6E1AC140140058E818 /* ExplainationViewController.h */,
+				9D21CE6F1AC140140058E818 /* ExplainationViewController.m */,
+				9D21CE711AC140550058E818 /* MovieViewController.h */,
+				9D21CE721AC140550058E818 /* MovieViewController.m */,
+			);
+			name = "その他";
+			sourceTree = "<group>";
+		};
+		9D21CE781AC1481D0058E818 /* ポスター */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */,
+				9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */,
+				9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */,
+				9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */,
+				9D52EB311A9349BE0099A416 /* PosterCell.h */,
+				9D52EB321A9349BE0099A416 /* PosterCell.m */,
+			);
+			name = "ポスター";
+			sourceTree = "<group>";
+		};
 		9D293F431AB19F8300E3EE29 /* アプリ趣味研素材 */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,35 +386,30 @@
 		9D55857A198383220018B460 /* SeikoFestaapp */ = {
 			isa = PBXGroup;
 			children = (
+				9D21CE781AC1481D0058E818 /* ポスター */,
+				9D21CE751AC1476A0058E818 /* その他 */,
+				9D21CE741AC1470E0058E818 /* タイムテーブル */,
 				9D62D68D1AB8FBB200E8259C /* 趣味研 */,
 				9D62D68C1AB8FB8600E8259C /* 食品 */,
 				9D62D68E1AB9140C00E8259C /* Classes */,
 				9D58E1691ABFB8D900C094DF /* アプリ食品素材 */,
 				9D293F431AB19F8300E3EE29 /* アプリ趣味研素材 */,
 				9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */,
+				9DF262F31AC1AA6000549830 /* ポスター素材.png */,
+				9D21CE831AC198EA0058E818 /* アプリ素材.png */,
 				9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */,
 				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
 				9D569E891A9C74530060C361 /* concerts.jpg */,
 				9D569E8A1A9C74530060C361 /* Timetable-Image.png */,
 				9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */,
-				9DB1AA7F1AB8269B00D389F8 /* ボタン２.png */,
-				9DB1AA801AB8269B00D389F8 /* ボタン１.png */,
-				9DB1AA811AB8269B00D389F8 /* ボタン３.png */,
-				9DB1AA821AB8269B00D389F8 /* ボタン５.png */,
-				9DB1AA831AB8269B00D389F8 /* ボタン４.png */,
+				9D21CE8F1AC19E060058E818 /* button2.png */,
+				9D21CE901AC19E060058E818 /* button3.png */,
+				9D21CE911AC19E060058E818 /* button1.png */,
+				9D21CE921AC19E060058E818 /* button4.png */,
+				9D21CE931AC19E060058E818 /* button5.png */,
 				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
-				9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */,
-				9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */,
-				9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */,
-				9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */,
 				9D558589198383220018B460 /* ViewController.h */,
 				9D55858A198383220018B460 /* ViewController.m */,
-				9D52EB311A9349BE0099A416 /* PosterCell.h */,
-				9D52EB321A9349BE0099A416 /* PosterCell.m */,
-				9D569E831A9C720C0060C361 /* TimetableViewController.h */,
-				9D569E841A9C720C0060C361 /* TimetableViewController.m */,
-				9D569E861A9C73760060C361 /* TimetableDetailViewController.h */,
-				9D569E871A9C73760060C361 /* TimetableDetailViewController.m */,
 				9D558583198383220018B460 /* AppDelegate.h */,
 				9D558584198383220018B460 /* AppDelegate.m */,
 				9D55858C198383220018B460 /* Images.xcassets */,
@@ -535,6 +585,7 @@
 				9D293F8F1AB19FA900E3EE29 /* アプリ趣味研素材-34.png in Resources */,
 				9D293F8D1AB19FA900E3EE29 /* アプリ趣味研素材-32.png in Resources */,
 				9D293F881AB19FA900E3EE29 /* アプリ趣味研素材-27.png in Resources */,
+				9D21CE961AC19E060058E818 /* button1.png in Resources */,
 				9D293F821AB19FA900E3EE29 /* アプリ趣味研素材-21.png in Resources */,
 				9D293F7E1AB19FA900E3EE29 /* アプリ趣味研素材-17.png in Resources */,
 				9D293F921AB19FA900E3EE29 /* アプリ趣味研素材-37.png in Resources */,
@@ -549,7 +600,7 @@
 				9D293F941AB19FA900E3EE29 /* アプリ趣味研素材-39.png in Resources */,
 				9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */,
 				9D293F7C1AB19FA900E3EE29 /* アプリ趣味研素材-15.png in Resources */,
-				9DB1AA851AB8269B00D389F8 /* ボタン１.png in Resources */,
+				9D21CE971AC19E060058E818 /* button4.png in Resources */,
 				9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */,
 				9D293F851AB19FA900E3EE29 /* アプリ趣味研素材-24.png in Resources */,
 				9D293F731AB19FA900E3EE29 /* アプリ趣味研素材-06.png in Resources */,
@@ -566,7 +617,6 @@
 				9D58E1801ABFB91600C094DF /* アプリ食品素材-05.png in Resources */,
 				9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */,
 				9D293F8B1AB19FA900E3EE29 /* アプリ趣味研素材-30.png in Resources */,
-				9DB1AA871AB8269B00D389F8 /* ボタン５.png in Resources */,
 				9D58E17E1ABFB91600C094DF /* アプリ食品素材-09.png in Resources */,
 				9D293F8C1AB19FA900E3EE29 /* アプリ趣味研素材-31.png in Resources */,
 				9D293F7F1AB19FA900E3EE29 /* アプリ趣味研素材-18.png in Resources */,
@@ -578,8 +628,11 @@
 				9D293F861AB19FA900E3EE29 /* アプリ趣味研素材-25.png in Resources */,
 				9D293F831AB19FA900E3EE29 /* アプリ趣味研素材-22.png in Resources */,
 				9D55857F198383220018B460 /* InfoPlist.strings in Resources */,
+				9D21CE841AC198EA0058E818 /* アプリ素材.png in Resources */,
+				9D21CE981AC19E060058E818 /* button5.png in Resources */,
 				9D293F911AB19FA900E3EE29 /* アプリ趣味研素材-36.png in Resources */,
 				9D293F741AB19FA900E3EE29 /* アプリ趣味研素材-07.png in Resources */,
+				9D21CE951AC19E060058E818 /* button3.png in Resources */,
 				9D58E17F1ABFB91600C094DF /* アプリ食品素材-10.png in Resources */,
 				9D293F701AB19FA900E3EE29 /* アプリ趣味研素材-03.png in Resources */,
 				9D58E1841ABFB91600C094DF /* アプリ食品素材-11.png in Resources */,
@@ -593,15 +646,14 @@
 				9D293F901AB19FA900E3EE29 /* アプリ趣味研素材-35.png in Resources */,
 				9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */,
 				9D293F811AB19FA900E3EE29 /* アプリ趣味研素材-20.png in Resources */,
-				9DB1AA881AB8269B00D389F8 /* ボタン４.png in Resources */,
+				9D21CE941AC19E060058E818 /* button2.png in Resources */,
 				9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */,
 				9D293F6F1AB19FA900E3EE29 /* アプリ趣味研素材-02.png in Resources */,
-				9DB1AA861AB8269B00D389F8 /* ボタン３.png in Resources */,
 				9D293F951AB19FA900E3EE29 /* アプリ趣味研素材-40.png in Resources */,
 				9D58E1871ABFB91600C094DF /* アプリ食品素材-01.png in Resources */,
-				9DB1AA841AB8269B00D389F8 /* ボタン２.png in Resources */,
 				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
 				9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */,
+				9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */,
 				9D58E1831ABFB91600C094DF /* アプリ食品素材-12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,7 +680,10 @@
 				9D558585198383220018B460 /* AppDelegate.m in Sources */,
 				9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */,
 				9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */,
+				9D58E18E1AC0E33C00C094DF /* TableViewController.m in Sources */,
+				9D21CE701AC140140058E818 /* ExplainationViewController.m in Sources */,
 				9D558581198383220018B460 /* main.m in Sources */,
+				9D58E1921AC1313000C094DF /* TableViewCell.m in Sources */,
 				9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */,
 				9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */,
 				9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */,
@@ -636,6 +691,7 @@
 				9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */,
 				9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */,
 				9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */,
+				9D21CE731AC140550058E818 /* MovieViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

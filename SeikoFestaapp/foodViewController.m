@@ -20,41 +20,23 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     return 1;
 }
 
-/* ヘッダービューを(補助ビュー)生成してビューに返す */
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
-{
-    UICollectionReusableView *reusableview = nil;
-    
-    if (kind == UICollectionElementKindSectionHeader) {
-       id headerView = [self.foodCollectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"Header" forIndexPath:indexPath];
-        
-        //headerに画像をセット
-        //NSURL* imageUrl = [NSURL URLWithString:brandDetail.dBrandIconImage];
-        UIImage *placeholderImage = [UIImage imageNamed:@"concerts.jpg"];
-        [headerView setImage:placeholderImage] ;
-        // [headerView.mBrandView sd_setImageWithURL:imageUrl placeholderImage:placeholderImage];
-       // headerView.mBrandName.text = brandDetail.dBrandName;
-        
-        reusableview = headerView;
-    }
-    
-//    if (kind == UICollectionElementKindSectionFooter){
-//        footerView = [self.foodCollectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"Footer" forIndexPath:indexPath];
-//        
-//        
-//        reusableview = footerView;
-//    }
-    
-    return reusableview;
-    
+-(IBAction)foodback{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [foodCollectionView setDataSource:self];
     [foodCollectionView setDelegate:self];
+    //
+    UIView *backgroundHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, -500, 320, 500)];
+    [backgroundHeaderView setBackgroundColor:[UIColor whiteColor]];
+    [foodCollectionView addSubview:backgroundHeaderView];
+    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 1430, 320, 500)];
+    [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
+    [foodCollectionView addSubview:backgroundFooterView];
+
     [UINavigationBar appearance].barTintColor = [UIColor redColor];
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
@@ -137,8 +119,8 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     return 18;
 }
 
+
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    
     foodCell *cell=(foodCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.label.text=foodtextArray[indexPath.row];
     cell.image.image=[UIImage imageNamed:foodimageArray[indexPath.row]];
@@ -147,13 +129,18 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];
-    [foodpathdata setInteger:indexPath.row forKey:@"foodindexpath"];
-    
-    
-    [self performSegueWithIdentifier:@"toFoodDetail" sender:self];
-   
+    if ([indexPath isEqual:[NSIndexPath indexPathForRow:17 inSection:0]]){
+        nil;
+    }else{
+        NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];
+        [foodpathdata setInteger:indexPath.row forKey:@"foodindexpath"];
+        
+       // NSLog(@"%ld",(long)indexPath.row);
+        
+        [self performSegueWithIdentifier:@"toFoodDetail" sender:self];
+    }
 }
+
 
 
 @end

@@ -12,8 +12,9 @@
     NSArray *exhibitionimageArray;
     NSArray *exhibitiontextArray;
 }
-
+-(IBAction)Exhibitionback;
 @property (weak, nonatomic) IBOutlet UICollectionView *exhibitionCollectionView;
+
 
 
 @end

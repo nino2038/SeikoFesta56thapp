@@ -29,6 +29,7 @@
                     @"アプリ食品素材-15.png",
                     @"アプリ食品素材-16.png",
                     @"アプリ食品素材-17.png",
+                    @"",
                     nil];
     shoptextArray=[[NSArray alloc] initWithObjects:
                    @"麺's RUNRUN",
@@ -48,6 +49,7 @@
                    @"題名のない音楽喫茶",
                    @"駅弁",
                    @"魅惑のワッフル",
+                   @"",
                    nil];
     foodtextArray=[[NSArray alloc]initWithObjects:
                    @"塩焼きそば",
@@ -67,6 +69,7 @@
                    @"喫茶店",
                    @"駅弁",
                    @"ワッフル",
+                   @"",
                    nil];
     shopdetailtextArray=[[NSArray alloc] initWithObjects:
                          @"二年連続売り上げ一位を獲得した圧倒的実力を持つ職人達の匠の技をご賞味あれ。絶対に満足させます。",
@@ -86,6 +89,7 @@
                          @"聖光祭の熱気から離れて、音楽と共に過ごすティータイムはいかがでしょうか。",
                          @"毎年恒例の駅弁販売、今年も各地の駅弁をご用意しました。詳細は、○,○ページをご覧下さい。",
                          @"聖光祭を楽しんでいる皆さんを甘い香りと優しい感触で包み込むでしょう。是非お越し下さい。",
+                         @"",
                          nil];
     
     NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];

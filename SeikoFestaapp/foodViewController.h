@@ -13,7 +13,10 @@
     NSArray *foodtextArray;
     NSArray *fooddetailtextArray;
     UIImage *img;
+   
+    
 }
+-(IBAction)foodback;
 
 @property (weak, nonatomic) IBOutlet UICollectionView *foodCollectionView;
 
