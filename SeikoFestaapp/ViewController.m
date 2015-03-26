@@ -53,6 +53,7 @@
     pagingView.pageSize = CGSizeMake(149.f, 210.f);
     
     [self.view addSubview:pagingView];
+    
 }
 
 #pragma mark -collection view delegate

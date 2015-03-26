@@ -8,16 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
-@interface fooddetailViewController : UIViewController{
+@interface fooddetailViewController : UIViewController<UIScrollViewDelegate>{
     IBOutlet UIImageView *imageView;
-    IBOutlet UILabel *shopname;
-    IBOutlet UILabel *foodname;
-    IBOutlet UILabel *detail;
+//    UILabel *shopname;
+//    UILabel *foodname;
+//    UILabel *detail;
+//    UIImageView *mapview;
     NSArray *shopimageArray;
     NSArray *shoptextArray;
     NSArray *foodtextArray;
     NSArray *shopdetailtextArray;
+    NSArray *mapimageArray;
+    IBOutlet UILabel *shopnamelabel;
+    IBOutlet UILabel *foodnamelabel;
+    IBOutlet UIButton *detailbutton;
+    IBOutlet UIButton *mapbutton;
+   // float prevPagingNumber;
     int test;
+    __weak IBOutlet UIScrollView *foodDetailScrollView;
 }
-
+-(IBAction)tweet;
+-(IBAction)facebook;
+-(IBAction)detail;
+-(IBAction)map;
 @end

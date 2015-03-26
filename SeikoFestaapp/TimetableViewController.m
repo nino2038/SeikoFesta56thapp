@@ -123,5 +123,7 @@
     [self performSegueWithIdentifier:@"Detail" sender:self];
     
 }
-
+-(IBAction)Timetableback{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

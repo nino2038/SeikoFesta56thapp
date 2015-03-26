@@ -17,9 +17,8 @@
                    layout:(UICollectionViewLayout*)collectionViewLayout
 minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
-    return 1;
+    return 2;
 }
-
 -(IBAction)foodback{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -33,7 +32,7 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     UIView *backgroundHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, -500, 320, 500)];
     [backgroundHeaderView setBackgroundColor:[UIColor whiteColor]];
     [foodCollectionView addSubview:backgroundHeaderView];
-    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 1430, 320, 500)];
+    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 1455, 320, 500)];
     [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
     [foodCollectionView addSubview:backgroundFooterView];
 
@@ -140,7 +139,10 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
         [self performSegueWithIdentifier:@"toFoodDetail" sender:self];
     }
 }
+-(IBAction)tweet{
+    
+}
+-(IBAction)facebook{
 
-
-
+}
 @end

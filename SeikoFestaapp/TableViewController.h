@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate>
+-(IBAction)Otherback;
 @property (weak, nonatomic) IBOutlet UITableView *TableView;@end
+
 

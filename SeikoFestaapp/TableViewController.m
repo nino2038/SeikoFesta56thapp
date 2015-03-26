@@ -28,6 +28,11 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     arrayText = @[@"このアプリについて", @"聖光祭PV"];
+    [UINavigationBar appearance].barTintColor = [UIColor grayColor];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -67,5 +72,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)Otherback{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

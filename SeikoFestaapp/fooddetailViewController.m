@@ -7,30 +7,56 @@
 //
 
 #import "fooddetailViewController.h"
+#import <Social/Social.h>
 
 @implementation fooddetailViewController
 -(void)viewDidLoad{
     [super viewDidLoad];
+    
+    [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
+    [mapbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
+    [UINavigationBar appearance].barTintColor = [UIColor clearColor];
+    [ UIApplication sharedApplication ].statusBarHidden = YES;
     shopimageArray=[[NSArray alloc] initWithObjects:
-                    @"アプリ食品素材-01.png",
-                    @"アプリ食品素材-02.png",
-                    @"アプリ食品素材-03.png",
-                    @"アプリ食品素材-04.png",
-                    @"アプリ食品素材-05.png",
-                    @"アプリ食品素材-06.png",
-                    @"アプリ食品素材-07.png",
-                    @"アプリ食品素材-08.png",
-                    @"アプリ食品素材-09.png",
-                    @"アプリ食品素材-10.png",
-                    @"アプリ食品素材-11.png",
-                    @"アプリ食品素材-12.png",
-                    @"アプリ食品素材-13.png",
-                    @"アプリ食品素材-14.png",
-                    @"アプリ食品素材-15.png",
-                    @"アプリ食品素材-16.png",
-                    @"アプリ食品素材-17.png",
+                    @"食品横長画像-01.png",
+                    @"食品横長画像-02.png",
+                    @"食品横長画像-03.png",
+                    @"食品横長画像-04.png",
+                    @"食品横長画像-05.png",
+                    @"食品横長画像-06.png",
+                    @"食品横長画像-07.png",
+                    @"食品横長画像-08.png",
+                    @"食品横長画像-09.png",
+                    @"食品横長画像-10.png",
+                    @"食品横長画像-11.png",
+                    @"食品横長画像-12.png",
+                    @"食品横長画像-13.png",
+                    @"食品横長画像-14.png",
+                    @"食品横長画像-15.png",
+                    @"食品横長画像-16.png",
+                    @"食品横長画像-17.png",
                     @"",
                     nil];
+    mapimageArray=[[NSArray alloc] initWithObjects:
+                   @"食品横長画像-01.png",
+                   @"食品横長画像-02.png",
+                   @"食品横長画像-03.png",
+                   @"食品横長画像-04.png",
+                   @"食品横長画像-05.png",
+                   @"食品横長画像-06.png",
+                   @"食品横長画像-07.png",
+                   @"食品横長画像-08.png",
+                   @"食品横長画像-09.png",
+                   @"食品横長画像-10.png",
+                   @"食品横長画像-11.png",
+                   @"食品横長画像-12.png",
+                   @"食品横長画像-13.png",
+                   @"食品横長画像-14.png",
+                   @"食品横長画像-15.png",
+                   @"食品横長画像-16.png",
+                   @"食品横長画像-17.png",
+                   @"",
+                   nil];
     shoptextArray=[[NSArray alloc] initWithObjects:
                    @"麺's RUNRUN",
                    @"三代目J Sauce Brothers",
@@ -95,14 +121,108 @@
     NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];
     NSInteger foodpathnumber=[foodpathdata integerForKey:@"foodindexpath"];
     //NSLog(@"int:%ld", (long)pathnumber);
+    UILabel *shopname = [[UILabel alloc] initWithFrame:CGRectMake(0,0,160,30)];
+    UILabel *foodname = [[UILabel alloc] initWithFrame:CGRectMake(160,0,160,30)];
+    UITextView *detail = [[UITextView alloc] initWithFrame:CGRectMake(0,0,320,320)];
+    detail.editable = NO;
+    UIImageView *mapview=[[UIImageView alloc] initWithFrame:CGRectMake(320,0,320,305)];
     imageView.image=[UIImage imageNamed:shopimageArray[foodpathnumber]];
-    shopname.text=[NSString stringWithFormat:shoptextArray[foodpathnumber]];
-    foodname.text=[NSString stringWithFormat:foodtextArray[foodpathnumber]];
+    shopnamelabel.text=[NSString stringWithFormat:shoptextArray[foodpathnumber]];
+    foodnamelabel.text=[NSString stringWithFormat:foodtextArray[foodpathnumber]];
     detail.text=[NSString stringWithFormat:shopdetailtextArray[foodpathnumber]];
-    
-    
-    
+    mapview.image=[UIImage imageNamed:mapimageArray[foodpathnumber]];
+    UIView *foodDetailTextView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,305)];
+    UIView *foodDetailMapView = [[UIView alloc] initWithFrame:CGRectMake(320,0,320,305)];
+    [foodDetailTextView addSubview:mapview];
+    //[foodDetailTextView addSubview:shopname];
+    //[foodDetailTextView addSubview:foodname];
+    [foodDetailTextView addSubview:detail];
+    foodDetailTextView.backgroundColor = [UIColor redColor];
+   // foodDetailMapView.backgroundColor=[UIColor blueColor];
+    [foodDetailScrollView addSubview:foodDetailTextView];
+    [foodDetailScrollView addSubview:foodDetailMapView];
+    foodDetailScrollView.scrollEnabled = YES;
+    [foodDetailScrollView setContentSize:CGSizeMake(320 * 2.0f, 290)];
+    foodDetailScrollView.delegate=self;
+    foodDetailScrollView.clipsToBounds = NO;
 }
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;{
+    CGFloat page=round(scrollView.contentOffset.x/scrollView.frame.size.width);
+    
+    if ((int)page==0) {
+        [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
+        [mapbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
+    }else{
+        [detailbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
+        [mapbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
+    }
+   //NSLog(@"%f",page);
+
+}
+-(IBAction)detail{
+    NSLog(@"push detail");
+    CGPoint offset;
+    
+    offset.x = 0.0f;
+    offset.y = 0.0f;
+    
+    [foodDetailScrollView setContentOffset:offset animated:YES];
+}
+-(IBAction)map{
+    NSLog(@"push map");
+    CGPoint offset;
+    
+    offset.x = 320.0f;
+    offset.y = 0.0f;
+    
+    [foodDetailScrollView setContentOffset:offset animated:YES];
+}
+- (IBAction)tweet
+{
+    SLComposeViewController *twvc = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    
+    [twvc setInitialText:[NSString stringWithFormat:@"%@にいってきました", shopnamelabel.text]];
+    [twvc addURL:[NSURL URLWithString:@"URL"]];
+    [self presentViewController:twvc animated:YES completion:nil];
+    
+    [twvc setCompletionHandler:^(SLComposeViewControllerResult result){
+        // 結果判定
+        switch (result) {
+            case SLComposeViewControllerResultDone:
+                break;
+            case SLComposeViewControllerResultCancelled:
+
+                break;
+            default:
+                break;
+        }
+        
+        // 投稿用ビューコントローラからの復帰設定
+    }];
+}
+-(IBAction)facebook{
+    SLComposeViewController *facebookPostVC=[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    [facebookPostVC setInitialText:@"facebook投稿テスト"];
+    [self presentViewController:facebookPostVC animated:YES completion:nil];
+}
+//- (IBAction)postTwitter:(id)sender {
+//    NSString* postContent = [NSString stringWithFormat:@"aaaa"];
+//    //NSURL* appURL = [NSURL URLWithString:_entry.link];
+//    // =========== iOSバージョンで、処理を分岐 ============
+//    // iOS Version
+//    //NSString *iosVersion = [[[UIDevice currentDevice] systemVersion] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+//    // Social.frameworkを使う
+//    SLComposeViewController *twitterPostVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+//    [twitterPostVC setInitialText:postContent];
+//    //[twitterPostVC addURL:appURL]; // アプリURL
+//    [self presentViewController:twitterPostVC animated:YES completion:nil];
+//    
+//    // Twitter.frameworkを使う
+//}
+//-(int)getcurrentViewPageIndex{
+//    CGFloat page=round(foodDetailScrollView.contentOffset.x/foodDetailScrollView.frame.size.width);
+//    return page;
+//}
 
 -(void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];

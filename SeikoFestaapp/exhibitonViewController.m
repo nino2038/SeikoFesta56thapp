@@ -11,15 +11,12 @@
 
 @implementation exhibitonViewController
 @synthesize exhibitionCollectionView;
-// は垂直方向のセル間のマージンの最小値を返却する
 - (CGFloat)collectionView:(UICollectionView *)collectionView
                    layout:(UICollectionViewLayout*)collectionViewLayout
 minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
-    return 1;
+    return 2;
 }
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -27,13 +24,13 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     UIView *backgroundHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, -500, 320, 500)];
     [backgroundHeaderView setBackgroundColor:[UIColor whiteColor]];
     [exhibitionCollectionView addSubview:backgroundHeaderView];
-    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 3179, 320, 500)];
+    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 3238, 320, 500)];
     [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
     [exhibitionCollectionView addSubview:backgroundFooterView];
     
     [exhibitionCollectionView setDataSource:self];
     [exhibitionCollectionView setDelegate:self];
-    [UINavigationBar appearance].barTintColor = [UIColor blueColor ];
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0 green:0.706 blue:0.914 alpha:1.000];
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
