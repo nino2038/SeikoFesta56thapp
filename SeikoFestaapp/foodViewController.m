@@ -35,11 +35,15 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 1455, 320, 500)];
     [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
     [foodCollectionView addSubview:backgroundFooterView];
+    
 
     [UINavigationBar appearance].barTintColor = [UIColor redColor];
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    
+    
     foodimageArray=[[NSArray alloc] initWithObjects:
                     @"アプリ食品素材-01.png",
                     @"アプリ食品素材-02.png",
@@ -100,6 +104,7 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
                          @"聖光祭を楽しんでいる皆さんを甘い香りと優しい感触で包み込むでしょう。是非お越し下さい。",
                          nil];
 }
+
 
 - (void)didReceiveMemoryWarning
 {

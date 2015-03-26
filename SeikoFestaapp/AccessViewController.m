@@ -36,8 +36,15 @@
     
     // 移動した距離だけ、UIImageViewのcenterポジションを移動させる
     CGPoint movedPoint = CGPointMake(accessView.center.x + p.x, accessView.center.y + p.y);
-    if(movedPoint.y>300){
-        movedPoint.y=300;
+    if(movedPoint.y>320){
+        movedPoint.y=320;
+    }else if(movedPoint.y<0){
+        movedPoint.y=0;
+    }
+    if(movedPoint.x>320){
+        movedPoint.x=320;
+    }else if(movedPoint.x<0){
+        movedPoint.x=0;
     }
     accessView.center = movedPoint;
     

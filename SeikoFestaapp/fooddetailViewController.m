@@ -10,12 +10,14 @@
 #import <Social/Social.h>
 
 @implementation fooddetailViewController
+
 -(void)viewDidLoad{
     [super viewDidLoad];
     
     [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
     [mapbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
-    [UINavigationBar appearance].barTintColor = [UIColor clearColor];
+
+    //[UINavigationBar appearance].barTintColor = [UIColor clearColor];
     [ UIApplication sharedApplication ].statusBarHidden = YES;
     shopimageArray=[[NSArray alloc] initWithObjects:
                     @"食品横長画像-01.png",
@@ -146,6 +148,29 @@
     foodDetailScrollView.delegate=self;
     foodDetailScrollView.clipsToBounds = NO;
 }
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
+    self.navigationController.navigationBar.translucent=YES;
+    
+    if (self.navigationController.navigationBar.backgroundColor == [UIColor redColor]) {
+        self.navigationController.navigationBar.backgroundColor = [UIColor clearColor];
+    }
+}
+ 
+
+- (void)viewWillDisappear:(BOOL)animated {
+    self.navigationController.navigationBar.backgroundColor = [UIColor redColor];
+    [ UIApplication sharedApplication ].statusBarHidden = NO;
+  //  [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+}
+
+
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView;{
     CGFloat page=round(scrollView.contentOffset.x/scrollView.frame.size.width);
     
