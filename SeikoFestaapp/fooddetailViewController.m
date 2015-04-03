@@ -13,10 +13,6 @@
 @implementation fooddetailViewController
 -(void)viewDidLoad{
     [super viewDidLoad];
-    [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
-    [mapbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
-
-    //[UINavigationBar appearance].barTintColor = [UIColor clearColor];
     [ UIApplication sharedApplication ].statusBarHidden = YES;
     shopimageArray=[[NSArray alloc] initWithObjects:
                     @"食品横長画像-01.png",
@@ -39,7 +35,7 @@
                     @"",
                     nil];
     mapimageArray=[[NSArray alloc] initWithObjects:
-                   @"食品横長画像-01.png",
+                   @"地図テスト.png",
                    @"食品横長画像-02.png",
                    @"食品横長画像-03.png",
                    @"食品横長画像-04.png",
@@ -122,23 +118,25 @@
     NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];
     NSInteger foodpathnumber=[foodpathdata integerForKey:@"foodindexpath"];
     //NSLog(@"int:%ld", (long)pathnumber);
+    
     UITextView *detail = [[UITextView alloc] initWithFrame:CGRectMake(0,0,320,320)];
     detail.editable = NO;
     detail.font =[UIFont fontWithName:@"HiraKakuProN-W3" size:16];
-    UIImageView *mapview=[[UIImageView alloc] initWithFrame:CGRectMake(320,0,320,305)];
+    detail.text=[NSString stringWithFormat:shopdetailtextArray[foodpathnumber]];
+    
+    UIImageView *mapview=[[UIImageView alloc] initWithFrame:CGRectMake(320,0,320,320)];
+    mapview.image=[UIImage imageNamed:mapimageArray[foodpathnumber]];
+    
     imageView.image=[UIImage imageNamed:shopimageArray[foodpathnumber]];
     shopnamelabel.text=[NSString stringWithFormat:shoptextArray[foodpathnumber]];
     foodnamelabel.text=[NSString stringWithFormat:foodtextArray[foodpathnumber]];
-    detail.text=[NSString stringWithFormat:shopdetailtextArray[foodpathnumber]];
-    mapview.image=[UIImage imageNamed:mapimageArray[foodpathnumber]];
-    UIView *foodDetailTextView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,305)];
-    UIView *foodDetailMapView = [[UIView alloc] initWithFrame:CGRectMake(320,0,320,305)];
+    
+    UIView *foodDetailTextView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,318)];
+    UIView *foodDetailMapView = [[UIView alloc] initWithFrame:CGRectMake(320,0,320,318)];
+    
     [foodDetailTextView addSubview:mapview];
-    //[foodDetailTextView addSubview:shopname];
-    //[foodDetailTextView addSubview:foodname];
     [foodDetailTextView addSubview:detail];
     foodDetailTextView.backgroundColor = [UIColor redColor];
-   // foodDetailMapView.backgroundColor=[UIColor blueColor];
     [foodDetailScrollView addSubview:foodDetailTextView];
     [foodDetailScrollView addSubview:foodDetailMapView];
     foodDetailScrollView.scrollEnabled = YES;
@@ -174,8 +172,6 @@
     CGFloat page=round(scrollView.contentOffset.x/scrollView.frame.size.width);
     
     if ((int)page==0) {
-        [detailbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
-        [mapbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
         [UIView animateWithDuration:0.3f
                               delay:0
                             options:UIViewAnimationOptionCurveEaseInOut
@@ -186,8 +182,6 @@
                              // アニメーシ~ョンが終わった後実行する処理
                          }];
     }else if((int)page==1){
-        [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
-        [mapbutton setTitleColor:[UIColor redColor]forState:UIControlStateNormal];
         [UIView animateWithDuration:0.3f
                               delay:0
                             options:UIViewAnimationOptionCurveEaseInOut
@@ -198,8 +192,6 @@
                              // アニメーシ~ョンが終わった後実行する処理
                          }];
     }
-   //NSLog(@"%f",page);
-
 }
 -(IBAction)detail{
     NSLog(@"push detail");
@@ -241,7 +233,7 @@
     SLComposeViewController *twvc = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     
     [twvc setInitialText:[NSString stringWithFormat:@"%@にいってきました", shopnamelabel.text]];
-    [twvc addURL:[NSURL URLWithString:@"URL"]];
+   // [twvc addURL:[NSURL URLWithString:@"URL"]];
     [self presentViewController:twvc animated:YES completion:nil];
     
     [twvc setCompletionHandler:^(SLComposeViewControllerResult result){

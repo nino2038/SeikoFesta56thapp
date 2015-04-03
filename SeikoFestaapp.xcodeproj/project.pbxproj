@@ -134,11 +134,12 @@
 		9DE03A301ACE197600795826 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A2B1ACE197600795826 /* food.png */; };
 		9DE03A311ACE197600795826 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A2C1ACE197600795826 /* other.png */; };
 		9DE03A371ACE1A6800795826 /* Seiko logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A361ACE1A6800795826 /* Seiko logo.png */; };
-		9DE03A3A1ACE1EFA00795826 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A381ACE1EFA00795826 /* map.png */; };
-		9DE03A3B1ACE1EFA00795826 /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A391ACE1EFA00795826 /* details.png */; };
-		9DE03A3E1ACE245A00795826 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A3C1ACE245A00795826 /* facebook.png */; };
-		9DE03A3F1ACE245A00795826 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A3D1ACE245A00795826 /* tweet.png */; };
 		9DE03A431ACE3CC800795826 /* 地図テスト.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A421ACE3CC800795826 /* 地図テスト.png */; };
+		9DE03A491ACE583B00795826 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A451ACE583B00795826 /* facebook.png */; };
+		9DE03A4A1ACE583B00795826 /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A461ACE583B00795826 /* details.png */; };
+		9DE03A4B1ACE583B00795826 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A471ACE583B00795826 /* map.png */; };
+		9DE03A4D1ACE68B300795826 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A4C1ACE68B300795826 /* tweet.png */; };
+		9DE03A4F1ACE706100795826 /* 聖光祭アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A4E1ACE706100795826 /* 聖光祭アイコン.png */; };
 		9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF262F31AC1AA6000549830 /* ポスター素材.png */; };
 /* End PBXBuildFile section */
 
@@ -302,11 +303,12 @@
 		9DE03A2B1ACE197600795826 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
 		9DE03A2C1ACE197600795826 /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
 		9DE03A361ACE1A6800795826 /* Seiko logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seiko logo.png"; sourceTree = "<group>"; };
-		9DE03A381ACE1EFA00795826 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		9DE03A391ACE1EFA00795826 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
-		9DE03A3C1ACE245A00795826 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
-		9DE03A3D1ACE245A00795826 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
 		9DE03A421ACE3CC800795826 /* 地図テスト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地図テスト.png"; sourceTree = "<group>"; };
+		9DE03A451ACE583B00795826 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		9DE03A461ACE583B00795826 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
+		9DE03A471ACE583B00795826 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		9DE03A4C1ACE68B300795826 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		9DE03A4E1ACE706100795826 /* 聖光祭アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聖光祭アイコン.png"; sourceTree = "<group>"; };
 		9DF262F31AC1AA6000549830 /* ポスター素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ポスター素材.png"; sourceTree = "<group>"; };
 		B6CE86FB1A4B047A88846287 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92F3E7F581A1A42F1A31F75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -491,13 +493,14 @@
 				9DE03A281ACE197600795826 /* access.png */,
 				9DE03A291ACE197600795826 /* Event.png */,
 				9DE03A2A1ACE197600795826 /* exhibition.png */,
+				9DE03A4C1ACE68B300795826 /* tweet.png */,
+				9DE03A4E1ACE706100795826 /* 聖光祭アイコン.png */,
 				9DE03A361ACE1A6800795826 /* Seiko logo.png */,
 				9DE03A2B1ACE197600795826 /* food.png */,
-				9DE03A381ACE1EFA00795826 /* map.png */,
-				9DE03A391ACE1EFA00795826 /* details.png */,
-				9DE03A3C1ACE245A00795826 /* facebook.png */,
-				9DE03A3D1ACE245A00795826 /* tweet.png */,
 				9DE03A2C1ACE197600795826 /* other.png */,
+				9DE03A451ACE583B00795826 /* facebook.png */,
+				9DE03A461ACE583B00795826 /* details.png */,
+				9DE03A471ACE583B00795826 /* map.png */,
 				9DE03A421ACE3CC800795826 /* 地図テスト.png */,
 				9DF262F31AC1AA6000549830 /* ポスター素材.png */,
 				9D21CE831AC198EA0058E818 /* アプリ素材.png */,
@@ -678,6 +681,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = SatoshiNinomiya;
 				TargetAttributes = {
+					9D558570198383220018B460 = {
+						DevelopmentTeam = QFN6STRYYS;
+					};
 					9D558591198383220018B460 = {
 						TestTargetID = 9D558570198383220018B460;
 					};
@@ -708,7 +714,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D293F8F1AB19FA900E3EE29 /* アプリ趣味研素材-34.png in Resources */,
-				9DE03A3E1ACE245A00795826 /* facebook.png in Resources */,
+				9DE03A491ACE583B00795826 /* facebook.png in Resources */,
 				9D293F8D1AB19FA900E3EE29 /* アプリ趣味研素材-32.png in Resources */,
 				9D293F881AB19FA900E3EE29 /* アプリ趣味研素材-27.png in Resources */,
 				9D293F821AB19FA900E3EE29 /* アプリ趣味研素材-21.png in Resources */,
@@ -724,7 +730,6 @@
 				9D293F7A1AB19FA900E3EE29 /* アプリ趣味研素材-13.png in Resources */,
 				9D58E17D1ABFB91600C094DF /* アプリ食品素材-02.png in Resources */,
 				9DB02C851AC53950007DBDC6 /* ボタン１.png in Resources */,
-				9DE03A3F1ACE245A00795826 /* tweet.png in Resources */,
 				9D293F711AB19FA900E3EE29 /* アプリ趣味研素材-04.png in Resources */,
 				9D293F781AB19FA900E3EE29 /* アプリ趣味研素材-11.png in Resources */,
 				9D293F941AB19FA900E3EE29 /* アプリ趣味研素材-39.png in Resources */,
@@ -736,7 +741,6 @@
 				9D293F851AB19FA900E3EE29 /* アプリ趣味研素材-24.png in Resources */,
 				9D293F731AB19FA900E3EE29 /* アプリ趣味研素材-06.png in Resources */,
 				9DB02CA31AC53998007DBDC6 /* 食品横長画像-09.png in Resources */,
-				9DE03A3A1ACE1EFA00795826 /* map.png in Resources */,
 				9D293F721AB19FA900E3EE29 /* アプリ趣味研素材-05.png in Resources */,
 				9D55858D198383220018B460 /* Images.xcassets in Resources */,
 				9D293F7B1AB19FA900E3EE29 /* アプリ趣味研素材-14.png in Resources */,
@@ -749,12 +753,13 @@
 				9DE03A301ACE197600795826 /* food.png in Resources */,
 				9D293F961AB19FA900E3EE29 /* アプリ趣味研素材-41.png in Resources */,
 				9D293F8A1AB19FA900E3EE29 /* アプリ趣味研素材-29.png in Resources */,
-				9DE03A3B1ACE1EFA00795826 /* details.png in Resources */,
 				9DB02CA01AC53998007DBDC6 /* 食品横長画像-06.png in Resources */,
+				9DE03A4D1ACE68B300795826 /* tweet.png in Resources */,
 				9D58E18A1ABFB91600C094DF /* アプリ食品素材-16.png in Resources */,
 				9D58E1801ABFB91600C094DF /* アプリ食品素材-05.png in Resources */,
 				9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */,
 				9DB02CA91AC53998007DBDC6 /* 食品横長画像-15.png in Resources */,
+				9DE03A4F1ACE706100795826 /* 聖光祭アイコン.png in Resources */,
 				9DE03A2F1ACE197600795826 /* exhibition.png in Resources */,
 				9DB02CA61AC53998007DBDC6 /* 食品横長画像-12.png in Resources */,
 				9D293F8B1AB19FA900E3EE29 /* アプリ趣味研素材-30.png in Resources */,
@@ -786,6 +791,7 @@
 				9D293F8E1AB19FA900E3EE29 /* アプリ趣味研素材-33.png in Resources */,
 				9D58E1811ABFB91600C094DF /* アプリ食品素材-06.png in Resources */,
 				9D293F871AB19FA900E3EE29 /* アプリ趣味研素材-26.png in Resources */,
+				9DE03A4B1ACE583B00795826 /* map.png in Resources */,
 				9DB02C9C1AC53998007DBDC6 /* 食品横長画像-02.png in Resources */,
 				9D293F6E1AB19FA900E3EE29 /* アプリ趣味研素材-01.png in Resources */,
 				9D58E1891ABFB91600C094DF /* アプリ食品素材-15.png in Resources */,
@@ -805,6 +811,7 @@
 				9D293F951AB19FA900E3EE29 /* アプリ趣味研素材-40.png in Resources */,
 				9D58E1871ABFB91600C094DF /* アプリ食品素材-01.png in Resources */,
 				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
+				9DE03A4A1ACE583B00795826 /* details.png in Resources */,
 				9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */,
 				9DB02CA71AC53998007DBDC6 /* 食品横長画像-13.png in Resources */,
 				9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */,

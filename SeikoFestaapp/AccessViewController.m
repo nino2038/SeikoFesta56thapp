@@ -16,7 +16,6 @@
 {
     [UINavigationBar appearance].barTintColor = [UIColor greenColor];
     [super viewDidLoad];
-    
     // ピンチジェスチャーを登録する
     UIPinchGestureRecognizer *pinchGesture = [[UIPinchGestureRecognizer alloc]
                                               initWithTarget:self action:@selector(pinchAction:)];
