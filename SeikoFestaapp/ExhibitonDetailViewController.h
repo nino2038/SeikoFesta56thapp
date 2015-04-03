@@ -8,13 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExhibitonDetailViewController : UIViewController{
+@interface ExhibitonDetailViewController : UIViewController<UIScrollViewDelegate>{
     IBOutlet UIImageView *imageView;
-    IBOutlet UILabel *shopname;
-    IBOutlet UILabel *detail;
+    IBOutlet UILabel *shopnamelabel;
+    IBOutlet UIButton *detailbutton;
+    IBOutlet UIButton *mapbutton;
+    IBOutlet UIView *underlineView;
     NSArray *shopimageArray;
     NSArray *shoptextArray;
     NSArray *shopdetailtextArray;
+    NSArray *mapimageArray;
+    __weak IBOutlet UIScrollView *exhibitionDetailScrollView;
 }
+-(IBAction)tweet;
+-(IBAction)facebook;
+-(IBAction)detail;
+-(IBAction)map;
 
 @end

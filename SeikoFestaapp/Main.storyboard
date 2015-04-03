@@ -148,10 +148,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HhX-lH-4ku">
-                                <rect key="frame" x="3" y="295" width="160" height="60"/>
+                                <rect key="frame" x="190" y="227" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" backgroundImage="ボタン２.png">
+                                <state key="normal" backgroundImage="exhibition.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -159,10 +159,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GJC-oN-P6s">
-                                <rect key="frame" x="3" y="363" width="160" height="60"/>
+                                <rect key="frame" x="33" y="335" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" backgroundImage="ボタン３.png">
+                                <state key="normal" backgroundImage="Event.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -170,10 +170,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GJ5-b4-T2c">
-                                <rect key="frame" x="3" y="431" width="160" height="60"/>
+                                <rect key="frame" x="190" y="335" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" backgroundImage="ボタン４.png">
+                                <state key="normal" backgroundImage="access.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -181,20 +181,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d4H-2r-KYL">
-                                <rect key="frame" x="3" y="227" width="160" height="60"/>
+                                <rect key="frame" x="33" y="227" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="insetFor6xAndEarlier" minX="-20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="25"/>
-                                <state key="normal" backgroundImage="ボタン１.png"/>
+                                <state key="normal" backgroundImage="food.png"/>
                                 <connections>
                                     <segue destination="aC5-GX-DwG" kind="modal" id="07X-BQ-rrm"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seiko logo.png" id="SL8-wd-LxO">
+                                <rect key="frame" x="160" y="463" width="160" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dwb-gz-ObE">
-                                <rect key="frame" x="3" y="499" width="160" height="60"/>
+                                <rect key="frame" x="33" y="443" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" backgroundImage="ボタン５.png">
+                                <state key="normal" backgroundImage="other.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -423,32 +427,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="eoP-Rs-S1d">
-                                <rect key="frame" x="0.0" y="64" width="320" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="nOX-qI-cUx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shopname" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m5d-lA-IoK">
-                                <rect key="frame" x="16" y="392" width="146" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shopname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kSG-Ae-Erl">
+                                <rect key="frame" x="16" y="121" width="288" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="detail" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dpR-VP-8ta">
-                                <rect key="frame" x="16" y="421" width="288" height="127"/>
+                            <view contentMode="scaleToFill" id="38f-J1-qHI">
+                                <rect key="frame" x="0.0" y="201" width="160" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="0.78895970390000003" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="I2g-SM-fl9">
+                                <rect key="frame" x="0.0" y="206" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2cv-mC-hna">
+                                <rect key="frame" x="0.0" y="173" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="details.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="detail" destination="KZ7-4w-mQO" eventType="touchUpInside" id="pGv-91-oUX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8rQ-La-Ppn">
+                                <rect key="frame" x="160" y="173" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="map.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="map" destination="KZ7-4w-mQO" eventType="touchUpInside" id="nxz-BU-s2U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7J4-rZ-kPw">
+                                <rect key="frame" x="0.0" y="533" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="tweet.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tweet" destination="KZ7-4w-mQO" eventType="touchUpInside" id="QUV-tG-VBS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HNg-zl-9if">
+                                <rect key="frame" x="160" y="533" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="facebook" destination="KZ7-4w-mQO" eventType="touchUpInside" id="O35-9d-44T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="eMO-jy-4Xn"/>
                     <connections>
-                        <outlet property="detail" destination="dpR-VP-8ta" id="Jzj-le-6x0"/>
-                        <outlet property="imageView" destination="eoP-Rs-S1d" id="VbV-pS-PfE"/>
-                        <outlet property="shopname" destination="m5d-lA-IoK" id="t7o-RQ-tvA"/>
+                        <outlet property="detailbutton" destination="2cv-mC-hna" id="EQ7-Sh-p9J"/>
+                        <outlet property="exhibitionDetailScrollView" destination="I2g-SM-fl9" id="exa-9F-j1K"/>
+                        <outlet property="imageView" destination="nOX-qI-cUx" id="gl9-Ll-PYh"/>
+                        <outlet property="mapbutton" destination="8rQ-La-Ppn" id="q8X-JT-3wX"/>
+                        <outlet property="shopnamelabel" destination="kSG-Ae-Erl" id="cmd-u6-W7N"/>
+                        <outlet property="underlineView" destination="38f-J1-qHI" id="BZC-eY-xw3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BaI-iH-WyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -491,9 +540,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7pv-Rq-DZe">
-                                        <rect key="frame" x="207" y="5" width="64" height="30"/>
+                                        <rect key="frame" x="160" y="5" width="160" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="facebook">
+                                        <state key="normal" backgroundImage="facebook.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -501,9 +550,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NOd-2z-fYH">
-                                        <rect key="frame" x="62" y="5" width="40" height="30"/>
+                                        <rect key="frame" x="0.0" y="5" width="160" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Tweet">
+                                        <state key="normal" backgroundImage="tweet.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -511,45 +560,16 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="Grq-Mt-ngj">
-                                <rect key="frame" x="0.0" y="204" width="320" height="324"/>
+                                <rect key="frame" x="0.0" y="201" width="320" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IBr-DO-IYu">
-                                <rect key="frame" x="67" y="173" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.78895970390000003" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="詳細">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="detail" destination="YJg-Ma-HgY" eventType="touchUpInside" id="4Q2-48-9CM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cdI-Bj-rCX">
-                                <rect key="frame" x="224" y="173" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.78895970390000003" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Map">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="map" destination="YJg-Ma-HgY" eventType="touchUpInside" id="xo5-Nd-Mtj"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="foodname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TBy-tv-ncU">
-                                <rect key="frame" x="16" y="144" width="288" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" id="dHV-GO-7c0">
                                 <rect key="frame" x="0.0" y="201" width="160" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.78895970390000003" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="shopname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ycI-5Q-GoY">
                                 <rect key="frame" x="16" y="121" width="288" height="21"/>
@@ -558,16 +578,43 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="foodname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TBy-tv-ncU">
+                                <rect key="frame" x="16" y="144" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lgb-eE-pUi">
+                                <rect key="frame" x="0.0" y="173" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="details.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="detail" destination="YJg-Ma-HgY" eventType="touchUpInside" id="IM8-2u-YH5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rlI-WL-elI">
+                                <rect key="frame" x="160" y="173" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="map.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="map" destination="YJg-Ma-HgY" eventType="touchUpInside" id="eNr-Vk-nst"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="eAj-mj-07e"/>
                     <connections>
-                        <outlet property="detailbutton" destination="IBr-DO-IYu" id="zOD-ZF-ccn"/>
+                        <outlet property="detailbutton" destination="Lgb-eE-pUi" id="3jM-wK-nv1"/>
                         <outlet property="foodDetailScrollView" destination="Grq-Mt-ngj" id="yTw-sb-j8V"/>
                         <outlet property="foodnamelabel" destination="TBy-tv-ncU" id="Fje-24-Hbv"/>
                         <outlet property="imageView" destination="fkl-dx-4Dr" id="qc8-1g-NXa"/>
-                        <outlet property="mapbutton" destination="cdI-Bj-rCX" id="Ftw-I8-qfl"/>
+                        <outlet property="mapbutton" destination="rlI-WL-elI" id="BeI-pM-R7h"/>
                         <outlet property="shopnamelabel" destination="ycI-5Q-GoY" id="dre-04-DUx"/>
                         <outlet property="underlineView" destination="dHV-GO-7c0" id="aGI-Dz-ipa"/>
                     </connections>
@@ -650,13 +697,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Event.png" width="100" height="100"/>
+        <image name="Seiko logo.png" width="1350" height="650"/>
+        <image name="access.png" width="100" height="100"/>
+        <image name="details.png" width="160" height="30"/>
+        <image name="exhibition.png" width="100" height="100"/>
+        <image name="facebook.png" width="160" height="30"/>
+        <image name="food.png" width="100" height="100"/>
+        <image name="map.png" width="160" height="30"/>
+        <image name="other.png" width="100" height="100"/>
+        <image name="tweet.png" width="160" height="30"/>
         <image name="アプリ地図素材.png" width="2560" height="2560"/>
         <image name="アプリ素材.png" width="320" height="199"/>
-        <image name="ボタン１.png" width="738" height="321"/>
-        <image name="ボタン２.png" width="738" height="321"/>
-        <image name="ボタン３.png" width="738" height="321"/>
-        <image name="ボタン４.png" width="738" height="321"/>
-        <image name="ボタン５.png" width="738" height="321"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

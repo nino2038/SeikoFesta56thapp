@@ -58,24 +58,30 @@
     if (!_isMoving && sender.state == UIGestureRecognizerStateBegan) {
         _isMoving = YES;
         _currentTransform = accessView.transform;
+        if(_scale<=1.0f){
+            _scale=1.0f;
+        }
+        
     }
     // ジェスチャ終了時
     else if (_isMoving && sender.state == UIGestureRecognizerStateEnded) {
         _isMoving = NO;
         _scale = 1.0f;
+        if(_scale<=1.0f){
+            _scale=1.0f;
+        }
+        
     }
-    
     // 拡大率取得
     _scale = sender.scale;
     
     // アフィン変換を適用
     CGAffineTransform transform = CGAffineTransformConcat(_currentTransform, CGAffineTransformMakeScale(_scale, _scale));
-//    if(accessView.transform.x<320){
-//        accessView.transform=CGTransformIsIdentity;
-//        
-//    }
     accessView.transform = transform;
-    
+    //    if(accessView.transform.x<320){
+    //        accessView.transform=CGTransformIsIdentity;
+    //
+    //    }
     
 //    
 //    CGAffineTransform currentTransForm;

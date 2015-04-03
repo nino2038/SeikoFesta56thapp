@@ -1,3659 +1,1098 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>22E37E11E026BB689E28E32A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>39C8485A5EA373EAA3B20EB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8766ACCCA35285D0051F3FAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6CE86FB1A4B047A88846287</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>99C9F9E5629AC4D5A4105482</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>39C8485A5EA373EAA3B20EB1</string>
-				<string>E92F3E7F581A1A42F1A31F75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D17FBAD1A81E12F004C0CA0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>exhibitonViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D17FBAE1A81E12F004C0CA0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>exhibitonViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D17FBAF1A81E12F004C0CA0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D17FBAE1A81E12F004C0CA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D17FBB01A83A081004C0CA0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>exhibitionCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D17FBB11A83A081004C0CA0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>exhibitionCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D17FBB21A83A081004C0CA0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D17FBB11A83A081004C0CA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DB3951A5D445200126078</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#32854;&#20809;&#31085;&#12288;&#12525;&#12467;&#12441;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DB3961A5D445200126078</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DB3951A5D445200126078</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0C31AC3DC550008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#22320;&#22259;&#32032;&#26448;.png</string>
-			<key>path</key>
-			<string>../../../&#12450;&#12501;&#12442;&#12522;&#22320;&#22259;&#32032;&#26448;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0C41AC3DC550008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0C31AC3DC550008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0C51AC3EDB40008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Social.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Social.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>9D1DC0C61AC3EDB40008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0C51AC3EDB40008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0C71AC429FA0008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12507;&#12441;&#12479;&#12531;&#65299;.png</string>
-			<key>path</key>
-			<string>../../../&#12507;&#12441;&#12479;&#12531;&#65299;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0C81AC429FA0008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12507;&#12441;&#12479;&#12531;&#65301;.png</string>
-			<key>path</key>
-			<string>../../../&#12507;&#12441;&#12479;&#12531;&#65301;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0C91AC429FA0008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12507;&#12441;&#12479;&#12531;&#65300;.png</string>
-			<key>path</key>
-			<string>../../../&#12507;&#12441;&#12479;&#12531;&#65300;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0CA1AC429FA0008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12507;&#12441;&#12479;&#12531;&#65298;.png</string>
-			<key>path</key>
-			<string>../../../&#12507;&#12441;&#12479;&#12531;&#65298;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0CB1AC429FA0008C337</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#12507;&#12441;&#12479;&#12531;&#65297;.png</string>
-			<key>path</key>
-			<string>../../../&#12507;&#12441;&#12479;&#12531;&#65297;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D1DC0CC1AC429FA0008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0C71AC429FA0008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0CD1AC429FA0008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0C81AC429FA0008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0CE1AC429FA0008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0C91AC429FA0008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0CF1AC429FA0008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0CA1AC429FA0008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D1DC0D01AC429FA0008C337</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D1DC0CB1AC429FA0008C337</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D21CE6E1AC140140058E818</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ExplainationViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE6F1AC140140058E818</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ExplainationViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE701AC140140058E818</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D21CE6F1AC140140058E818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D21CE711AC140550058E818</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MovieViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE721AC140550058E818</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MovieViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE731AC140550058E818</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D21CE721AC140550058E818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D21CE741AC1470E0058E818</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D569E831A9C720C0060C361</string>
-				<string>9D569E841A9C720C0060C361</string>
-				<string>9D569E861A9C73760060C361</string>
-				<string>9D569E871A9C73760060C361</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12479;&#12452;&#12512;&#12486;&#12540;&#12502;&#12523;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE751AC1476A0058E818</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D58E1901AC1313000C094DF</string>
-				<string>9D58E1911AC1313000C094DF</string>
-				<string>9D58E18C1AC0E33C00C094DF</string>
-				<string>9D58E18D1AC0E33C00C094DF</string>
-				<string>9D21CE6E1AC140140058E818</string>
-				<string>9D21CE6F1AC140140058E818</string>
-				<string>9D21CE711AC140550058E818</string>
-				<string>9D21CE721AC140550058E818</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12381;&#12398;&#20182;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE781AC1481D0058E818</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D5DFC701AA5C34200AE2E49</string>
-				<string>9D5DFC711AA5C34200AE2E49</string>
-				<string>9D5DFC721AA5C34200AE2E49</string>
-				<string>9D5DFC731AA5C34200AE2E49</string>
-				<string>9D52EB311A9349BE0099A416</string>
-				<string>9D52EB321A9349BE0099A416</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12509;&#12473;&#12479;&#12540;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE831AC198EA0058E818</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#32032;&#26448;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D21CE841AC198EA0058E818</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D21CE831AC198EA0058E818</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F431AB19F8300E3EE29</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D293F441AB19FA900E3EE29</string>
-				<string>9D293F451AB19FA900E3EE29</string>
-				<string>9D293F461AB19FA900E3EE29</string>
-				<string>9D293F471AB19FA900E3EE29</string>
-				<string>9D293F481AB19FA900E3EE29</string>
-				<string>9D293F491AB19FA900E3EE29</string>
-				<string>9D293F4A1AB19FA900E3EE29</string>
-				<string>9D293F4B1AB19FA900E3EE29</string>
-				<string>9D293F4C1AB19FA900E3EE29</string>
-				<string>9D293F4D1AB19FA900E3EE29</string>
-				<string>9D293F4E1AB19FA900E3EE29</string>
-				<string>9D293F4F1AB19FA900E3EE29</string>
-				<string>9D293F501AB19FA900E3EE29</string>
-				<string>9D293F511AB19FA900E3EE29</string>
-				<string>9D293F521AB19FA900E3EE29</string>
-				<string>9D293F531AB19FA900E3EE29</string>
-				<string>9D293F541AB19FA900E3EE29</string>
-				<string>9D293F551AB19FA900E3EE29</string>
-				<string>9D293F561AB19FA900E3EE29</string>
-				<string>9D293F571AB19FA900E3EE29</string>
-				<string>9D293F581AB19FA900E3EE29</string>
-				<string>9D293F591AB19FA900E3EE29</string>
-				<string>9D293F5B1AB19FA900E3EE29</string>
-				<string>9D293F5C1AB19FA900E3EE29</string>
-				<string>9D293F5D1AB19FA900E3EE29</string>
-				<string>9D293F5E1AB19FA900E3EE29</string>
-				<string>9D293F5F1AB19FA900E3EE29</string>
-				<string>9D293F601AB19FA900E3EE29</string>
-				<string>9D293F611AB19FA900E3EE29</string>
-				<string>9D293F621AB19FA900E3EE29</string>
-				<string>9D293F631AB19FA900E3EE29</string>
-				<string>9D293F641AB19FA900E3EE29</string>
-				<string>9D293F651AB19FA900E3EE29</string>
-				<string>9D293F661AB19FA900E3EE29</string>
-				<string>9D293F671AB19FA900E3EE29</string>
-				<string>9D293F681AB19FA900E3EE29</string>
-				<string>9D293F691AB19FA900E3EE29</string>
-				<string>9D293F6A1AB19FA900E3EE29</string>
-				<string>9D293F6B1AB19FA900E3EE29</string>
-				<string>9D293F6C1AB19FA900E3EE29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12450;&#12503;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F441AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-01.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F451AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-02.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F461AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-03.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F471AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-04.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F481AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-05.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F491AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-06.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4A1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-07.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4B1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-08.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4C1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-09.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4D1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-10.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4E1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-11.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F4F1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-12.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F501AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-13.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F511AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-14.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F521AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-15.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F531AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-16.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F541AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-17.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F551AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-18.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F561AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-19.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F571AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-20.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F581AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-21.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F591AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-22.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F5B1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-24.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F5C1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-25.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F5D1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-26.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F5E1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-27.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F5F1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-28.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F601AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-29.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F611AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-30.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F621AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-31.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F631AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-32.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F641AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-33.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F651AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-34.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F661AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-35.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F671AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-36.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F681AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-37.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F691AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-38.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F6A1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-39.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F6B1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-40.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F6C1AB19FA900E3EE29</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#36259;&#21619;&#30740;&#32032;&#26448;-41.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D293F6E1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F441AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F6F1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F451AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F701AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F461AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F711AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F471AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F721AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F481AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F731AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F491AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F741AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4A1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F751AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4B1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F761AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4C1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F771AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4D1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F781AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4E1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F791AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F4F1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7A1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F501AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7B1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F511AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7C1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F521AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7D1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F531AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7E1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F541AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F7F1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F551AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F801AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F561AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F811AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F571AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F821AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F581AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F831AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F591AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F851AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F5B1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F861AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F5C1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F871AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F5D1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F881AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F5E1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F891AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F5F1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8A1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F601AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8B1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F611AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8C1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F621AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8D1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F631AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8E1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F641AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F8F1AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F651AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F901AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F661AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F911AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F671AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F921AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F681AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F931AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F691AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F941AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F6A1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F951AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F6B1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D293F961AB19FA900E3EE29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D293F6C1AB19FA900E3EE29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D3B06081A89D51A00E30A9F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>foodViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D3B06091A89D51A00E30A9F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>foodViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D3B060A1A89D51A00E30A9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D3B06091A89D51A00E30A9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D3B060B1A89DD2900E30A9F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>path</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D3B060C1A89DD2900E30A9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D3B060B1A89DD2900E30A9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D3B060D1A8A11C600E30A9F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>fooddetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D3B060E1A8A11C600E30A9F</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>fooddetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D3B060F1A8A11C600E30A9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D3B060E1A8A11C600E30A9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D441F9F1AC2E10000401CF6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AccessViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D441FA01AC2E10000401CF6</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AccessViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D441FA11AC2E10000401CF6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D441FA01AC2E10000401CF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D441FA21AC2E10700401CF6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D441F9F1AC2E10000401CF6</string>
-				<string>9D441FA01AC2E10000401CF6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12450;&#12463;&#12475;&#12473;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D4873871A8F551F0038F8EA</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ExhibitonDetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D4873881A8F551F0038F8EA</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ExhibitonDetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D4873891A8F551F0038F8EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D4873881A8F551F0038F8EA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D52EB311A9349BE0099A416</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>PosterCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D52EB321A9349BE0099A416</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PosterCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D52EB331A9349BE0099A416</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D52EB321A9349BE0099A416</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5434DB1A80DA2200FE3C94</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>foodCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5434DC1A80DA2200FE3C94</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>foodCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5434DD1A80DA2200FE3C94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D5434DC1A80DA2200FE3C94</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558568198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55857A198383220018B460</string>
-				<string>9D558599198383220018B460</string>
-				<string>9D558573198383220018B460</string>
-				<string>9D558572198383220018B460</string>
-				<string>99C9F9E5629AC4D5A4105482</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558569198383220018B460</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>SatoshiNinomiya</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>9D558591198383220018B460</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>9D558570198383220018B460</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>9D55856C198383220018B460</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9D558568198383220018B460</string>
-			<key>productRefGroup</key>
-			<string>9D558572198383220018B460</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9D558570198383220018B460</string>
-				<string>9D558591198383220018B460</string>
-			</array>
-		</dict>
-		<key>9D55856C198383220018B460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9D5585A1198383220018B460</string>
-				<string>9D5585A2198383220018B460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D55856D198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D5DFC741AA5C34200AE2E49</string>
-				<string>9D52EB331A9349BE0099A416</string>
-				<string>9D55858B198383220018B460</string>
-				<string>9D569E851A9C720C0060C361</string>
-				<string>9D558585198383220018B460</string>
-				<string>9D4873891A8F551F0038F8EA</string>
-				<string>9D17FBB21A83A081004C0CA0</string>
-				<string>9D58E18E1AC0E33C00C094DF</string>
-				<string>9D21CE701AC140140058E818</string>
-				<string>9D558581198383220018B460</string>
-				<string>9D441FA11AC2E10000401CF6</string>
-				<string>9D58E1921AC1313000C094DF</string>
-				<string>9D569E881A9C73760060C361</string>
-				<string>9D5434DD1A80DA2200FE3C94</string>
-				<string>9D5DFC751AA5C34200AE2E49</string>
-				<string>9D62D6911AB9140C00E8259C</string>
-				<string>9D3B060A1A89D51A00E30A9F</string>
-				<string>9D17FBAF1A81E12F004C0CA0</string>
-				<string>9D3B060F1A8A11C600E30A9F</string>
-				<string>9D21CE731AC140550058E818</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D55856E198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D1DC0C61AC3EDB40008C337</string>
-				<string>9D558577198383220018B460</string>
-				<string>9D558579198383220018B460</string>
-				<string>9D558575198383220018B460</string>
-				<string>8766ACCCA35285D0051F3FAE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D55856F198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D293F8F1AB19FA900E3EE29</string>
-				<string>9D293F8D1AB19FA900E3EE29</string>
-				<string>9D293F881AB19FA900E3EE29</string>
-				<string>9D293F821AB19FA900E3EE29</string>
-				<string>9D293F7E1AB19FA900E3EE29</string>
-				<string>9D1DC0CC1AC429FA0008C337</string>
-				<string>9D293F921AB19FA900E3EE29</string>
-				<string>9D58E1861ABFB91600C094DF</string>
-				<string>9D293F891AB19FA900E3EE29</string>
-				<string>9D58E18B1ABFB91600C094DF</string>
-				<string>9DF263311AC2675300549830</string>
-				<string>9D293F791AB19FA900E3EE29</string>
-				<string>9DF263341AC2675300549830</string>
-				<string>9D293F7A1AB19FA900E3EE29</string>
-				<string>9D58E17D1ABFB91600C094DF</string>
-				<string>9DF2632A1AC2675300549830</string>
-				<string>9DF263321AC2675300549830</string>
-				<string>9D293F711AB19FA900E3EE29</string>
-				<string>9D293F781AB19FA900E3EE29</string>
-				<string>9DF263351AC2675300549830</string>
-				<string>9D293F941AB19FA900E3EE29</string>
-				<string>9D879C951A77A2DC009F04F5</string>
-				<string>9DF263361AC2675300549830</string>
-				<string>9D293F7C1AB19FA900E3EE29</string>
-				<string>9DB1AA7E1AB822ED00D389F8</string>
-				<string>9D293F851AB19FA900E3EE29</string>
-				<string>9D293F731AB19FA900E3EE29</string>
-				<string>9D293F721AB19FA900E3EE29</string>
-				<string>9D55858D198383220018B460</string>
-				<string>9D293F7B1AB19FA900E3EE29</string>
-				<string>9DF263391AC2675300549830</string>
-				<string>9D58E17B1ABFB91600C094DF</string>
-				<string>9D58E1821ABFB91600C094DF</string>
-				<string>9D293F801AB19FA900E3EE29</string>
-				<string>9D1DC0CE1AC429FA0008C337</string>
-				<string>9DF2632C1AC2675300549830</string>
-				<string>9D293F761AB19FA900E3EE29</string>
-				<string>9D293F961AB19FA900E3EE29</string>
-				<string>9D293F8A1AB19FA900E3EE29</string>
-				<string>9D58E18A1ABFB91600C094DF</string>
-				<string>9D58E1801ABFB91600C094DF</string>
-				<string>9D3B060C1A89DD2900E30A9F</string>
-				<string>9D293F8B1AB19FA900E3EE29</string>
-				<string>9D58E17E1ABFB91600C094DF</string>
-				<string>9D293F8C1AB19FA900E3EE29</string>
-				<string>9D293F7F1AB19FA900E3EE29</string>
-				<string>9DF263371AC2675300549830</string>
-				<string>9D58E17C1ABFB91600C094DF</string>
-				<string>9D293F931AB19FA900E3EE29</string>
-				<string>9D293F771AB19FA900E3EE29</string>
-				<string>9D293F751AB19FA900E3EE29</string>
-				<string>9DF263381AC2675300549830</string>
-				<string>9DF263331AC2675300549830</string>
-				<string>9D58E1881ABFB91600C094DF</string>
-				<string>9D293F861AB19FA900E3EE29</string>
-				<string>9D293F831AB19FA900E3EE29</string>
-				<string>9D55857F198383220018B460</string>
-				<string>9DF2632E1AC2675300549830</string>
-				<string>9D1DC0D01AC429FA0008C337</string>
-				<string>9D21CE841AC198EA0058E818</string>
-				<string>9D1DC0C41AC3DC550008C337</string>
-				<string>9D293F911AB19FA900E3EE29</string>
-				<string>9DF2632D1AC2675300549830</string>
-				<string>9D293F741AB19FA900E3EE29</string>
-				<string>9D58E17F1ABFB91600C094DF</string>
-				<string>9D1DC0CD1AC429FA0008C337</string>
-				<string>9D293F701AB19FA900E3EE29</string>
-				<string>9D58E1841ABFB91600C094DF</string>
-				<string>9D293F8E1AB19FA900E3EE29</string>
-				<string>9DF2633B1AC267EA00549830</string>
-				<string>9D58E1811ABFB91600C094DF</string>
-				<string>9D293F871AB19FA900E3EE29</string>
-				<string>9D293F6E1AB19FA900E3EE29</string>
-				<string>9D58E1891ABFB91600C094DF</string>
-				<string>9D58E1851ABFB91600C094DF</string>
-				<string>9D293F7D1AB19FA900E3EE29</string>
-				<string>9D293F901AB19FA900E3EE29</string>
-				<string>9DF2632B1AC2675300549830</string>
-				<string>9D569E8C1A9C74530060C361</string>
-				<string>9D293F811AB19FA900E3EE29</string>
-				<string>9DF263301AC2675300549830</string>
-				<string>9D569E8D1A9C74530060C361</string>
-				<string>9D293F6F1AB19FA900E3EE29</string>
-				<string>9DF2632F1AC2675300549830</string>
-				<string>9D293F951AB19FA900E3EE29</string>
-				<string>9D58E1871ABFB91600C094DF</string>
-				<string>9D1DB3961A5D445200126078</string>
-				<string>9D1DC0CF1AC429FA0008C337</string>
-				<string>9D569E8E1A9C74530060C361</string>
-				<string>9DF262F41AC1AA6000549830</string>
-				<string>9D58E1831ABFB91600C094DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D558570198383220018B460</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9D5585A3198383220018B460</string>
-			<key>buildPhases</key>
-			<array>
-				<string>22E37E11E026BB689E28E32A</string>
-				<string>9D55856D198383220018B460</string>
-				<string>9D55856E198383220018B460</string>
-				<string>9D55856F198383220018B460</string>
-				<string>EF9874D499F8EB73FBC22C07</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SeikoFestaapp</string>
-			<key>productName</key>
-			<string>SeikoFestaapp</string>
-			<key>productReference</key>
-			<string>9D558571198383220018B460</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>9D558571198383220018B460</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SeikoFestaapp.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9D558572198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D558571198383220018B460</string>
-				<string>9D558592198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558573198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D1DC0C51AC3EDB40008C337</string>
-				<string>9D558574198383220018B460</string>
-				<string>9D558576198383220018B460</string>
-				<string>9D558578198383220018B460</string>
-				<string>9D558593198383220018B460</string>
-				<string>B6CE86FB1A4B047A88846287</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558574198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>9D558575198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558574198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558576198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>9D558577198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558576198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558578198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>9D558579198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558578198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D55857A198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D21CE781AC1481D0058E818</string>
-				<string>9D21CE751AC1476A0058E818</string>
-				<string>9D21CE741AC1470E0058E818</string>
-				<string>9D62D68D1AB8FBB200E8259C</string>
-				<string>9D62D68C1AB8FB8600E8259C</string>
-				<string>9D441FA21AC2E10700401CF6</string>
-				<string>9D62D68E1AB9140C00E8259C</string>
-				<string>9D58E1691ABFB8D900C094DF</string>
-				<string>9D293F431AB19F8300E3EE29</string>
-				<string>9D879C941A77A2DC009F04F5</string>
-				<string>9DF262F31AC1AA6000549830</string>
-				<string>9D21CE831AC198EA0058E818</string>
-				<string>9D1DC0C71AC429FA0008C337</string>
-				<string>9D1DC0C81AC429FA0008C337</string>
-				<string>9D1DC0C91AC429FA0008C337</string>
-				<string>9D1DC0CA1AC429FA0008C337</string>
-				<string>9D1DC0CB1AC429FA0008C337</string>
-				<string>9DB1AA7D1AB822ED00D389F8</string>
-				<string>9D1DB3951A5D445200126078</string>
-				<string>9D569E891A9C74530060C361</string>
-				<string>9D569E8A1A9C74530060C361</string>
-				<string>9D569E8B1A9C74530060C361</string>
-				<string>9D1DC0C31AC3DC550008C337</string>
-				<string>9D3B060B1A89DD2900E30A9F</string>
-				<string>9D558589198383220018B460</string>
-				<string>9D55858A198383220018B460</string>
-				<string>9D558583198383220018B460</string>
-				<string>9D558584198383220018B460</string>
-				<string>9D55858C198383220018B460</string>
-				<string>9D55857B198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SeikoFestaapp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55857B198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55857C198383220018B460</string>
-				<string>9D55857D198383220018B460</string>
-				<string>9D558580198383220018B460</string>
-				<string>9D558582198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55857C198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SeikoFestaapp-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55857D198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55857E198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55857E198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55857F198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D55857D198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558580198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558581198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558580198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558582198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SeikoFestaapp-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558583198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558584198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D558585198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558584198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558589198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55858A198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55858B198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D55858A198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D55858C198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55858D198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D55858C198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D55858E198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D5585A0198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D55858F198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D558594198383220018B460</string>
-				<string>9D558596198383220018B460</string>
-				<string>9D558595198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D558590198383220018B460</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9D55859E198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9D558591198383220018B460</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9D5585A6198383220018B460</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9D55858E198383220018B460</string>
-				<string>9D55858F198383220018B460</string>
-				<string>9D558590198383220018B460</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9D558598198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SeikoFestaappTests</string>
-			<key>productName</key>
-			<string>SeikoFestaappTests</string>
-			<key>productReference</key>
-			<string>9D558592198383220018B460</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>9D558592198383220018B460</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SeikoFestaappTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9D558593198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>9D558594198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558593198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558595198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558574198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558596198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D558578198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D558597198383220018B460</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>9D558569198383220018B460</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9D558570198383220018B460</string>
-			<key>remoteInfo</key>
-			<string>SeikoFestaapp</string>
-		</dict>
-		<key>9D558598198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9D558570198383220018B460</string>
-			<key>targetProxy</key>
-			<string>9D558597198383220018B460</string>
-		</dict>
-		<key>9D558599198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55859F198383220018B460</string>
-				<string>9D55859A198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SeikoFestaappTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55859A198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55859B198383220018B460</string>
-				<string>9D55859C198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55859B198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>SeikoFestaappTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55859C198383220018B460</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D55859D198383220018B460</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55859D198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D55859E198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D55859C198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D55859F198383220018B460</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SeikoFestaappTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5585A0198383220018B460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D55859F198383220018B460</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5585A1198383220018B460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9D5585A2198383220018B460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9D5585A3198383220018B460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9D5585A4198383220018B460</string>
-				<string>9D5585A5198383220018B460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D5585A4198383220018B460</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>39C8485A5EA373EAA3B20EB1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9D5585A5198383220018B460</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E92F3E7F581A1A42F1A31F75</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9D5585A6198383220018B460</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9D5585A7198383220018B460</string>
-				<string>9D5585A8198383220018B460</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D5585A7198383220018B460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SeikoFestaapp.app/SeikoFestaapp</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>SeikoFestaappTests/SeikoFestaappTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9D5585A8198383220018B460</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SeikoFestaapp.app/SeikoFestaapp</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>SeikoFestaapp/SeikoFestaapp-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SeikoFestaappTests/SeikoFestaappTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9D569E831A9C720C0060C361</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TimetableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E841A9C720C0060C361</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TimetableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E851A9C720C0060C361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D569E841A9C720C0060C361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D569E861A9C73760060C361</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TimetableDetailViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E871A9C73760060C361</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TimetableDetailViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E881A9C73760060C361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D569E871A9C73760060C361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D569E891A9C74530060C361</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.jpeg</string>
-			<key>path</key>
-			<string>concerts.jpg</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E8A1A9C74530060C361</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Timetable-Image.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E8B1A9C74530060C361</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Timetable-4-inch.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D569E8C1A9C74530060C361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D569E891A9C74530060C361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D569E8D1A9C74530060C361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D569E8A1A9C74530060C361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D569E8E1A9C74530060C361</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D569E8B1A9C74530060C361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1691ABFB8D900C094DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D58E16A1ABFB91600C094DF</string>
-				<string>9D58E16B1ABFB91600C094DF</string>
-				<string>9D58E16C1ABFB91600C094DF</string>
-				<string>9D58E16D1ABFB91600C094DF</string>
-				<string>9D58E16E1ABFB91600C094DF</string>
-				<string>9D58E16F1ABFB91600C094DF</string>
-				<string>9D58E1701ABFB91600C094DF</string>
-				<string>9D58E1711ABFB91600C094DF</string>
-				<string>9D58E1721ABFB91600C094DF</string>
-				<string>9D58E1731ABFB91600C094DF</string>
-				<string>9D58E1741ABFB91600C094DF</string>
-				<string>9D58E1751ABFB91600C094DF</string>
-				<string>9D58E1761ABFB91600C094DF</string>
-				<string>9D58E1771ABFB91600C094DF</string>
-				<string>9D58E1781ABFB91600C094DF</string>
-				<string>9D58E1791ABFB91600C094DF</string>
-				<string>9D58E17A1ABFB91600C094DF</string>
-				<string>9DF263191AC2675300549830</string>
-				<string>9DF2631A1AC2675300549830</string>
-				<string>9DF2631B1AC2675300549830</string>
-				<string>9DF2631C1AC2675300549830</string>
-				<string>9DF2631D1AC2675300549830</string>
-				<string>9DF2631E1AC2675300549830</string>
-				<string>9DF2633A1AC267EA00549830</string>
-				<string>9DF2631F1AC2675300549830</string>
-				<string>9DF263201AC2675300549830</string>
-				<string>9DF263211AC2675300549830</string>
-				<string>9DF263221AC2675300549830</string>
-				<string>9DF263231AC2675300549830</string>
-				<string>9DF263241AC2675300549830</string>
-				<string>9DF263251AC2675300549830</string>
-				<string>9DF263261AC2675300549830</string>
-				<string>9DF263271AC2675300549830</string>
-				<string>9DF263281AC2675300549830</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#12450;&#12503;&#12522;&#39135;&#21697;&#32032;&#26448;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16A1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-03.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16B1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-04.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16C1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-02.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16D1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-09.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16E1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-10.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E16F1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-05.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1701ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-06.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1711ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-08.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1721ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-12.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1731ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-11.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1741ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-07.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1751ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-13.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1761ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-01.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1771ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-14.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1781ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-15.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1791ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-16.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E17A1ABFB91600C094DF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#39135;&#21697;&#32032;&#26448;-17.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E17B1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16A1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E17C1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16B1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E17D1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16C1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E17E1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16D1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E17F1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16E1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1801ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E16F1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1811ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1701ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1821ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1711ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1831ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1721ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1841ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1731ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1851ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1741ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1861ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1751ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1871ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1761ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1881ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1771ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1891ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1781ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E18A1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1791ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E18B1ABFB91600C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E17A1ABFB91600C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E18C1AC0E33C00C094DF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E18D1AC0E33C00C094DF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E18E1AC0E33C00C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E18D1AC0E33C00C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D58E1901AC1313000C094DF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1911AC1313000C094DF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D58E1921AC1313000C094DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D58E1911AC1313000C094DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5DFC701AA5C34200AE2E49</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MBInfiniteScrollCollectionView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5DFC711AA5C34200AE2E49</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MBInfiniteScrollCollectionView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5DFC721AA5C34200AE2E49</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MBInfiniteScrollCollectionViewLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5DFC731AA5C34200AE2E49</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MBInfiniteScrollCollectionViewLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D5DFC741AA5C34200AE2E49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D5DFC711AA5C34200AE2E49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5DFC751AA5C34200AE2E49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D5DFC731AA5C34200AE2E49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D62D68C1AB8FB8600E8259C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D5434DB1A80DA2200FE3C94</string>
-				<string>9D5434DC1A80DA2200FE3C94</string>
-				<string>9D3B06081A89D51A00E30A9F</string>
-				<string>9D3B06091A89D51A00E30A9F</string>
-				<string>9D3B060D1A8A11C600E30A9F</string>
-				<string>9D3B060E1A8A11C600E30A9F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#39135;&#21697;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D62D68D1AB8FBB200E8259C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D17FBB01A83A081004C0CA0</string>
-				<string>9D17FBB11A83A081004C0CA0</string>
-				<string>9D17FBAD1A81E12F004C0CA0</string>
-				<string>9D17FBAE1A81E12F004C0CA0</string>
-				<string>9D4873871A8F551F0038F8EA</string>
-				<string>9D4873881A8F551F0038F8EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>&#36259;&#21619;&#30740;</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D62D68E1AB9140C00E8259C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9D62D68F1AB9140C00E8259C</string>
-				<string>9D62D6901AB9140C00E8259C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D62D68F1AB9140C00E8259C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>InfinitePagingView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D62D6901AB9140C00E8259C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>InfinitePagingView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D62D6911AB9140C00E8259C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D62D6901AB9140C00E8259C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D879C941A77A2DC009F04F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12465;&#12441;&#12522;&#12521;&#12479;&#12441;&#12531;&#12473;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D879C951A77A2DC009F04F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D879C941A77A2DC009F04F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DB1AA7D1AB822ED00D389F8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12450;&#12501;&#12442;&#12522;&#32032;&#26448;&#20206;&#65297;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DB1AA7E1AB822ED00D389F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DB1AA7D1AB822ED00D389F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF262F31AC1AA6000549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#12507;&#12442;&#12473;&#12479;&#12540;&#32032;&#26448;.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF262F41AC1AA6000549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF262F31AC1AA6000549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263191AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-06.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-06.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631A1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-17.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-17.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631B1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-13.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-13.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631C1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-08.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-08.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631D1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-05.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-05.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631E1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-01.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-01.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2631F1AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-10.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-10.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263201AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-11.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-11.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263211AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-15.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-15.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263221AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-02.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-02.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263231AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-09.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-09.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263241AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-16.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-16.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263251AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-04.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-04.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263261AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-14.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-14.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263271AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-03.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-03.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF263281AC2675300549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-12.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-12.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2632A1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263191AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2632B1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631A1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2632C1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631B1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2632D1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631C1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2632E1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631D1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2632F1AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631E1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263301AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2631F1AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263311AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263201AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263321AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263211AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263331AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263221AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263341AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263231AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263351AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263241AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263361AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263251AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263371AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263261AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263381AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263271AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF263391AC2675300549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF263281AC2675300549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DF2633A1AC267EA00549830</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>name</key>
-			<string>&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-07.png</string>
-			<key>path</key>
-			<string>../../../&#39135;&#21697;&#27178;&#38263;&#30011;&#20687;-07.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DF2633B1AC267EA00549830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DF2633A1AC267EA00549830</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B6CE86FB1A4B047A88846287</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E92F3E7F581A1A42F1A31F75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF9874D499F8EB73FBC22C07</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>9D558569198383220018B460</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8766ACCCA35285D0051F3FAE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CE86FB1A4B047A88846287 /* libPods.a */; };
+		9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */; };
+		9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */; };
+		9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */; };
+		9D1DC0C61AC3EDB40008C337 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1DC0C51AC3EDB40008C337 /* Social.framework */; };
+		9D21CE701AC140140058E818 /* ExplainationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21CE6F1AC140140058E818 /* ExplainationViewController.m */; };
+		9D21CE731AC140550058E818 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21CE721AC140550058E818 /* MovieViewController.m */; };
+		9D21CE841AC198EA0058E818 /* アプリ素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D21CE831AC198EA0058E818 /* アプリ素材.png */; };
+		9D293F6E1AB19FA900E3EE29 /* アプリ趣味研素材-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F441AB19FA900E3EE29 /* アプリ趣味研素材-01.png */; };
+		9D293F6F1AB19FA900E3EE29 /* アプリ趣味研素材-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F451AB19FA900E3EE29 /* アプリ趣味研素材-02.png */; };
+		9D293F701AB19FA900E3EE29 /* アプリ趣味研素材-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F461AB19FA900E3EE29 /* アプリ趣味研素材-03.png */; };
+		9D293F711AB19FA900E3EE29 /* アプリ趣味研素材-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F471AB19FA900E3EE29 /* アプリ趣味研素材-04.png */; };
+		9D293F721AB19FA900E3EE29 /* アプリ趣味研素材-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F481AB19FA900E3EE29 /* アプリ趣味研素材-05.png */; };
+		9D293F731AB19FA900E3EE29 /* アプリ趣味研素材-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F491AB19FA900E3EE29 /* アプリ趣味研素材-06.png */; };
+		9D293F741AB19FA900E3EE29 /* アプリ趣味研素材-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4A1AB19FA900E3EE29 /* アプリ趣味研素材-07.png */; };
+		9D293F751AB19FA900E3EE29 /* アプリ趣味研素材-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4B1AB19FA900E3EE29 /* アプリ趣味研素材-08.png */; };
+		9D293F761AB19FA900E3EE29 /* アプリ趣味研素材-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4C1AB19FA900E3EE29 /* アプリ趣味研素材-09.png */; };
+		9D293F771AB19FA900E3EE29 /* アプリ趣味研素材-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4D1AB19FA900E3EE29 /* アプリ趣味研素材-10.png */; };
+		9D293F781AB19FA900E3EE29 /* アプリ趣味研素材-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4E1AB19FA900E3EE29 /* アプリ趣味研素材-11.png */; };
+		9D293F791AB19FA900E3EE29 /* アプリ趣味研素材-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F4F1AB19FA900E3EE29 /* アプリ趣味研素材-12.png */; };
+		9D293F7A1AB19FA900E3EE29 /* アプリ趣味研素材-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F501AB19FA900E3EE29 /* アプリ趣味研素材-13.png */; };
+		9D293F7B1AB19FA900E3EE29 /* アプリ趣味研素材-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F511AB19FA900E3EE29 /* アプリ趣味研素材-14.png */; };
+		9D293F7C1AB19FA900E3EE29 /* アプリ趣味研素材-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F521AB19FA900E3EE29 /* アプリ趣味研素材-15.png */; };
+		9D293F7D1AB19FA900E3EE29 /* アプリ趣味研素材-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F531AB19FA900E3EE29 /* アプリ趣味研素材-16.png */; };
+		9D293F7E1AB19FA900E3EE29 /* アプリ趣味研素材-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F541AB19FA900E3EE29 /* アプリ趣味研素材-17.png */; };
+		9D293F7F1AB19FA900E3EE29 /* アプリ趣味研素材-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F551AB19FA900E3EE29 /* アプリ趣味研素材-18.png */; };
+		9D293F801AB19FA900E3EE29 /* アプリ趣味研素材-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F561AB19FA900E3EE29 /* アプリ趣味研素材-19.png */; };
+		9D293F811AB19FA900E3EE29 /* アプリ趣味研素材-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F571AB19FA900E3EE29 /* アプリ趣味研素材-20.png */; };
+		9D293F821AB19FA900E3EE29 /* アプリ趣味研素材-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F581AB19FA900E3EE29 /* アプリ趣味研素材-21.png */; };
+		9D293F831AB19FA900E3EE29 /* アプリ趣味研素材-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F591AB19FA900E3EE29 /* アプリ趣味研素材-22.png */; };
+		9D293F851AB19FA900E3EE29 /* アプリ趣味研素材-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F5B1AB19FA900E3EE29 /* アプリ趣味研素材-24.png */; };
+		9D293F861AB19FA900E3EE29 /* アプリ趣味研素材-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F5C1AB19FA900E3EE29 /* アプリ趣味研素材-25.png */; };
+		9D293F871AB19FA900E3EE29 /* アプリ趣味研素材-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F5D1AB19FA900E3EE29 /* アプリ趣味研素材-26.png */; };
+		9D293F881AB19FA900E3EE29 /* アプリ趣味研素材-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F5E1AB19FA900E3EE29 /* アプリ趣味研素材-27.png */; };
+		9D293F891AB19FA900E3EE29 /* アプリ趣味研素材-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F5F1AB19FA900E3EE29 /* アプリ趣味研素材-28.png */; };
+		9D293F8A1AB19FA900E3EE29 /* アプリ趣味研素材-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F601AB19FA900E3EE29 /* アプリ趣味研素材-29.png */; };
+		9D293F8B1AB19FA900E3EE29 /* アプリ趣味研素材-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F611AB19FA900E3EE29 /* アプリ趣味研素材-30.png */; };
+		9D293F8C1AB19FA900E3EE29 /* アプリ趣味研素材-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F621AB19FA900E3EE29 /* アプリ趣味研素材-31.png */; };
+		9D293F8D1AB19FA900E3EE29 /* アプリ趣味研素材-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F631AB19FA900E3EE29 /* アプリ趣味研素材-32.png */; };
+		9D293F8E1AB19FA900E3EE29 /* アプリ趣味研素材-33.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F641AB19FA900E3EE29 /* アプリ趣味研素材-33.png */; };
+		9D293F8F1AB19FA900E3EE29 /* アプリ趣味研素材-34.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F651AB19FA900E3EE29 /* アプリ趣味研素材-34.png */; };
+		9D293F901AB19FA900E3EE29 /* アプリ趣味研素材-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F661AB19FA900E3EE29 /* アプリ趣味研素材-35.png */; };
+		9D293F911AB19FA900E3EE29 /* アプリ趣味研素材-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F671AB19FA900E3EE29 /* アプリ趣味研素材-36.png */; };
+		9D293F921AB19FA900E3EE29 /* アプリ趣味研素材-37.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F681AB19FA900E3EE29 /* アプリ趣味研素材-37.png */; };
+		9D293F931AB19FA900E3EE29 /* アプリ趣味研素材-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F691AB19FA900E3EE29 /* アプリ趣味研素材-38.png */; };
+		9D293F941AB19FA900E3EE29 /* アプリ趣味研素材-39.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F6A1AB19FA900E3EE29 /* アプリ趣味研素材-39.png */; };
+		9D293F951AB19FA900E3EE29 /* アプリ趣味研素材-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F6B1AB19FA900E3EE29 /* アプリ趣味研素材-40.png */; };
+		9D293F961AB19FA900E3EE29 /* アプリ趣味研素材-41.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D293F6C1AB19FA900E3EE29 /* アプリ趣味研素材-41.png */; };
+		9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B06091A89D51A00E30A9F /* foodViewController.m */; };
+		9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3B060B1A89DD2900E30A9F /* Main.storyboard */; };
+		9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */; };
+		9D441FA11AC2E10000401CF6 /* AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D441FA01AC2E10000401CF6 /* AccessViewController.m */; };
+		9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */; };
+		9D52EB331A9349BE0099A416 /* PosterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52EB321A9349BE0099A416 /* PosterCell.m */; };
+		9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5434DC1A80DA2200FE3C94 /* foodCell.m */; };
+		9D558575198383220018B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558574198383220018B460 /* Foundation.framework */; };
+		9D558577198383220018B460 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558576198383220018B460 /* CoreGraphics.framework */; };
+		9D558579198383220018B460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558578198383220018B460 /* UIKit.framework */; };
+		9D55857F198383220018B460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D55857D198383220018B460 /* InfoPlist.strings */; };
+		9D558581198383220018B460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D558580198383220018B460 /* main.m */; };
+		9D558585198383220018B460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D558584198383220018B460 /* AppDelegate.m */; };
+		9D55858B198383220018B460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55858A198383220018B460 /* ViewController.m */; };
+		9D55858D198383220018B460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D55858C198383220018B460 /* Images.xcassets */; };
+		9D558594198383220018B460 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558593198383220018B460 /* XCTest.framework */; };
+		9D558595198383220018B460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558574198383220018B460 /* Foundation.framework */; };
+		9D558596198383220018B460 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D558578198383220018B460 /* UIKit.framework */; };
+		9D55859E198383220018B460 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D55859C198383220018B460 /* InfoPlist.strings */; };
+		9D5585A0198383220018B460 /* SeikoFestaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D55859F198383220018B460 /* SeikoFestaappTests.m */; };
+		9D569E851A9C720C0060C361 /* TimetableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D569E841A9C720C0060C361 /* TimetableViewController.m */; };
+		9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D569E871A9C73760060C361 /* TimetableDetailViewController.m */; };
+		9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E891A9C74530060C361 /* concerts.jpg */; };
+		9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E8A1A9C74530060C361 /* Timetable-Image.png */; };
+		9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */; };
+		9D58E17B1ABFB91600C094DF /* アプリ食品素材-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16A1ABFB91600C094DF /* アプリ食品素材-03.png */; };
+		9D58E17C1ABFB91600C094DF /* アプリ食品素材-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16B1ABFB91600C094DF /* アプリ食品素材-04.png */; };
+		9D58E17D1ABFB91600C094DF /* アプリ食品素材-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16C1ABFB91600C094DF /* アプリ食品素材-02.png */; };
+		9D58E17E1ABFB91600C094DF /* アプリ食品素材-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16D1ABFB91600C094DF /* アプリ食品素材-09.png */; };
+		9D58E17F1ABFB91600C094DF /* アプリ食品素材-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16E1ABFB91600C094DF /* アプリ食品素材-10.png */; };
+		9D58E1801ABFB91600C094DF /* アプリ食品素材-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E16F1ABFB91600C094DF /* アプリ食品素材-05.png */; };
+		9D58E1811ABFB91600C094DF /* アプリ食品素材-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1701ABFB91600C094DF /* アプリ食品素材-06.png */; };
+		9D58E1821ABFB91600C094DF /* アプリ食品素材-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1711ABFB91600C094DF /* アプリ食品素材-08.png */; };
+		9D58E1831ABFB91600C094DF /* アプリ食品素材-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1721ABFB91600C094DF /* アプリ食品素材-12.png */; };
+		9D58E1841ABFB91600C094DF /* アプリ食品素材-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1731ABFB91600C094DF /* アプリ食品素材-11.png */; };
+		9D58E1851ABFB91600C094DF /* アプリ食品素材-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1741ABFB91600C094DF /* アプリ食品素材-07.png */; };
+		9D58E1861ABFB91600C094DF /* アプリ食品素材-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1751ABFB91600C094DF /* アプリ食品素材-13.png */; };
+		9D58E1871ABFB91600C094DF /* アプリ食品素材-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1761ABFB91600C094DF /* アプリ食品素材-01.png */; };
+		9D58E1881ABFB91600C094DF /* アプリ食品素材-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1771ABFB91600C094DF /* アプリ食品素材-14.png */; };
+		9D58E1891ABFB91600C094DF /* アプリ食品素材-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1781ABFB91600C094DF /* アプリ食品素材-15.png */; };
+		9D58E18A1ABFB91600C094DF /* アプリ食品素材-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E1791ABFB91600C094DF /* アプリ食品素材-16.png */; };
+		9D58E18B1ABFB91600C094DF /* アプリ食品素材-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D58E17A1ABFB91600C094DF /* アプリ食品素材-17.png */; };
+		9D58E18E1AC0E33C00C094DF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58E18D1AC0E33C00C094DF /* TableViewController.m */; };
+		9D58E1921AC1313000C094DF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D58E1911AC1313000C094DF /* TableViewCell.m */; };
+		9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */; };
+		9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */; };
+		9D62D6911AB9140C00E8259C /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D62D6901AB9140C00E8259C /* InfinitePagingView.m */; };
+		9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */; };
+		9DB02C831AC53950007DBDC6 /* アプリ地図素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C7C1AC53950007DBDC6 /* アプリ地図素材.png */; };
+		9DB02C841AC53950007DBDC6 /* ポスター素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C7D1AC53950007DBDC6 /* ポスター素材.png */; };
+		9DB02C851AC53950007DBDC6 /* ボタン１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C7E1AC53950007DBDC6 /* ボタン１.png */; };
+		9DB02C861AC53950007DBDC6 /* ボタン２.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C7F1AC53950007DBDC6 /* ボタン２.png */; };
+		9DB02C871AC53950007DBDC6 /* ボタン３.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C801AC53950007DBDC6 /* ボタン３.png */; };
+		9DB02C881AC53950007DBDC6 /* ボタン４.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C811AC53950007DBDC6 /* ボタン４.png */; };
+		9DB02C891AC53950007DBDC6 /* ボタン５.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C821AC53950007DBDC6 /* ボタン５.png */; };
+		9DB02C9B1AC53998007DBDC6 /* 食品横長画像-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8A1AC53998007DBDC6 /* 食品横長画像-01.png */; };
+		9DB02C9C1AC53998007DBDC6 /* 食品横長画像-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8B1AC53998007DBDC6 /* 食品横長画像-02.png */; };
+		9DB02C9D1AC53998007DBDC6 /* 食品横長画像-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8C1AC53998007DBDC6 /* 食品横長画像-03.png */; };
+		9DB02C9E1AC53998007DBDC6 /* 食品横長画像-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8D1AC53998007DBDC6 /* 食品横長画像-04.png */; };
+		9DB02C9F1AC53998007DBDC6 /* 食品横長画像-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8E1AC53998007DBDC6 /* 食品横長画像-05.png */; };
+		9DB02CA01AC53998007DBDC6 /* 食品横長画像-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C8F1AC53998007DBDC6 /* 食品横長画像-06.png */; };
+		9DB02CA11AC53998007DBDC6 /* 食品横長画像-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C901AC53998007DBDC6 /* 食品横長画像-07.png */; };
+		9DB02CA21AC53998007DBDC6 /* 食品横長画像-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C911AC53998007DBDC6 /* 食品横長画像-08.png */; };
+		9DB02CA31AC53998007DBDC6 /* 食品横長画像-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C921AC53998007DBDC6 /* 食品横長画像-09.png */; };
+		9DB02CA41AC53998007DBDC6 /* 食品横長画像-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C931AC53998007DBDC6 /* 食品横長画像-10.png */; };
+		9DB02CA51AC53998007DBDC6 /* 食品横長画像-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C941AC53998007DBDC6 /* 食品横長画像-11.png */; };
+		9DB02CA61AC53998007DBDC6 /* 食品横長画像-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C951AC53998007DBDC6 /* 食品横長画像-12.png */; };
+		9DB02CA71AC53998007DBDC6 /* 食品横長画像-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C961AC53998007DBDC6 /* 食品横長画像-13.png */; };
+		9DB02CA81AC53998007DBDC6 /* 食品横長画像-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C971AC53998007DBDC6 /* 食品横長画像-14.png */; };
+		9DB02CA91AC53998007DBDC6 /* 食品横長画像-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C981AC53998007DBDC6 /* 食品横長画像-15.png */; };
+		9DB02CAA1AC53998007DBDC6 /* 食品横長画像-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C991AC53998007DBDC6 /* 食品横長画像-16.png */; };
+		9DB02CAB1AC53998007DBDC6 /* 食品横長画像-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB02C9A1AC53998007DBDC6 /* 食品横長画像-17.png */; };
+		9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */; };
+		9DE03A2D1ACE197600795826 /* access.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A281ACE197600795826 /* access.png */; };
+		9DE03A2E1ACE197600795826 /* Event.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A291ACE197600795826 /* Event.png */; };
+		9DE03A2F1ACE197600795826 /* exhibition.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A2A1ACE197600795826 /* exhibition.png */; };
+		9DE03A301ACE197600795826 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A2B1ACE197600795826 /* food.png */; };
+		9DE03A311ACE197600795826 /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A2C1ACE197600795826 /* other.png */; };
+		9DE03A371ACE1A6800795826 /* Seiko logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A361ACE1A6800795826 /* Seiko logo.png */; };
+		9DE03A3A1ACE1EFA00795826 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A381ACE1EFA00795826 /* map.png */; };
+		9DE03A3B1ACE1EFA00795826 /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A391ACE1EFA00795826 /* details.png */; };
+		9DE03A3E1ACE245A00795826 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A3C1ACE245A00795826 /* facebook.png */; };
+		9DE03A3F1ACE245A00795826 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A3D1ACE245A00795826 /* tweet.png */; };
+		9DE03A431ACE3CC800795826 /* 地図テスト.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE03A421ACE3CC800795826 /* 地図テスト.png */; };
+		9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF262F31AC1AA6000549830 /* ポスター素材.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D558597198383220018B460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D558569198383220018B460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D558570198383220018B460;
+			remoteInfo = SeikoFestaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39C8485A5EA373EAA3B20EB1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhibitonViewController.h; sourceTree = "<group>"; };
+		9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhibitonViewController.m; sourceTree = "<group>"; };
+		9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exhibitionCell.h; sourceTree = "<group>"; };
+		9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exhibitionCell.m; sourceTree = "<group>"; };
+		9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聖光祭　ロゴ.png"; sourceTree = "<group>"; };
+		9D1DC0C51AC3EDB40008C337 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9D21CE6E1AC140140058E818 /* ExplainationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplainationViewController.h; sourceTree = "<group>"; };
+		9D21CE6F1AC140140058E818 /* ExplainationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplainationViewController.m; sourceTree = "<group>"; };
+		9D21CE711AC140550058E818 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		9D21CE721AC140550058E818 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		9D21CE831AC198EA0058E818 /* アプリ素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ素材.png"; sourceTree = "<group>"; };
+		9D293F441AB19FA900E3EE29 /* アプリ趣味研素材-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-01.png"; sourceTree = "<group>"; };
+		9D293F451AB19FA900E3EE29 /* アプリ趣味研素材-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-02.png"; sourceTree = "<group>"; };
+		9D293F461AB19FA900E3EE29 /* アプリ趣味研素材-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-03.png"; sourceTree = "<group>"; };
+		9D293F471AB19FA900E3EE29 /* アプリ趣味研素材-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-04.png"; sourceTree = "<group>"; };
+		9D293F481AB19FA900E3EE29 /* アプリ趣味研素材-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-05.png"; sourceTree = "<group>"; };
+		9D293F491AB19FA900E3EE29 /* アプリ趣味研素材-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-06.png"; sourceTree = "<group>"; };
+		9D293F4A1AB19FA900E3EE29 /* アプリ趣味研素材-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-07.png"; sourceTree = "<group>"; };
+		9D293F4B1AB19FA900E3EE29 /* アプリ趣味研素材-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-08.png"; sourceTree = "<group>"; };
+		9D293F4C1AB19FA900E3EE29 /* アプリ趣味研素材-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-09.png"; sourceTree = "<group>"; };
+		9D293F4D1AB19FA900E3EE29 /* アプリ趣味研素材-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-10.png"; sourceTree = "<group>"; };
+		9D293F4E1AB19FA900E3EE29 /* アプリ趣味研素材-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-11.png"; sourceTree = "<group>"; };
+		9D293F4F1AB19FA900E3EE29 /* アプリ趣味研素材-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-12.png"; sourceTree = "<group>"; };
+		9D293F501AB19FA900E3EE29 /* アプリ趣味研素材-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-13.png"; sourceTree = "<group>"; };
+		9D293F511AB19FA900E3EE29 /* アプリ趣味研素材-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-14.png"; sourceTree = "<group>"; };
+		9D293F521AB19FA900E3EE29 /* アプリ趣味研素材-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-15.png"; sourceTree = "<group>"; };
+		9D293F531AB19FA900E3EE29 /* アプリ趣味研素材-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-16.png"; sourceTree = "<group>"; };
+		9D293F541AB19FA900E3EE29 /* アプリ趣味研素材-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-17.png"; sourceTree = "<group>"; };
+		9D293F551AB19FA900E3EE29 /* アプリ趣味研素材-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-18.png"; sourceTree = "<group>"; };
+		9D293F561AB19FA900E3EE29 /* アプリ趣味研素材-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-19.png"; sourceTree = "<group>"; };
+		9D293F571AB19FA900E3EE29 /* アプリ趣味研素材-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-20.png"; sourceTree = "<group>"; };
+		9D293F581AB19FA900E3EE29 /* アプリ趣味研素材-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-21.png"; sourceTree = "<group>"; };
+		9D293F591AB19FA900E3EE29 /* アプリ趣味研素材-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-22.png"; sourceTree = "<group>"; };
+		9D293F5B1AB19FA900E3EE29 /* アプリ趣味研素材-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-24.png"; sourceTree = "<group>"; };
+		9D293F5C1AB19FA900E3EE29 /* アプリ趣味研素材-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-25.png"; sourceTree = "<group>"; };
+		9D293F5D1AB19FA900E3EE29 /* アプリ趣味研素材-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-26.png"; sourceTree = "<group>"; };
+		9D293F5E1AB19FA900E3EE29 /* アプリ趣味研素材-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-27.png"; sourceTree = "<group>"; };
+		9D293F5F1AB19FA900E3EE29 /* アプリ趣味研素材-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-28.png"; sourceTree = "<group>"; };
+		9D293F601AB19FA900E3EE29 /* アプリ趣味研素材-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-29.png"; sourceTree = "<group>"; };
+		9D293F611AB19FA900E3EE29 /* アプリ趣味研素材-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-30.png"; sourceTree = "<group>"; };
+		9D293F621AB19FA900E3EE29 /* アプリ趣味研素材-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-31.png"; sourceTree = "<group>"; };
+		9D293F631AB19FA900E3EE29 /* アプリ趣味研素材-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-32.png"; sourceTree = "<group>"; };
+		9D293F641AB19FA900E3EE29 /* アプリ趣味研素材-33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-33.png"; sourceTree = "<group>"; };
+		9D293F651AB19FA900E3EE29 /* アプリ趣味研素材-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-34.png"; sourceTree = "<group>"; };
+		9D293F661AB19FA900E3EE29 /* アプリ趣味研素材-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-35.png"; sourceTree = "<group>"; };
+		9D293F671AB19FA900E3EE29 /* アプリ趣味研素材-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-36.png"; sourceTree = "<group>"; };
+		9D293F681AB19FA900E3EE29 /* アプリ趣味研素材-37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-37.png"; sourceTree = "<group>"; };
+		9D293F691AB19FA900E3EE29 /* アプリ趣味研素材-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-38.png"; sourceTree = "<group>"; };
+		9D293F6A1AB19FA900E3EE29 /* アプリ趣味研素材-39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-39.png"; sourceTree = "<group>"; };
+		9D293F6B1AB19FA900E3EE29 /* アプリ趣味研素材-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-40.png"; sourceTree = "<group>"; };
+		9D293F6C1AB19FA900E3EE29 /* アプリ趣味研素材-41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ趣味研素材-41.png"; sourceTree = "<group>"; };
+		9D3B06081A89D51A00E30A9F /* foodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodViewController.h; sourceTree = "<group>"; };
+		9D3B06091A89D51A00E30A9F /* foodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodViewController.m; sourceTree = "<group>"; };
+		9D3B060B1A89DD2900E30A9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fooddetailViewController.h; sourceTree = "<group>"; };
+		9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fooddetailViewController.m; sourceTree = "<group>"; };
+		9D441F9F1AC2E10000401CF6 /* AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessViewController.h; sourceTree = "<group>"; };
+		9D441FA01AC2E10000401CF6 /* AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessViewController.m; sourceTree = "<group>"; };
+		9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitonDetailViewController.h; sourceTree = "<group>"; };
+		9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitonDetailViewController.m; sourceTree = "<group>"; };
+		9D52EB311A9349BE0099A416 /* PosterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterCell.h; sourceTree = "<group>"; };
+		9D52EB321A9349BE0099A416 /* PosterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterCell.m; sourceTree = "<group>"; };
+		9D5434DB1A80DA2200FE3C94 /* foodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodCell.h; sourceTree = "<group>"; };
+		9D5434DC1A80DA2200FE3C94 /* foodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodCell.m; sourceTree = "<group>"; };
+		9D558571198383220018B460 /* SeikoFestaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeikoFestaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D558574198383220018B460 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D558576198383220018B460 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D558578198383220018B460 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D55857C198383220018B460 /* SeikoFestaapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeikoFestaapp-Info.plist"; sourceTree = "<group>"; };
+		9D55857E198383220018B460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D558580198383220018B460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D558582198383220018B460 /* SeikoFestaapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeikoFestaapp-Prefix.pch"; sourceTree = "<group>"; };
+		9D558583198383220018B460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D558584198383220018B460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D558589198383220018B460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D55858A198383220018B460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D55858C198383220018B460 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D558592198383220018B460 /* SeikoFestaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeikoFestaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D558593198383220018B460 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D55859B198383220018B460 /* SeikoFestaappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeikoFestaappTests-Info.plist"; sourceTree = "<group>"; };
+		9D55859D198383220018B460 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D55859F198383220018B460 /* SeikoFestaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeikoFestaappTests.m; sourceTree = "<group>"; };
+		9D569E831A9C720C0060C361 /* TimetableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableViewController.h; sourceTree = "<group>"; };
+		9D569E841A9C720C0060C361 /* TimetableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableViewController.m; sourceTree = "<group>"; };
+		9D569E861A9C73760060C361 /* TimetableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimetableDetailViewController.h; sourceTree = "<group>"; };
+		9D569E871A9C73760060C361 /* TimetableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimetableDetailViewController.m; sourceTree = "<group>"; };
+		9D569E891A9C74530060C361 /* concerts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = concerts.jpg; sourceTree = "<group>"; };
+		9D569E8A1A9C74530060C361 /* Timetable-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-Image.png"; sourceTree = "<group>"; };
+		9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timetable-4-inch.png"; sourceTree = "<group>"; };
+		9D58E16A1ABFB91600C094DF /* アプリ食品素材-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-03.png"; sourceTree = "<group>"; };
+		9D58E16B1ABFB91600C094DF /* アプリ食品素材-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-04.png"; sourceTree = "<group>"; };
+		9D58E16C1ABFB91600C094DF /* アプリ食品素材-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-02.png"; sourceTree = "<group>"; };
+		9D58E16D1ABFB91600C094DF /* アプリ食品素材-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-09.png"; sourceTree = "<group>"; };
+		9D58E16E1ABFB91600C094DF /* アプリ食品素材-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-10.png"; sourceTree = "<group>"; };
+		9D58E16F1ABFB91600C094DF /* アプリ食品素材-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-05.png"; sourceTree = "<group>"; };
+		9D58E1701ABFB91600C094DF /* アプリ食品素材-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-06.png"; sourceTree = "<group>"; };
+		9D58E1711ABFB91600C094DF /* アプリ食品素材-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-08.png"; sourceTree = "<group>"; };
+		9D58E1721ABFB91600C094DF /* アプリ食品素材-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-12.png"; sourceTree = "<group>"; };
+		9D58E1731ABFB91600C094DF /* アプリ食品素材-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-11.png"; sourceTree = "<group>"; };
+		9D58E1741ABFB91600C094DF /* アプリ食品素材-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-07.png"; sourceTree = "<group>"; };
+		9D58E1751ABFB91600C094DF /* アプリ食品素材-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-13.png"; sourceTree = "<group>"; };
+		9D58E1761ABFB91600C094DF /* アプリ食品素材-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-01.png"; sourceTree = "<group>"; };
+		9D58E1771ABFB91600C094DF /* アプリ食品素材-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-14.png"; sourceTree = "<group>"; };
+		9D58E1781ABFB91600C094DF /* アプリ食品素材-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-15.png"; sourceTree = "<group>"; };
+		9D58E1791ABFB91600C094DF /* アプリ食品素材-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-16.png"; sourceTree = "<group>"; };
+		9D58E17A1ABFB91600C094DF /* アプリ食品素材-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ食品素材-17.png"; sourceTree = "<group>"; };
+		9D58E18C1AC0E33C00C094DF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9D58E18D1AC0E33C00C094DF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9D58E1901AC1313000C094DF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9D58E1911AC1313000C094DF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionView.h; sourceTree = "<group>"; };
+		9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionView.m; sourceTree = "<group>"; };
+		9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInfiniteScrollCollectionViewLayout.h; sourceTree = "<group>"; };
+		9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInfiniteScrollCollectionViewLayout.m; sourceTree = "<group>"; };
+		9D62D68F1AB9140C00E8259C /* InfinitePagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePagingView.h; sourceTree = "<group>"; };
+		9D62D6901AB9140C00E8259C /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
+		9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゲリラダンス.png"; sourceTree = "<group>"; };
+		9DB02C7C1AC53950007DBDC6 /* アプリ地図素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "アプリ地図素材.png"; path = "../../../素材/アプリ地図素材.png"; sourceTree = "<group>"; };
+		9DB02C7D1AC53950007DBDC6 /* ポスター素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ポスター素材.png"; path = "../../../素材/ポスター素材.png"; sourceTree = "<group>"; };
+		9DB02C7E1AC53950007DBDC6 /* ボタン１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ボタン１.png"; path = "../../../素材/ボタン１.png"; sourceTree = "<group>"; };
+		9DB02C7F1AC53950007DBDC6 /* ボタン２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ボタン２.png"; path = "../../../素材/ボタン２.png"; sourceTree = "<group>"; };
+		9DB02C801AC53950007DBDC6 /* ボタン３.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ボタン３.png"; path = "../../../素材/ボタン３.png"; sourceTree = "<group>"; };
+		9DB02C811AC53950007DBDC6 /* ボタン４.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ボタン４.png"; path = "../../../素材/ボタン４.png"; sourceTree = "<group>"; };
+		9DB02C821AC53950007DBDC6 /* ボタン５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ボタン５.png"; path = "../../../素材/ボタン５.png"; sourceTree = "<group>"; };
+		9DB02C8A1AC53998007DBDC6 /* 食品横長画像-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-01.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-01.png"; sourceTree = "<group>"; };
+		9DB02C8B1AC53998007DBDC6 /* 食品横長画像-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-02.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-02.png"; sourceTree = "<group>"; };
+		9DB02C8C1AC53998007DBDC6 /* 食品横長画像-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-03.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-03.png"; sourceTree = "<group>"; };
+		9DB02C8D1AC53998007DBDC6 /* 食品横長画像-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-04.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-04.png"; sourceTree = "<group>"; };
+		9DB02C8E1AC53998007DBDC6 /* 食品横長画像-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-05.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-05.png"; sourceTree = "<group>"; };
+		9DB02C8F1AC53998007DBDC6 /* 食品横長画像-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-06.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-06.png"; sourceTree = "<group>"; };
+		9DB02C901AC53998007DBDC6 /* 食品横長画像-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-07.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-07.png"; sourceTree = "<group>"; };
+		9DB02C911AC53998007DBDC6 /* 食品横長画像-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-08.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-08.png"; sourceTree = "<group>"; };
+		9DB02C921AC53998007DBDC6 /* 食品横長画像-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-09.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-09.png"; sourceTree = "<group>"; };
+		9DB02C931AC53998007DBDC6 /* 食品横長画像-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-10.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-10.png"; sourceTree = "<group>"; };
+		9DB02C941AC53998007DBDC6 /* 食品横長画像-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-11.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-11.png"; sourceTree = "<group>"; };
+		9DB02C951AC53998007DBDC6 /* 食品横長画像-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-12.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-12.png"; sourceTree = "<group>"; };
+		9DB02C961AC53998007DBDC6 /* 食品横長画像-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-13.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-13.png"; sourceTree = "<group>"; };
+		9DB02C971AC53998007DBDC6 /* 食品横長画像-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-14.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-14.png"; sourceTree = "<group>"; };
+		9DB02C981AC53998007DBDC6 /* 食品横長画像-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-15.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-15.png"; sourceTree = "<group>"; };
+		9DB02C991AC53998007DBDC6 /* 食品横長画像-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-16.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-16.png"; sourceTree = "<group>"; };
+		9DB02C9A1AC53998007DBDC6 /* 食品横長画像-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "食品横長画像-17.png"; path = "../../../アプリ素材/食品/食品横長画像/食品横長画像-17.png"; sourceTree = "<group>"; };
+		9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アプリ素材仮１.png"; sourceTree = "<group>"; };
+		9DE03A281ACE197600795826 /* access.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = access.png; sourceTree = "<group>"; };
+		9DE03A291ACE197600795826 /* Event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Event.png; sourceTree = "<group>"; };
+		9DE03A2A1ACE197600795826 /* exhibition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exhibition.png; sourceTree = "<group>"; };
+		9DE03A2B1ACE197600795826 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		9DE03A2C1ACE197600795826 /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		9DE03A361ACE1A6800795826 /* Seiko logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seiko logo.png"; sourceTree = "<group>"; };
+		9DE03A381ACE1EFA00795826 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		9DE03A391ACE1EFA00795826 /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
+		9DE03A3C1ACE245A00795826 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		9DE03A3D1ACE245A00795826 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		9DE03A421ACE3CC800795826 /* 地図テスト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地図テスト.png"; sourceTree = "<group>"; };
+		9DF262F31AC1AA6000549830 /* ポスター素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ポスター素材.png"; sourceTree = "<group>"; };
+		B6CE86FB1A4B047A88846287 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92F3E7F581A1A42F1A31F75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D55856E198383220018B460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1DC0C61AC3EDB40008C337 /* Social.framework in Frameworks */,
+				9D558577198383220018B460 /* CoreGraphics.framework in Frameworks */,
+				9D558579198383220018B460 /* UIKit.framework in Frameworks */,
+				9D558575198383220018B460 /* Foundation.framework in Frameworks */,
+				8766ACCCA35285D0051F3FAE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D55858F198383220018B460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D558594198383220018B460 /* XCTest.framework in Frameworks */,
+				9D558596198383220018B460 /* UIKit.framework in Frameworks */,
+				9D558595198383220018B460 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C9F9E5629AC4D5A4105482 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39C8485A5EA373EAA3B20EB1 /* Pods.debug.xcconfig */,
+				E92F3E7F581A1A42F1A31F75 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D21CE741AC1470E0058E818 /* タイムテーブル */ = {
+			isa = PBXGroup;
+			children = (
+				9D569E831A9C720C0060C361 /* TimetableViewController.h */,
+				9D569E841A9C720C0060C361 /* TimetableViewController.m */,
+				9D569E861A9C73760060C361 /* TimetableDetailViewController.h */,
+				9D569E871A9C73760060C361 /* TimetableDetailViewController.m */,
+			);
+			name = "タイムテーブル";
+			sourceTree = "<group>";
+		};
+		9D21CE751AC1476A0058E818 /* その他 */ = {
+			isa = PBXGroup;
+			children = (
+				9D58E1901AC1313000C094DF /* TableViewCell.h */,
+				9D58E1911AC1313000C094DF /* TableViewCell.m */,
+				9D58E18C1AC0E33C00C094DF /* TableViewController.h */,
+				9D58E18D1AC0E33C00C094DF /* TableViewController.m */,
+				9D21CE6E1AC140140058E818 /* ExplainationViewController.h */,
+				9D21CE6F1AC140140058E818 /* ExplainationViewController.m */,
+				9D21CE711AC140550058E818 /* MovieViewController.h */,
+				9D21CE721AC140550058E818 /* MovieViewController.m */,
+			);
+			name = "その他";
+			sourceTree = "<group>";
+		};
+		9D21CE781AC1481D0058E818 /* ポスター */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DFC701AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.h */,
+				9D5DFC711AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m */,
+				9D5DFC721AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.h */,
+				9D5DFC731AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m */,
+				9D52EB311A9349BE0099A416 /* PosterCell.h */,
+				9D52EB321A9349BE0099A416 /* PosterCell.m */,
+			);
+			name = "ポスター";
+			sourceTree = "<group>";
+		};
+		9D293F431AB19F8300E3EE29 /* アプリ趣味研素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9D293F441AB19FA900E3EE29 /* アプリ趣味研素材-01.png */,
+				9D293F451AB19FA900E3EE29 /* アプリ趣味研素材-02.png */,
+				9D293F461AB19FA900E3EE29 /* アプリ趣味研素材-03.png */,
+				9D293F471AB19FA900E3EE29 /* アプリ趣味研素材-04.png */,
+				9D293F481AB19FA900E3EE29 /* アプリ趣味研素材-05.png */,
+				9D293F491AB19FA900E3EE29 /* アプリ趣味研素材-06.png */,
+				9D293F4A1AB19FA900E3EE29 /* アプリ趣味研素材-07.png */,
+				9D293F4B1AB19FA900E3EE29 /* アプリ趣味研素材-08.png */,
+				9D293F4C1AB19FA900E3EE29 /* アプリ趣味研素材-09.png */,
+				9D293F4D1AB19FA900E3EE29 /* アプリ趣味研素材-10.png */,
+				9D293F4E1AB19FA900E3EE29 /* アプリ趣味研素材-11.png */,
+				9D293F4F1AB19FA900E3EE29 /* アプリ趣味研素材-12.png */,
+				9D293F501AB19FA900E3EE29 /* アプリ趣味研素材-13.png */,
+				9D293F511AB19FA900E3EE29 /* アプリ趣味研素材-14.png */,
+				9D293F521AB19FA900E3EE29 /* アプリ趣味研素材-15.png */,
+				9D293F531AB19FA900E3EE29 /* アプリ趣味研素材-16.png */,
+				9D293F541AB19FA900E3EE29 /* アプリ趣味研素材-17.png */,
+				9D293F551AB19FA900E3EE29 /* アプリ趣味研素材-18.png */,
+				9D293F561AB19FA900E3EE29 /* アプリ趣味研素材-19.png */,
+				9D293F571AB19FA900E3EE29 /* アプリ趣味研素材-20.png */,
+				9D293F581AB19FA900E3EE29 /* アプリ趣味研素材-21.png */,
+				9D293F591AB19FA900E3EE29 /* アプリ趣味研素材-22.png */,
+				9D293F5B1AB19FA900E3EE29 /* アプリ趣味研素材-24.png */,
+				9D293F5C1AB19FA900E3EE29 /* アプリ趣味研素材-25.png */,
+				9D293F5D1AB19FA900E3EE29 /* アプリ趣味研素材-26.png */,
+				9D293F5E1AB19FA900E3EE29 /* アプリ趣味研素材-27.png */,
+				9D293F5F1AB19FA900E3EE29 /* アプリ趣味研素材-28.png */,
+				9D293F601AB19FA900E3EE29 /* アプリ趣味研素材-29.png */,
+				9D293F611AB19FA900E3EE29 /* アプリ趣味研素材-30.png */,
+				9D293F621AB19FA900E3EE29 /* アプリ趣味研素材-31.png */,
+				9D293F631AB19FA900E3EE29 /* アプリ趣味研素材-32.png */,
+				9D293F641AB19FA900E3EE29 /* アプリ趣味研素材-33.png */,
+				9D293F651AB19FA900E3EE29 /* アプリ趣味研素材-34.png */,
+				9D293F661AB19FA900E3EE29 /* アプリ趣味研素材-35.png */,
+				9D293F671AB19FA900E3EE29 /* アプリ趣味研素材-36.png */,
+				9D293F681AB19FA900E3EE29 /* アプリ趣味研素材-37.png */,
+				9D293F691AB19FA900E3EE29 /* アプリ趣味研素材-38.png */,
+				9D293F6A1AB19FA900E3EE29 /* アプリ趣味研素材-39.png */,
+				9D293F6B1AB19FA900E3EE29 /* アプリ趣味研素材-40.png */,
+				9D293F6C1AB19FA900E3EE29 /* アプリ趣味研素材-41.png */,
+			);
+			name = "アプリ趣味研素材";
+			sourceTree = "<group>";
+		};
+		9D441FA21AC2E10700401CF6 /* アクセス */ = {
+			isa = PBXGroup;
+			children = (
+				9D441F9F1AC2E10000401CF6 /* AccessViewController.h */,
+				9D441FA01AC2E10000401CF6 /* AccessViewController.m */,
+			);
+			name = "アクセス";
+			sourceTree = "<group>";
+		};
+		9D558568198383220018B460 = {
+			isa = PBXGroup;
+			children = (
+				9D55857A198383220018B460 /* SeikoFestaapp */,
+				9D558599198383220018B460 /* SeikoFestaappTests */,
+				9D558573198383220018B460 /* Frameworks */,
+				9D558572198383220018B460 /* Products */,
+				99C9F9E5629AC4D5A4105482 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9D558572198383220018B460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D558571198383220018B460 /* SeikoFestaapp.app */,
+				9D558592198383220018B460 /* SeikoFestaappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D558573198383220018B460 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D1DC0C51AC3EDB40008C337 /* Social.framework */,
+				9D558574198383220018B460 /* Foundation.framework */,
+				9D558576198383220018B460 /* CoreGraphics.framework */,
+				9D558578198383220018B460 /* UIKit.framework */,
+				9D558593198383220018B460 /* XCTest.framework */,
+				B6CE86FB1A4B047A88846287 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D55857A198383220018B460 /* SeikoFestaapp */ = {
+			isa = PBXGroup;
+			children = (
+				9D21CE781AC1481D0058E818 /* ポスター */,
+				9D21CE751AC1476A0058E818 /* その他 */,
+				9D21CE741AC1470E0058E818 /* タイムテーブル */,
+				9D62D68D1AB8FBB200E8259C /* 趣味研 */,
+				9D62D68C1AB8FB8600E8259C /* 食品 */,
+				9D441FA21AC2E10700401CF6 /* アクセス */,
+				9D62D68E1AB9140C00E8259C /* Classes */,
+				9D58E1691ABFB8D900C094DF /* アプリ食品素材 */,
+				9D293F431AB19F8300E3EE29 /* アプリ趣味研素材 */,
+				9D879C941A77A2DC009F04F5 /* ゲリラダンス.png */,
+				9DE03A281ACE197600795826 /* access.png */,
+				9DE03A291ACE197600795826 /* Event.png */,
+				9DE03A2A1ACE197600795826 /* exhibition.png */,
+				9DE03A361ACE1A6800795826 /* Seiko logo.png */,
+				9DE03A2B1ACE197600795826 /* food.png */,
+				9DE03A381ACE1EFA00795826 /* map.png */,
+				9DE03A391ACE1EFA00795826 /* details.png */,
+				9DE03A3C1ACE245A00795826 /* facebook.png */,
+				9DE03A3D1ACE245A00795826 /* tweet.png */,
+				9DE03A2C1ACE197600795826 /* other.png */,
+				9DE03A421ACE3CC800795826 /* 地図テスト.png */,
+				9DF262F31AC1AA6000549830 /* ポスター素材.png */,
+				9D21CE831AC198EA0058E818 /* アプリ素材.png */,
+				9DB02C7C1AC53950007DBDC6 /* アプリ地図素材.png */,
+				9DB02C7D1AC53950007DBDC6 /* ポスター素材.png */,
+				9DB02C7E1AC53950007DBDC6 /* ボタン１.png */,
+				9DB02C7F1AC53950007DBDC6 /* ボタン２.png */,
+				9DB02C801AC53950007DBDC6 /* ボタン３.png */,
+				9DB02C811AC53950007DBDC6 /* ボタン４.png */,
+				9DB02C821AC53950007DBDC6 /* ボタン５.png */,
+				9DB1AA7D1AB822ED00D389F8 /* アプリ素材仮１.png */,
+				9D1DB3951A5D445200126078 /* 聖光祭　ロゴ.png */,
+				9D569E891A9C74530060C361 /* concerts.jpg */,
+				9D569E8A1A9C74530060C361 /* Timetable-Image.png */,
+				9D569E8B1A9C74530060C361 /* Timetable-4-inch.png */,
+				9D3B060B1A89DD2900E30A9F /* Main.storyboard */,
+				9D558589198383220018B460 /* ViewController.h */,
+				9D55858A198383220018B460 /* ViewController.m */,
+				9D558583198383220018B460 /* AppDelegate.h */,
+				9D558584198383220018B460 /* AppDelegate.m */,
+				9D55858C198383220018B460 /* Images.xcassets */,
+				9D55857B198383220018B460 /* Supporting Files */,
+			);
+			path = SeikoFestaapp;
+			sourceTree = "<group>";
+		};
+		9D55857B198383220018B460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D55857C198383220018B460 /* SeikoFestaapp-Info.plist */,
+				9D55857D198383220018B460 /* InfoPlist.strings */,
+				9D558580198383220018B460 /* main.m */,
+				9D558582198383220018B460 /* SeikoFestaapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D558599198383220018B460 /* SeikoFestaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D55859F198383220018B460 /* SeikoFestaappTests.m */,
+				9D55859A198383220018B460 /* Supporting Files */,
+			);
+			path = SeikoFestaappTests;
+			sourceTree = "<group>";
+		};
+		9D55859A198383220018B460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D55859B198383220018B460 /* SeikoFestaappTests-Info.plist */,
+				9D55859C198383220018B460 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D58E1691ABFB8D900C094DF /* アプリ食品素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9D58E16A1ABFB91600C094DF /* アプリ食品素材-03.png */,
+				9D58E16B1ABFB91600C094DF /* アプリ食品素材-04.png */,
+				9D58E16C1ABFB91600C094DF /* アプリ食品素材-02.png */,
+				9D58E16D1ABFB91600C094DF /* アプリ食品素材-09.png */,
+				9D58E16E1ABFB91600C094DF /* アプリ食品素材-10.png */,
+				9D58E16F1ABFB91600C094DF /* アプリ食品素材-05.png */,
+				9D58E1701ABFB91600C094DF /* アプリ食品素材-06.png */,
+				9D58E1711ABFB91600C094DF /* アプリ食品素材-08.png */,
+				9D58E1721ABFB91600C094DF /* アプリ食品素材-12.png */,
+				9D58E1731ABFB91600C094DF /* アプリ食品素材-11.png */,
+				9D58E1741ABFB91600C094DF /* アプリ食品素材-07.png */,
+				9D58E1751ABFB91600C094DF /* アプリ食品素材-13.png */,
+				9D58E1761ABFB91600C094DF /* アプリ食品素材-01.png */,
+				9D58E1771ABFB91600C094DF /* アプリ食品素材-14.png */,
+				9D58E1781ABFB91600C094DF /* アプリ食品素材-15.png */,
+				9D58E1791ABFB91600C094DF /* アプリ食品素材-16.png */,
+				9D58E17A1ABFB91600C094DF /* アプリ食品素材-17.png */,
+				9DB02C8A1AC53998007DBDC6 /* 食品横長画像-01.png */,
+				9DB02C8B1AC53998007DBDC6 /* 食品横長画像-02.png */,
+				9DB02C8C1AC53998007DBDC6 /* 食品横長画像-03.png */,
+				9DB02C8D1AC53998007DBDC6 /* 食品横長画像-04.png */,
+				9DB02C8E1AC53998007DBDC6 /* 食品横長画像-05.png */,
+				9DB02C8F1AC53998007DBDC6 /* 食品横長画像-06.png */,
+				9DB02C901AC53998007DBDC6 /* 食品横長画像-07.png */,
+				9DB02C911AC53998007DBDC6 /* 食品横長画像-08.png */,
+				9DB02C921AC53998007DBDC6 /* 食品横長画像-09.png */,
+				9DB02C931AC53998007DBDC6 /* 食品横長画像-10.png */,
+				9DB02C941AC53998007DBDC6 /* 食品横長画像-11.png */,
+				9DB02C951AC53998007DBDC6 /* 食品横長画像-12.png */,
+				9DB02C961AC53998007DBDC6 /* 食品横長画像-13.png */,
+				9DB02C971AC53998007DBDC6 /* 食品横長画像-14.png */,
+				9DB02C981AC53998007DBDC6 /* 食品横長画像-15.png */,
+				9DB02C991AC53998007DBDC6 /* 食品横長画像-16.png */,
+				9DB02C9A1AC53998007DBDC6 /* 食品横長画像-17.png */,
+			);
+			name = "アプリ食品素材";
+			sourceTree = "<group>";
+		};
+		9D62D68C1AB8FB8600E8259C /* 食品 */ = {
+			isa = PBXGroup;
+			children = (
+				9D5434DB1A80DA2200FE3C94 /* foodCell.h */,
+				9D5434DC1A80DA2200FE3C94 /* foodCell.m */,
+				9D3B06081A89D51A00E30A9F /* foodViewController.h */,
+				9D3B06091A89D51A00E30A9F /* foodViewController.m */,
+				9D3B060D1A8A11C600E30A9F /* fooddetailViewController.h */,
+				9D3B060E1A8A11C600E30A9F /* fooddetailViewController.m */,
+			);
+			name = "食品";
+			sourceTree = "<group>";
+		};
+		9D62D68D1AB8FBB200E8259C /* 趣味研 */ = {
+			isa = PBXGroup;
+			children = (
+				9D17FBB01A83A081004C0CA0 /* exhibitionCell.h */,
+				9D17FBB11A83A081004C0CA0 /* exhibitionCell.m */,
+				9D17FBAD1A81E12F004C0CA0 /* exhibitonViewController.h */,
+				9D17FBAE1A81E12F004C0CA0 /* exhibitonViewController.m */,
+				9D4873871A8F551F0038F8EA /* ExhibitonDetailViewController.h */,
+				9D4873881A8F551F0038F8EA /* ExhibitonDetailViewController.m */,
+			);
+			name = "趣味研";
+			sourceTree = "<group>";
+		};
+		9D62D68E1AB9140C00E8259C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D62D68F1AB9140C00E8259C /* InfinitePagingView.h */,
+				9D62D6901AB9140C00E8259C /* InfinitePagingView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D558570198383220018B460 /* SeikoFestaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5585A3198383220018B460 /* Build configuration list for PBXNativeTarget "SeikoFestaapp" */;
+			buildPhases = (
+				22E37E11E026BB689E28E32A /* Check Pods Manifest.lock */,
+				9D55856D198383220018B460 /* Sources */,
+				9D55856E198383220018B460 /* Frameworks */,
+				9D55856F198383220018B460 /* Resources */,
+				EF9874D499F8EB73FBC22C07 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeikoFestaapp;
+			productName = SeikoFestaapp;
+			productReference = 9D558571198383220018B460 /* SeikoFestaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D558591198383220018B460 /* SeikoFestaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5585A6198383220018B460 /* Build configuration list for PBXNativeTarget "SeikoFestaappTests" */;
+			buildPhases = (
+				9D55858E198383220018B460 /* Sources */,
+				9D55858F198383220018B460 /* Frameworks */,
+				9D558590198383220018B460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D558598198383220018B460 /* PBXTargetDependency */,
+			);
+			name = SeikoFestaappTests;
+			productName = SeikoFestaappTests;
+			productReference = 9D558592198383220018B460 /* SeikoFestaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D558569198383220018B460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SatoshiNinomiya;
+				TargetAttributes = {
+					9D558591198383220018B460 = {
+						TestTargetID = 9D558570198383220018B460;
+					};
+				};
+			};
+			buildConfigurationList = 9D55856C198383220018B460 /* Build configuration list for PBXProject "SeikoFestaapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D558568198383220018B460;
+			productRefGroup = 9D558572198383220018B460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D558570198383220018B460 /* SeikoFestaapp */,
+				9D558591198383220018B460 /* SeikoFestaappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D55856F198383220018B460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D293F8F1AB19FA900E3EE29 /* アプリ趣味研素材-34.png in Resources */,
+				9DE03A3E1ACE245A00795826 /* facebook.png in Resources */,
+				9D293F8D1AB19FA900E3EE29 /* アプリ趣味研素材-32.png in Resources */,
+				9D293F881AB19FA900E3EE29 /* アプリ趣味研素材-27.png in Resources */,
+				9D293F821AB19FA900E3EE29 /* アプリ趣味研素材-21.png in Resources */,
+				9D293F7E1AB19FA900E3EE29 /* アプリ趣味研素材-17.png in Resources */,
+				9D293F921AB19FA900E3EE29 /* アプリ趣味研素材-37.png in Resources */,
+				9D58E1861ABFB91600C094DF /* アプリ食品素材-13.png in Resources */,
+				9DB02CA11AC53998007DBDC6 /* 食品横長画像-07.png in Resources */,
+				9DB02C9D1AC53998007DBDC6 /* 食品横長画像-03.png in Resources */,
+				9DB02C881AC53950007DBDC6 /* ボタン４.png in Resources */,
+				9D293F891AB19FA900E3EE29 /* アプリ趣味研素材-28.png in Resources */,
+				9D58E18B1ABFB91600C094DF /* アプリ食品素材-17.png in Resources */,
+				9D293F791AB19FA900E3EE29 /* アプリ趣味研素材-12.png in Resources */,
+				9D293F7A1AB19FA900E3EE29 /* アプリ趣味研素材-13.png in Resources */,
+				9D58E17D1ABFB91600C094DF /* アプリ食品素材-02.png in Resources */,
+				9DB02C851AC53950007DBDC6 /* ボタン１.png in Resources */,
+				9DE03A3F1ACE245A00795826 /* tweet.png in Resources */,
+				9D293F711AB19FA900E3EE29 /* アプリ趣味研素材-04.png in Resources */,
+				9D293F781AB19FA900E3EE29 /* アプリ趣味研素材-11.png in Resources */,
+				9D293F941AB19FA900E3EE29 /* アプリ趣味研素材-39.png in Resources */,
+				9DE03A2D1ACE197600795826 /* access.png in Resources */,
+				9DB02C841AC53950007DBDC6 /* ポスター素材.png in Resources */,
+				9D879C951A77A2DC009F04F5 /* ゲリラダンス.png in Resources */,
+				9D293F7C1AB19FA900E3EE29 /* アプリ趣味研素材-15.png in Resources */,
+				9DB1AA7E1AB822ED00D389F8 /* アプリ素材仮１.png in Resources */,
+				9D293F851AB19FA900E3EE29 /* アプリ趣味研素材-24.png in Resources */,
+				9D293F731AB19FA900E3EE29 /* アプリ趣味研素材-06.png in Resources */,
+				9DB02CA31AC53998007DBDC6 /* 食品横長画像-09.png in Resources */,
+				9DE03A3A1ACE1EFA00795826 /* map.png in Resources */,
+				9D293F721AB19FA900E3EE29 /* アプリ趣味研素材-05.png in Resources */,
+				9D55858D198383220018B460 /* Images.xcassets in Resources */,
+				9D293F7B1AB19FA900E3EE29 /* アプリ趣味研素材-14.png in Resources */,
+				9D58E17B1ABFB91600C094DF /* アプリ食品素材-03.png in Resources */,
+				9D58E1821ABFB91600C094DF /* アプリ食品素材-08.png in Resources */,
+				9D293F801AB19FA900E3EE29 /* アプリ趣味研素材-19.png in Resources */,
+				9DB02C891AC53950007DBDC6 /* ボタン５.png in Resources */,
+				9DE03A311ACE197600795826 /* other.png in Resources */,
+				9D293F761AB19FA900E3EE29 /* アプリ趣味研素材-09.png in Resources */,
+				9DE03A301ACE197600795826 /* food.png in Resources */,
+				9D293F961AB19FA900E3EE29 /* アプリ趣味研素材-41.png in Resources */,
+				9D293F8A1AB19FA900E3EE29 /* アプリ趣味研素材-29.png in Resources */,
+				9DE03A3B1ACE1EFA00795826 /* details.png in Resources */,
+				9DB02CA01AC53998007DBDC6 /* 食品横長画像-06.png in Resources */,
+				9D58E18A1ABFB91600C094DF /* アプリ食品素材-16.png in Resources */,
+				9D58E1801ABFB91600C094DF /* アプリ食品素材-05.png in Resources */,
+				9D3B060C1A89DD2900E30A9F /* Main.storyboard in Resources */,
+				9DB02CA91AC53998007DBDC6 /* 食品横長画像-15.png in Resources */,
+				9DE03A2F1ACE197600795826 /* exhibition.png in Resources */,
+				9DB02CA61AC53998007DBDC6 /* 食品横長画像-12.png in Resources */,
+				9D293F8B1AB19FA900E3EE29 /* アプリ趣味研素材-30.png in Resources */,
+				9D58E17E1ABFB91600C094DF /* アプリ食品素材-09.png in Resources */,
+				9D293F8C1AB19FA900E3EE29 /* アプリ趣味研素材-31.png in Resources */,
+				9D293F7F1AB19FA900E3EE29 /* アプリ趣味研素材-18.png in Resources */,
+				9D58E17C1ABFB91600C094DF /* アプリ食品素材-04.png in Resources */,
+				9D293F931AB19FA900E3EE29 /* アプリ趣味研素材-38.png in Resources */,
+				9D293F771AB19FA900E3EE29 /* アプリ趣味研素材-10.png in Resources */,
+				9D293F751AB19FA900E3EE29 /* アプリ趣味研素材-08.png in Resources */,
+				9DB02C9F1AC53998007DBDC6 /* 食品横長画像-05.png in Resources */,
+				9DB02C871AC53950007DBDC6 /* ボタン３.png in Resources */,
+				9DB02C831AC53950007DBDC6 /* アプリ地図素材.png in Resources */,
+				9D58E1881ABFB91600C094DF /* アプリ食品素材-14.png in Resources */,
+				9D293F861AB19FA900E3EE29 /* アプリ趣味研素材-25.png in Resources */,
+				9D293F831AB19FA900E3EE29 /* アプリ趣味研素材-22.png in Resources */,
+				9D55857F198383220018B460 /* InfoPlist.strings in Resources */,
+				9D21CE841AC198EA0058E818 /* アプリ素材.png in Resources */,
+				9D293F911AB19FA900E3EE29 /* アプリ趣味研素材-36.png in Resources */,
+				9DE03A2E1ACE197600795826 /* Event.png in Resources */,
+				9DE03A371ACE1A6800795826 /* Seiko logo.png in Resources */,
+				9D293F741AB19FA900E3EE29 /* アプリ趣味研素材-07.png in Resources */,
+				9DB02CA81AC53998007DBDC6 /* 食品横長画像-14.png in Resources */,
+				9DB02C9B1AC53998007DBDC6 /* 食品横長画像-01.png in Resources */,
+				9D58E17F1ABFB91600C094DF /* アプリ食品素材-10.png in Resources */,
+				9D293F701AB19FA900E3EE29 /* アプリ趣味研素材-03.png in Resources */,
+				9DB02CAB1AC53998007DBDC6 /* 食品横長画像-17.png in Resources */,
+				9D58E1841ABFB91600C094DF /* アプリ食品素材-11.png in Resources */,
+				9D293F8E1AB19FA900E3EE29 /* アプリ趣味研素材-33.png in Resources */,
+				9D58E1811ABFB91600C094DF /* アプリ食品素材-06.png in Resources */,
+				9D293F871AB19FA900E3EE29 /* アプリ趣味研素材-26.png in Resources */,
+				9DB02C9C1AC53998007DBDC6 /* 食品横長画像-02.png in Resources */,
+				9D293F6E1AB19FA900E3EE29 /* アプリ趣味研素材-01.png in Resources */,
+				9D58E1891ABFB91600C094DF /* アプリ食品素材-15.png in Resources */,
+				9D58E1851ABFB91600C094DF /* アプリ食品素材-07.png in Resources */,
+				9D293F7D1AB19FA900E3EE29 /* アプリ趣味研素材-16.png in Resources */,
+				9D293F901AB19FA900E3EE29 /* アプリ趣味研素材-35.png in Resources */,
+				9D569E8C1A9C74530060C361 /* concerts.jpg in Resources */,
+				9DB02CAA1AC53998007DBDC6 /* 食品横長画像-16.png in Resources */,
+				9DE03A431ACE3CC800795826 /* 地図テスト.png in Resources */,
+				9D293F811AB19FA900E3EE29 /* アプリ趣味研素材-20.png in Resources */,
+				9D569E8D1A9C74530060C361 /* Timetable-Image.png in Resources */,
+				9DB02C9E1AC53998007DBDC6 /* 食品横長画像-04.png in Resources */,
+				9DB02CA41AC53998007DBDC6 /* 食品横長画像-10.png in Resources */,
+				9DB02CA51AC53998007DBDC6 /* 食品横長画像-11.png in Resources */,
+				9D293F6F1AB19FA900E3EE29 /* アプリ趣味研素材-02.png in Resources */,
+				9DB02C861AC53950007DBDC6 /* ボタン２.png in Resources */,
+				9D293F951AB19FA900E3EE29 /* アプリ趣味研素材-40.png in Resources */,
+				9D58E1871ABFB91600C094DF /* アプリ食品素材-01.png in Resources */,
+				9D1DB3961A5D445200126078 /* 聖光祭　ロゴ.png in Resources */,
+				9D569E8E1A9C74530060C361 /* Timetable-4-inch.png in Resources */,
+				9DB02CA71AC53998007DBDC6 /* 食品横長画像-13.png in Resources */,
+				9DF262F41AC1AA6000549830 /* ポスター素材.png in Resources */,
+				9D58E1831ABFB91600C094DF /* アプリ食品素材-12.png in Resources */,
+				9DB02CA21AC53998007DBDC6 /* 食品横長画像-08.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D558590198383220018B460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D55859E198383220018B460 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22E37E11E026BB689E28E32A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9874D499F8EB73FBC22C07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D55856D198383220018B460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5DFC741AA5C34200AE2E49 /* MBInfiniteScrollCollectionView.m in Sources */,
+				9D52EB331A9349BE0099A416 /* PosterCell.m in Sources */,
+				9D55858B198383220018B460 /* ViewController.m in Sources */,
+				9D569E851A9C720C0060C361 /* TimetableViewController.m in Sources */,
+				9D558585198383220018B460 /* AppDelegate.m in Sources */,
+				9D4873891A8F551F0038F8EA /* ExhibitonDetailViewController.m in Sources */,
+				9D17FBB21A83A081004C0CA0 /* exhibitionCell.m in Sources */,
+				9D58E18E1AC0E33C00C094DF /* TableViewController.m in Sources */,
+				9D21CE701AC140140058E818 /* ExplainationViewController.m in Sources */,
+				9D558581198383220018B460 /* main.m in Sources */,
+				9D441FA11AC2E10000401CF6 /* AccessViewController.m in Sources */,
+				9D58E1921AC1313000C094DF /* TableViewCell.m in Sources */,
+				9D569E881A9C73760060C361 /* TimetableDetailViewController.m in Sources */,
+				9D5434DD1A80DA2200FE3C94 /* foodCell.m in Sources */,
+				9D5DFC751AA5C34200AE2E49 /* MBInfiniteScrollCollectionViewLayout.m in Sources */,
+				9D62D6911AB9140C00E8259C /* InfinitePagingView.m in Sources */,
+				9D3B060A1A89D51A00E30A9F /* foodViewController.m in Sources */,
+				9D17FBAF1A81E12F004C0CA0 /* exhibitonViewController.m in Sources */,
+				9D3B060F1A8A11C600E30A9F /* fooddetailViewController.m in Sources */,
+				9D21CE731AC140550058E818 /* MovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D55858E198383220018B460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5585A0198383220018B460 /* SeikoFestaappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D558598198383220018B460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D558570198383220018B460 /* SeikoFestaapp */;
+			targetProxy = 9D558597198383220018B460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D55857D198383220018B460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D55857E198383220018B460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D55859C198383220018B460 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D55859D198383220018B460 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5585A1198383220018B460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D5585A2198383220018B460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5585A4198383220018B460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C8485A5EA373EAA3B20EB1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeikoFestaapp/SeikoFestaapp-Prefix.pch";
+				INFOPLIST_FILE = "SeikoFestaapp/SeikoFestaapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D5585A5198383220018B460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92F3E7F581A1A42F1A31F75 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeikoFestaapp/SeikoFestaapp-Prefix.pch";
+				INFOPLIST_FILE = "SeikoFestaapp/SeikoFestaapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D5585A7198383220018B460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeikoFestaapp.app/SeikoFestaapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeikoFestaapp/SeikoFestaapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SeikoFestaappTests/SeikoFestaappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D5585A8198383220018B460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeikoFestaapp.app/SeikoFestaapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeikoFestaapp/SeikoFestaapp-Prefix.pch";
+				INFOPLIST_FILE = "SeikoFestaappTests/SeikoFestaappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D55856C198383220018B460 /* Build configuration list for PBXProject "SeikoFestaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5585A1198383220018B460 /* Debug */,
+				9D5585A2198383220018B460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5585A3198383220018B460 /* Build configuration list for PBXNativeTarget "SeikoFestaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5585A4198383220018B460 /* Debug */,
+				9D5585A5198383220018B460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5585A6198383220018B460 /* Build configuration list for PBXNativeTarget "SeikoFestaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5585A7198383220018B460 /* Debug */,
+				9D5585A8198383220018B460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D558569198383220018B460 /* Project object */;
+}

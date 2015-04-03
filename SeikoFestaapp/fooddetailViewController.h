@@ -24,7 +24,6 @@
     IBOutlet UIButton *detailbutton;
     IBOutlet UIButton *mapbutton;
     IBOutlet UIView *underlineView;
-   // float prevPagingNumber;
     int test;
     __weak IBOutlet UIScrollView *foodDetailScrollView;
 }

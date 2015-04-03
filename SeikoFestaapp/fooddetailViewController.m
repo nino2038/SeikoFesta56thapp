@@ -11,30 +11,6 @@
 //#import "UnderLineView.h"
 
 @implementation fooddetailViewController
-- (void) drawRect : (CGRect)rect {
-    // create bezierPath instance
-    UIBezierPath *aPath = [UIBezierPath bezierPath];
-    
-    // set render color and style
-    [[UIColor blackColor] setStroke];
-    aPath.lineWidth = 5;
-    
-    // set start point
-    [aPath moveToPoint:CGPointMake(100, 0)];
-    
-    //draw line
-    [aPath addLineToPoint:CGPointMake(200, 40)];
-    [aPath addLineToPoint:CGPointMake(160, 140)];
-    [aPath addLineToPoint:CGPointMake(40, 140)];
-    [aPath addLineToPoint:CGPointMake(0, 40)];
-    
-    // close path so that successed to create pentagon.
-    [aPath closePath];
-    
-    //rendering
-    [aPath stroke];
-}
-
 -(void)viewDidLoad{
     [super viewDidLoad];
     [detailbutton setTitleColor:[UIColor blueColor]forState:UIControlStateNormal];
@@ -146,8 +122,6 @@
     NSUserDefaults *foodpathdata = [NSUserDefaults standardUserDefaults];
     NSInteger foodpathnumber=[foodpathdata integerForKey:@"foodindexpath"];
     //NSLog(@"int:%ld", (long)pathnumber);
-    UILabel *shopname = [[UILabel alloc] initWithFrame:CGRectMake(0,0,160,30)];
-    UILabel *foodname = [[UILabel alloc] initWithFrame:CGRectMake(160,0,160,30)];
     UITextView *detail = [[UITextView alloc] initWithFrame:CGRectMake(0,0,320,320)];
     detail.editable = NO;
     detail.font =[UIFont fontWithName:@"HiraKakuProN-W3" size:16];
