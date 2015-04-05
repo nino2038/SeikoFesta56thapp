@@ -27,7 +27,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    arrayText = @[@"このアプリについて", @"聖光祭PV"];
+    arrayText = @[@"このアプリについて", @"スローガンについて"];
     [UINavigationBar appearance].barTintColor = [UIColor grayColor];
     [UINavigationBar appearance].tintColor = [UIColor whiteColor];
     [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
@@ -74,5 +74,7 @@
 }
 -(IBAction)Otherback{
     [self dismissViewControllerAnimated:YES completion:nil];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+
 }
 @end

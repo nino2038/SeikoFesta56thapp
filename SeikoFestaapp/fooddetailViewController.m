@@ -123,6 +123,8 @@
     detail.editable = NO;
     detail.font =[UIFont fontWithName:@"HiraKakuProN-W3" size:16];
     detail.text=[NSString stringWithFormat:shopdetailtextArray[foodpathnumber]];
+    detail.layer.borderWidth = 3;
+    detail.layer.borderColor = [[UIColor grayColor] CGColor];
     
     UIImageView *mapview=[[UIImageView alloc] initWithFrame:CGRectMake(320,0,320,320)];
     mapview.image=[UIImage imageNamed:mapimageArray[foodpathnumber]];

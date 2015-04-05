@@ -58,6 +58,7 @@
                     @"アプリ趣味研素材-39",
                     @"アプリ趣味研素材-40",
                     @"アプリ趣味研素材-41",
+                    @"",
                     nil];
     mapimageArray=[[NSArray alloc] initWithObjects:
                     @"地図テスト.png",
@@ -100,6 +101,7 @@
                     @"アプリ趣味研素材-39",
                     @"アプリ趣味研素材-40",
                     @"アプリ趣味研素材-41",
+                    @"",
                     nil];
     shoptextArray=[[NSArray alloc] initWithObjects:
                    @"将棋の間",
@@ -142,6 +144,7 @@
                    @"７７枚目のジョーカー",
                    @"Brains",
                    @"スケットバスケット",
+                   @"VS聖光",
                    nil];
     shopdetailtextArray=[[NSArray alloc]initWithObjects:
                          @"今年は一風変わった和室での開催。囲碁将棋部員との真剣な勝負をお楽しみください。（今年も飴は配ります）",
@@ -186,6 +189,7 @@
                          @"イケメンサッカー部と遊びたいそこのあなた,カジノやってます。",
                          @"簡単で楽しく遊べるパズルアクションを愉快な野球部がお送りしてみます。",
                          @"体を動かしたきゃスケバスだ！楽しみたきゃスケバスだ！",
+                         @"",
                          nil];
     
     
@@ -200,6 +204,9 @@
     imageView.image=[UIImage imageNamed:shopimageArray[ExhibitonPathNumber]];
     shopnamelabel.text=[NSString stringWithFormat:shoptextArray[ExhibitonPathNumber]];
     detail.text=[NSString stringWithFormat:shopdetailtextArray[ExhibitonPathNumber]];
+    detail.layer.borderWidth = 3;
+    detail.layer.borderColor = [[UIColor grayColor] CGColor];
+    
     mapview.image=[UIImage imageNamed:mapimageArray[ExhibitonPathNumber]];
     UIView *exhibitionDetailTextView = [[UIView alloc] initWithFrame:CGRectMake(0,0,320,305)];
     UIView *exhibitonDetailMapView = [[UIView alloc] initWithFrame:CGRectMake(320,0,320,305)];

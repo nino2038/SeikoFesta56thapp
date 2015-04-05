@@ -14,7 +14,7 @@
 @end
 
 @implementation ViewController
-@synthesize MBInfiniteScrollCollectionView;
+//@synthesize MBInfiniteScrollCollectionView;
 
 
 - (void)viewDidLoad
@@ -22,6 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self.navigationController setNavigationBarHidden:YES animated:YES];//navigationBar非表示
+    //[UINavigationBar appearance].tintColor = [UIColor blackColor];
 //    InfinitePagingView *pagingView = [[InfinitePagingView alloc] initWithFrame:self.view.bounds];
 //    pagingView.frame = CGRectMake(169,227,149,332);
 //    
@@ -55,7 +56,10 @@
 //    [self.view addSubview:pagingView];
     
 }
-
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    //文字を白くする
+    return UIStatusBarStyleDefault;
+}
 //#pragma mark -collection view delegate
 //- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 //{
@@ -74,8 +78,6 @@
 //    return cell;
 //    
 //}
-
-
 
 - (void)didReceiveMemoryWarning
 {

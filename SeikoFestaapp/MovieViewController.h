@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YTPlayerView.h"
 
-@interface MovieViewController : UIViewController<YTPlayerViewDelegate>
-@property(nonatomic,strong)IBOutlet YTPlayerView *playerView;
+
+@interface MovieViewController : UIViewController
 @end

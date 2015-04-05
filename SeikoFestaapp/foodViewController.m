@@ -21,6 +21,7 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
 }
 -(IBAction)foodback{
     [self dismissViewControllerAnimated:YES completion:nil];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
 }
 - (void)viewDidLoad
 {
@@ -45,23 +46,23 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     
     
     foodimageArray=[[NSArray alloc] initWithObjects:
-                    @"アプリ食品素材-01.png",
-                    @"アプリ食品素材-02.png",
-                    @"アプリ食品素材-03.png",
-                    @"アプリ食品素材-04.png",
-                    @"アプリ食品素材-05.png",
-                    @"アプリ食品素材-06.png",
-                    @"アプリ食品素材-07.png",
-                    @"アプリ食品素材-08.png",
-                    @"アプリ食品素材-09.png",
-                    @"アプリ食品素材-10.png",
-                    @"アプリ食品素材-11.png",
-                    @"アプリ食品素材-12.png",
-                    @"アプリ食品素材-13.png",
-                    @"アプリ食品素材-14.png",
-                    @"アプリ食品素材-15.png",
-                    @"アプリ食品素材-16.png",
-                    @"アプリ食品素材-17.png",
+                    @"塩焼きそば（パンフ）.jpg",
+                    @"ソース焼きそば（パンフ）.png",
+                    @"ケバブ（パンフ）.jpg",
+                    @"お好み焼き（パンフ）.JPG",
+                    @"焼き鳥.jpg",
+                    @"フランクフルト（パンフ）.jpg",
+                    @"たこ焼き（パンフ）.JPG",
+                    @"餃子（パンフ）.jpg",
+                    @"クレープ（パンフ）.JPG",
+                    @"かき氷（パンフ）.jpg",
+                    @"綿あめ（パンフ）.png",
+                    @"ドリンク（パンフ）.jpg",
+                    @"ポップコーン（パンフ）.jpg",
+                    @"スムージー（パンフ）.jpg",
+                    @"題名のない音楽喫茶（アプリ）.PNG",
+                    @"駅弁（パンフ）.jpg",
+                    @"ワッフル（パンフ）.jpg",
                     @"",
                     nil];
     foodtextArray=[[NSArray alloc] initWithObjects:

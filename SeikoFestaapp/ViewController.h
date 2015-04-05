@@ -9,14 +9,15 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate,UIScrollViewDelegate>
+@interface ViewController : UIViewController
+//<UICollectionViewDataSource, UICollectionViewDelegate,UIScrollViewDelegate>
 {
-    NSArray *PosterImageArray;//ポスター用の配列;
-    NSArray *dataArray;
+//    NSArray *PosterImageArray;//ポスター用の配列;
+//    NSArray *dataArray;
     
 }
-@property (weak, nonatomic) IBOutlet UICollectionView *MBInfiniteScrollCollectionView;
-@property (weak, nonatomic) IBOutlet UIScrollView *InfinitePagingView;
+//@property (weak, nonatomic) IBOutlet UICollectionView *MBInfiniteScrollCollectionView;
+//@property (weak, nonatomic) IBOutlet UIScrollView *InfinitePagingView;
 
 @end
 

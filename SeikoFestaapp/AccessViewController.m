@@ -11,10 +11,16 @@
 @implementation AccessViewController
 -(IBAction)accessBack{
     [self dismissViewControllerAnimated:YES completion:nil];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+
 }
 - (void)viewDidLoad
 {
-    [UINavigationBar appearance].barTintColor = [UIColor greenColor];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.267 green:0.706 blue:0.267 alpha:1.000];
     [super viewDidLoad];
     // ピンチジェスチャーを登録する
     UIPinchGestureRecognizer *pinchGesture = [[UIPinchGestureRecognizer alloc]

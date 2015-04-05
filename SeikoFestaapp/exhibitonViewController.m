@@ -24,7 +24,7 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
     UIView *backgroundHeaderView= [[UIView alloc] initWithFrame:CGRectMake(0, -500, 320, 500)];
     [backgroundHeaderView setBackgroundColor:[UIColor whiteColor]];
     [exhibitionCollectionView addSubview:backgroundHeaderView];
-    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 3238, 320, 500)];
+    UIView *backgroundFooterView= [[UIView alloc] initWithFrame:CGRectMake(0, 3400, 320, 500)];
     [backgroundFooterView setBackgroundColor:[UIColor whiteColor]];
     [exhibitionCollectionView addSubview:backgroundFooterView];
     
@@ -77,7 +77,9 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
                           @"アプリ趣味研素材-38",
                           @"アプリ趣味研素材-39",
                           @"アプリ趣味研素材-40",
-                          @"アプリ趣味研素材-41",nil];
+                          @"アプリ趣味研素材-41",
+                          @"",
+                          @"",nil];
     exhibitiontextArray=[[NSArray alloc] initWithObjects:
                          @"将棋の間",
                          @"物理化学部",
@@ -106,7 +108,7 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
                          @"クイズ研究会",
                          @"高３英語劇",
                          @"生徒会展示",
-                         @"盲目の目",
+                         @"盲目の間",
                          @"山手の森　ジブリ研究室",
                          @"あにけん！",
                          @"ベイスボール友の会",
@@ -118,7 +120,9 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
                          @"文映会",
                          @"７７枚目のジョーカー",
                          @"Brains",
-                         @"スケットバスケット",nil];
+                         @"スケットバスケット",
+                         @"VS聖光",
+                         @"",nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -136,11 +140,12 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 40
+    return 42
     ;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
     
     exhibitionCell *cell=(exhibitionCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     cell.label.text=exhibitiontextArray[indexPath.row];
@@ -151,15 +156,21 @@ minimumLineSpacingForSectionAtIndex:(NSInteger)section
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    if ([indexPath isEqual:[NSIndexPath indexPathForRow:41 inSection:0]]){
+        nil;
+    }else{
     NSUserDefaults *ExhibitonPathdata = [NSUserDefaults standardUserDefaults];
     [ExhibitonPathdata setInteger:indexPath.row forKey:@"foodindexpath"];
     
     
     [self performSegueWithIdentifier:@"toExhibitonDetail" sender:self];
+    }
     
 }
 -(IBAction)Exhibitionback{
     [self dismissViewControllerAnimated:YES completion:nil];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+
 }
 
 
